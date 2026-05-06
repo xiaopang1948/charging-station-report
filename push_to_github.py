@@ -50,8 +50,10 @@ for root, dirs, filenames in os.walk('.'):
         dirs.remove('.git')
     for f in filenames:
         path = os.path.join(root, f)
-        if path.startswith('./'):
+        # Normalize path: remove .\\ or ./ prefix, use forward slashes
+        if path.startswith('./') or path.startswith('.\\'):
             path = path[2:]
+        path = path.replace('\\', '/')
         if path == 'README.md' or path.startswith('.git'):
             continue
         files.append(path)
@@ -66,6 +68,11 @@ if existing_tree and 'tree' in existing_tree:
     existing_paths = {e['path'] for e in existing_tree['tree']}
     local_set = set(files)
     deleted = sorted(existing_paths - local_set)
+    # Also delete any paths with .\ prefix from previous bad pushes
+    for p in list(existing_paths):
+        if p.startswith('.\\') or p.startswith('./'):
+            if p not in deleted:
+                deleted.append(p)
     if deleted:
         print(f'  {len(deleted)} files to delete:')
         for d in deleted:
@@ -113,7 +120,7 @@ print(f'  New tree: {tree_sha}')
 # Step 5: Create commit
 print('Step 5: Creating commit...')
 commit_body = json.dumps({
-    'message': 'init: 四子王旗充电桩投资决策报告',
+    'message': 'update: 充电桩位置改为高油房路+全部数据重新计算+清除临时脚本',
     'tree': tree_sha, 'parents': [commit_sha]})
 data = gh_api('POST', f'repos/{repo}/git/commits', commit_body.encode('utf-8'))
 if not data:
