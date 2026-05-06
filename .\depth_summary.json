@@ -10,11 +10,11 @@
     "cluster_2": 2,
     "cluster_3": 1
   },
-  "shop_score": 20.4,
-  "competition_1km": 3,
+  "shop_score": 16.4,
+  "competition_1km": 1,
   "recommended_location": {
-    "lng": 111.703,
-    "lat": 41.527
+    "lng": 111.689,
+    "lat": 41.537
   },
   "growth_forecast_2026": 107.2,
   "growth_forecast_2030": 1715.2

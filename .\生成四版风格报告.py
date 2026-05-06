@@ -88,8 +88,8 @@ var colorMap = {'蒙电e充':'#4361ee','星星充电':'#f72585','蒙来电':'#72
 
 var map = L.map('map').setView([41.53,111.70],13);
 L.tileLayer('https://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}',{attribution:'高德地图',maxZoom:18}).addTo(map);
-L.marker([41.5270,111.7030],{icon:L.divIcon({html:'<div class="shop-marker">S</div>',className:'',iconSize:[32,32],iconAnchor:[16,16]})}).addTo(map).bindTooltip('<b>高油房路南侧（商铺）</b>');
-[{r:500,c:COLOR_500},{r:1000,c:COLOR_1K},{r:3000,c:COLOR_3K}].forEach(function(d){L.circle([41.5270,111.7030],{radius:d.r,color:d.c,fill:false,weight:1.5,dashArray:'5,8',opacity:0.5}).addTo(map)});
+L.marker([41.51879906,111.69113591],{icon:L.divIcon({html:'<div class="shop-marker">S</div>',className:'',iconSize:[32,32],iconAnchor:[16,16]})}).addTo(map).bindTooltip('<b>高油房路（充电桩规划位）</b>');
+[{r:500,c:COLOR_500},{r:1000,c:COLOR_1K},{r:3000,c:COLOR_3K}].forEach(function(d){L.circle([41.51879906,111.69113591],{radius:d.r,color:d.c,fill:false,weight:1.5,dashArray:'5,8',opacity:0.5}).addTo(map)});
 stations.forEach(function(s){var c=colorMap[s.brand]||'#8d99ae',sz=s.distance<1?26:s.distance<3?22:18;L.marker([s.lat,s.lng],{icon:L.divIcon({html:'<div style="background:'+c+';width:'+sz+'px;height:'+sz+'px;border-radius:50%;border:2px solid #'+R+';text-align:center;line-height:'+sz+'px;font-size:'+(sz*0.45)+'px">+</div>',className:'',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]})}).addTo(map)});
 
 new Chart(document.getElementById('cb'),{type:'doughnut',data:{labels:BL,datasets:[{data:BV,backgroundColor:BC,borderWidth:0}]},options:{responsive:true,plugins:{legend:{position:'right',labels:{fontSize:12}},title:{display:true,text:'品牌分布',font:{size:14}}}}});

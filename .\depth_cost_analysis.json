@@ -1,13 +1,13 @@
 {
   "shop": {
-    "install_cost": 46469,
-    "user_cost": 2599,
-    "total_cost": 49069,
-    "total_users": 147,
-    "coverage_1km": 91,
-    "coverage_rate": 0.555,
-    "score": 58.8,
-    "min_station_dist_km": 0.49
+    "install_cost": 47543,
+    "user_cost": 1825,
+    "total_cost": 49368,
+    "total_users": 108,
+    "coverage_1km": 19,
+    "coverage_rate": 0.116,
+    "score": 32.3,
+    "min_station_dist_km": 0.848
   },
   "candidates": [
     {

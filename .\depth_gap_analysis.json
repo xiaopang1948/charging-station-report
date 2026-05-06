@@ -6,7 +6,7 @@
       "demand": 81.0,
       "supply": 0.4,
       "gap": 48.6,
-      "dist_to_shop_km": 0.267
+      "dist_to_shop_km": 1.331
     },
     {
       "lng": 111.6975,
@@ -14,7 +14,7 @@
       "demand": 74.4,
       "supply": 0.4,
       "gap": 44.64,
-      "dist_to_shop_km": 0.487
+      "dist_to_shop_km": 1.202
     },
     {
       "lng": 111.7065,
@@ -22,7 +22,7 @@
       "demand": 73.95,
       "supply": 0.4,
       "gap": 44.37,
-      "dist_to_shop_km": 0.336
+      "dist_to_shop_km": 1.48
     },
     {
       "lng": 111.6975,
@@ -30,7 +30,7 @@
       "demand": 72.65,
       "supply": 0.4,
       "gap": 43.59,
-      "dist_to_shop_km": 0.678
+      "dist_to_shop_km": 1.508
     },
     {
       "lng": 111.6945,
@@ -38,7 +38,7 @@
       "demand": 68.1,
       "supply": 0.4,
       "gap": 40.86,
-      "dist_to_shop_km": 0.867
+      "dist_to_shop_km": 1.44
     },
     {
       "lng": 111.6915,
@@ -46,7 +46,7 @@
       "demand": 45.6,
       "supply": 0.15,
       "gap": 38.76,
-      "dist_to_shop_km": 1.51
+      "dist_to_shop_km": 2.08
     },
     {
       "lng": 111.6975,
@@ -54,7 +54,7 @@
       "demand": 63.05,
       "supply": 0.4,
       "gap": 37.83,
-      "dist_to_shop_km": 0.951
+      "dist_to_shop_km": 1.824
     },
     {
       "lng": 111.6945,
@@ -62,7 +62,7 @@
       "demand": 59.95,
       "supply": 0.4,
       "gap": 35.97,
-      "dist_to_shop_km": 1.094
+      "dist_to_shop_km": 1.768
     },
     {
       "lng": 111.6915,
@@ -70,7 +70,7 @@
       "demand": 59.9,
       "supply": 0.4,
       "gap": 35.94,
-      "dist_to_shop_km": 1.08
+      "dist_to_shop_km": 1.413
     },
     {
       "lng": 111.7125,
@@ -78,7 +78,7 @@
       "demand": 56.1,
       "supply": 0.4,
       "gap": 33.66,
-      "dist_to_shop_km": 0.808
+      "dist_to_shop_km": 2.08
     },
     {
       "lng": 111.6915,
@@ -86,7 +86,7 @@
       "demand": 55.55,
       "supply": 0.4,
       "gap": 33.33,
-      "dist_to_shop_km": 1.27
+      "dist_to_shop_km": 1.746
     },
     {
       "lng": 111.7005,
@@ -94,7 +94,7 @@
       "demand": 55.0,
       "supply": 0.4,
       "gap": 33.0,
-      "dist_to_shop_km": 1.186
+      "dist_to_shop_km": 2.221
     },
     {
       "lng": 111.6885,
@@ -102,7 +102,7 @@
       "demand": 53.65,
       "supply": 0.4,
       "gap": 32.19,
-      "dist_to_shop_km": 1.467
+      "dist_to_shop_km": 1.76
     },
     {
       "lng": 111.6975,
@@ -110,7 +110,7 @@
       "demand": 52.85,
       "supply": 0.4,
       "gap": 31.71,
-      "dist_to_shop_km": 1.254
+      "dist_to_shop_km": 2.146
     },
     {
       "lng": 111.6945,
@@ -118,7 +118,7 @@
       "demand": 51.75,
       "supply": 0.4,
       "gap": 31.05,
-      "dist_to_shop_km": 1.365
+      "dist_to_shop_km": 2.098
     },
     {
       "lng": 111.6915,
@@ -126,7 +126,7 @@
       "demand": 36.4,
       "supply": 0.15,
       "gap": 30.94,
-      "dist_to_shop_km": 1.78
+      "dist_to_shop_km": 2.413
     },
     {
       "lng": 111.6885,
@@ -134,7 +134,7 @@
       "demand": 51.45,
       "supply": 0.4,
       "gap": 30.87,
-      "dist_to_shop_km": 1.307
+      "dist_to_shop_km": 1.429
     },
     {
       "lng": 111.6945,
@@ -142,7 +142,7 @@
       "demand": 48.9,
       "supply": 0.4,
       "gap": 29.34,
-      "dist_to_shop_km": 0.867
+      "dist_to_shop_km": 0.498
     },
     {
       "lng": 111.6885,
@@ -150,7 +150,7 @@
       "demand": 33.2,
       "supply": 0.15,
       "gap": 28.22,
-      "dist_to_shop_km": 1.926
+      "dist_to_shop_km": 2.423
     },
     {
       "lng": 111.6885,
@@ -158,7 +158,7 @@
       "demand": 46.1,
       "supply": 0.4,
       "gap": 27.66,
-      "dist_to_shop_km": 1.679
+      "dist_to_shop_km": 2.091
     },
     {
       "lng": 111.7155,
@@ -166,7 +166,7 @@
       "demand": 46.1,
       "supply": 0.4,
       "gap": 27.66,
-      "dist_to_shop_km": 1.054
+      "dist_to_shop_km": 2.297
     },
     {
       "lng": 111.6855,
@@ -174,7 +174,7 @@
       "demand": 45.25,
       "supply": 0.4,
       "gap": 27.15,
-      "dist_to_shop_km": 1.679
+      "dist_to_shop_km": 1.808
     },
     {
       "lng": 111.7155,
@@ -182,7 +182,7 @@
       "demand": 43.4,
       "supply": 0.4,
       "gap": 26.04,
-      "dist_to_shop_km": 1.054
+      "dist_to_shop_km": 2.161
     },
     {
       "lng": 111.6855,
@@ -190,7 +190,7 @@
       "demand": 29.4,
       "supply": 0.15,
       "gap": 24.99,
-      "dist_to_shop_km": 2.092
+      "dist_to_shop_km": 2.458
     },
     {
       "lng": 111.7035,
@@ -198,7 +198,7 @@
       "demand": 82.6,
       "supply": 0.7,
       "gap": 24.78,
-      "dist_to_shop_km": 0.172
+      "dist_to_shop_km": 1.491
     },
     {
       "lng": 111.6975,
@@ -206,7 +206,7 @@
       "demand": 40.9,
       "supply": 0.4,
       "gap": 24.54,
-      "dist_to_shop_km": 1.569
+      "dist_to_shop_km": 2.471
     },
     {
       "lng": 111.7005,
@@ -214,7 +214,7 @@
       "demand": 79.95,
       "supply": 0.7,
       "gap": 23.99,
-      "dist_to_shop_km": 0.267
+      "dist_to_shop_km": 1.078
     },
     {
       "lng": 111.6855,
@@ -222,7 +222,7 @@
       "demand": 39.9,
       "supply": 0.4,
       "gap": 23.94,
-      "dist_to_shop_km": 1.867
+      "dist_to_shop_km": 2.132
     },
     {
       "lng": 111.7065,
@@ -230,7 +230,7 @@
       "demand": 78.65,
       "supply": 0.7,
       "gap": 23.6,
-      "dist_to_shop_km": 0.336
+      "dist_to_shop_km": 1.673
     },
     {
       "lng": 111.7005,
@@ -238,7 +238,7 @@
       "demand": 77.4,
       "supply": 0.7,
       "gap": 23.22,
-      "dist_to_shop_km": 0.542
+      "dist_to_shop_km": 1.613
     },
     {
       "lng": 111.6945,
@@ -246,7 +246,7 @@
       "demand": 38.55,
       "supply": 0.4,
       "gap": 23.13,
-      "dist_to_shop_km": 1.66
+      "dist_to_shop_km": 2.429
     },
     {
       "lng": 111.6945,
@@ -254,7 +254,7 @@
       "demand": 38.45,
       "supply": 0.4,
       "gap": 23.07,
-      "dist_to_shop_km": 1.094
+      "dist_to_shop_km": 0.291
     },
     {
       "lng": 111.7035,
@@ -262,7 +262,7 @@
       "demand": 76.3,
       "supply": 0.7,
       "gap": 22.89,
-      "dist_to_shop_km": 0.172
+      "dist_to_shop_km": 1.271
     },
     {
       "lng": 111.6825,
@@ -270,7 +270,7 @@
       "demand": 36.9,
       "supply": 0.4,
       "gap": 22.14,
-      "dist_to_shop_km": 2.068
+      "dist_to_shop_km": 2.2
     },
     {
       "lng": 111.6975,
@@ -278,7 +278,7 @@
       "demand": 69.45,
       "supply": 0.7,
       "gap": 20.84,
-      "dist_to_shop_km": 0.487
+      "dist_to_shop_km": 0.914
     },
     {
       "lng": 111.7095,
@@ -286,7 +286,7 @@
       "demand": 68.0,
       "supply": 0.7,
       "gap": 20.4,
-      "dist_to_shop_km": 0.566
+      "dist_to_shop_km": 1.871
     },
     {
       "lng": 111.6945,
@@ -294,7 +294,7 @@
       "demand": 67.05,
       "supply": 0.7,
       "gap": 20.12,
-      "dist_to_shop_km": 0.727
+      "dist_to_shop_km": 1.114
     },
     {
       "lng": 111.7185,
@@ -302,7 +302,7 @@
       "demand": 33.15,
       "supply": 0.4,
       "gap": 19.89,
-      "dist_to_shop_km": 1.301
+      "dist_to_shop_km": 2.521
     },
     {
       "lng": 111.6915,
@@ -310,7 +310,7 @@
       "demand": 33.1,
       "supply": 0.4,
       "gap": 19.86,
-      "dist_to_shop_km": 1.27
+      "dist_to_shop_km": 0.084
     },
     {
       "lng": 111.7005,
@@ -318,7 +318,7 @@
       "demand": 66.0,
       "supply": 0.7,
       "gap": 19.8,
-      "dist_to_shop_km": 0.86
+      "dist_to_shop_km": 1.912
     },
     {
       "lng": 111.6885,
@@ -326,7 +326,7 @@
       "demand": 22.6,
       "supply": 0.15,
       "gap": 19.21,
-      "dist_to_shop_km": 2.196
+      "dist_to_shop_km": 2.755
     },
     {
       "lng": 111.6915,
@@ -334,7 +334,7 @@
       "demand": 22.6,
       "supply": 0.15,
       "gap": 19.21,
-      "dist_to_shop_km": 2.069
+      "dist_to_shop_km": 2.747
     },
     {
       "lng": 111.6855,
@@ -342,7 +342,7 @@
       "demand": 22.4,
       "supply": 0.15,
       "gap": 19.04,
-      "dist_to_shop_km": 2.343
+      "dist_to_shop_km": 2.786
     },
     {
       "lng": 111.7185,
@@ -350,7 +350,7 @@
       "demand": 31.65,
       "supply": 0.4,
       "gap": 18.99,
-      "dist_to_shop_km": 1.301
+      "dist_to_shop_km": 2.397
     },
     {
       "lng": 111.7095,
@@ -358,7 +358,7 @@
       "demand": 63.25,
       "supply": 0.7,
       "gap": 18.98,
-      "dist_to_shop_km": 0.566
+      "dist_to_shop_km": 1.701
     },
     {
       "lng": 111.6915,
@@ -366,7 +366,7 @@
       "demand": 22.2,
       "supply": 0.15,
       "gap": 18.87,
-      "dist_to_shop_km": 1.51
+      "dist_to_shop_km": 0.257
     },
     {
       "lng": 111.6795,
@@ -374,7 +374,7 @@
       "demand": 31.1,
       "supply": 0.4,
       "gap": 18.66,
-      "dist_to_shop_km": 2.278
+      "dist_to_shop_km": 2.294
     },
     {
       "lng": 111.6855,
@@ -382,7 +382,7 @@
       "demand": 30.95,
       "supply": 0.4,
       "gap": 18.57,
-      "dist_to_shop_km": 1.54
+      "dist_to_shop_km": 0.624
     },
     {
       "lng": 111.6975,
@@ -390,7 +390,7 @@
       "demand": 30.3,
       "supply": 0.4,
       "gap": 18.18,
-      "dist_to_shop_km": 1.891
+      "dist_to_shop_km": 2.797
     },
     {
       "lng": 111.7065,
@@ -398,7 +398,7 @@
       "demand": 60.4,
       "supply": 0.7,
       "gap": 18.12,
-      "dist_to_shop_km": 0.579
+      "dist_to_shop_km": 1.344
     },
     {
       "lng": 111.7095,
@@ -406,7 +406,7 @@
       "demand": 60.05,
       "supply": 0.7,
       "gap": 18.02,
-      "dist_to_shop_km": 0.994
+      "dist_to_shop_km": 2.321
     },
     {
       "lng": 111.6945,
@@ -414,7 +414,7 @@
       "demand": 59.65,
       "supply": 0.7,
       "gap": 17.9,
-      "dist_to_shop_km": 0.727
+      "dist_to_shop_km": 0.796
     },
     {
       "lng": 111.6975,
@@ -422,7 +422,7 @@
       "demand": 29.1,
       "supply": 0.4,
       "gap": 17.46,
-      "dist_to_shop_km": 1.254
+      "dist_to_shop_km": 0.588
     },
     {
       "lng": 111.6975,
@@ -430,7 +430,7 @@
       "demand": 57.8,
       "supply": 0.7,
       "gap": 17.34,
-      "dist_to_shop_km": 0.678
+      "dist_to_shop_km": 0.671
     },
     {
       "lng": 111.6885,
@@ -438,7 +438,7 @@
       "demand": 28.15,
       "supply": 0.4,
       "gap": 16.89,
-      "dist_to_shop_km": 1.467
+      "dist_to_shop_km": 0.233
     },
     {
       "lng": 111.6825,
@@ -446,7 +446,7 @@
       "demand": 27.9,
       "supply": 0.4,
       "gap": 16.74,
-      "dist_to_shop_km": 2.273
+      "dist_to_shop_km": 2.518
     },
     {
       "lng": 111.6945,
@@ -454,7 +454,7 @@
       "demand": 27.9,
       "supply": 0.4,
       "gap": 16.74,
-      "dist_to_shop_km": 1.966
+      "dist_to_shop_km": 2.761
     },
     {
       "lng": 111.7035,
@@ -462,7 +462,7 @@
       "demand": 55.6,
       "supply": 0.7,
       "gap": 16.68,
-      "dist_to_shop_km": 1.168
+      "dist_to_shop_km": 2.32
     },
     {
       "lng": 111.6945,
@@ -470,7 +470,7 @@
       "demand": 27.5,
       "supply": 0.4,
       "gap": 16.5,
-      "dist_to_shop_km": 1.365
+      "dist_to_shop_km": 0.379
     },
     {
       "lng": 111.6825,
@@ -478,7 +478,7 @@
       "demand": 19.4,
       "supply": 0.15,
       "gap": 16.49,
-      "dist_to_shop_km": 2.506
+      "dist_to_shop_km": 2.839
     },
     {
       "lng": 111.7065,
@@ -486,7 +486,7 @@
       "demand": 54.4,
       "supply": 0.7,
       "gap": 16.32,
-      "dist_to_shop_km": 1.203
+      "dist_to_shop_km": 2.441
     },
     {
       "lng": 111.7125,
@@ -494,7 +494,7 @@
       "demand": 54.05,
       "supply": 0.7,
       "gap": 16.21,
-      "dist_to_shop_km": 0.936
+      "dist_to_shop_km": 2.271
     },
     {
       "lng": 111.7215,
@@ -502,7 +502,7 @@
       "demand": 26.6,
       "supply": 0.4,
       "gap": 15.96,
-      "dist_to_shop_km": 1.619
+      "dist_to_shop_km": 2.896
     },
     {
       "lng": 111.6825,
@@ -510,7 +510,7 @@
       "demand": 26.45,
       "supply": 0.4,
       "gap": 15.87,
-      "dist_to_shop_km": 1.715
+      "dist_to_shop_km": 1.035
     },
     {
       "lng": 111.7095,
@@ -518,7 +518,7 @@
       "demand": 51.55,
       "supply": 0.7,
       "gap": 15.47,
-      "dist_to_shop_km": 1.287
+      "dist_to_shop_km": 2.581
     },
     {
       "lng": 111.7125,
@@ -526,7 +526,7 @@
       "demand": 51.25,
       "supply": 0.7,
       "gap": 15.38,
-      "dist_to_shop_km": 0.808
+      "dist_to_shop_km": 1.928
     },
     {
       "lng": 111.7185,
@@ -534,7 +534,7 @@
       "demand": 25.3,
       "supply": 0.4,
       "gap": 15.18,
-      "dist_to_shop_km": 1.384
+      "dist_to_shop_km": 2.315
     },
     {
       "lng": 111.7215,
@@ -542,7 +542,7 @@
       "demand": 24.35,
       "supply": 0.4,
       "gap": 14.61,
-      "dist_to_shop_km": 1.549
+      "dist_to_shop_km": 2.748
     },
     {
       "lng": 111.6765,
@@ -550,7 +550,7 @@
       "demand": 24.1,
       "supply": 0.4,
       "gap": 14.46,
-      "dist_to_shop_km": 2.496
+      "dist_to_shop_km": 2.41
     },
     {
       "lng": 111.6795,
@@ -558,7 +558,7 @@
       "demand": 24.1,
       "supply": 0.4,
       "gap": 14.46,
-      "dist_to_shop_km": 2.466
+      "dist_to_shop_km": 2.6
     },
     {
       "lng": 111.6885,
@@ -566,7 +566,7 @@
       "demand": 16.8,
       "supply": 0.15,
       "gap": 14.28,
-      "dist_to_shop_km": 1.679
+      "dist_to_shop_km": 0.337
     },
     {
       "lng": 111.6825,
@@ -574,7 +574,7 @@
       "demand": 23.35,
       "supply": 0.4,
       "gap": 14.01,
-      "dist_to_shop_km": 1.778
+      "dist_to_shop_km": 0.828
     },
     {
       "lng": 111.6855,
@@ -582,7 +582,7 @@
       "demand": 46.6,
       "supply": 0.7,
       "gap": 13.98,
-      "dist_to_shop_km": 1.54
+      "dist_to_shop_km": 1.488
     },
     {
       "lng": 111.7035,
@@ -590,7 +590,7 @@
       "demand": 46.5,
       "supply": 0.7,
       "gap": 13.95,
-      "dist_to_shop_km": 0.835
+      "dist_to_shop_km": 1.032
     },
     {
       "lng": 111.6915,
@@ -598,7 +598,7 @@
       "demand": 45.85,
       "supply": 0.7,
       "gap": 13.76,
-      "dist_to_shop_km": 1.08
+      "dist_to_shop_km": 0.413
     },
     {
       "lng": 111.7065,
@@ -606,7 +606,7 @@
       "demand": 45.65,
       "supply": 0.7,
       "gap": 13.7,
-      "dist_to_shop_km": 0.883
+      "dist_to_shop_km": 1.282
     },
     {
       "lng": 111.7005,
@@ -614,7 +614,7 @@
       "demand": 44.5,
       "supply": 0.7,
       "gap": 13.35,
-      "dist_to_shop_km": 0.86
+      "dist_to_shop_km": 0.783
     },
     {
       "lng": 111.7125,
@@ -622,7 +622,7 @@
       "demand": 22.25,
       "supply": 0.4,
       "gap": 13.35,
-      "dist_to_shop_km": 1.41
+      "dist_to_shop_km": 1.797
     },
     {
       "lng": 111.7005,
@@ -630,7 +630,7 @@
       "demand": 43.9,
       "supply": 0.7,
       "gap": 13.17,
-      "dist_to_shop_km": 1.515
+      "dist_to_shop_km": 2.536
     },
     {
       "lng": 111.6855,
@@ -638,7 +638,7 @@
       "demand": 21.75,
       "supply": 0.4,
       "gap": 13.05,
-      "dist_to_shop_km": 1.679
+      "dist_to_shop_km": 0.476
     },
     {
       "lng": 111.7245,
@@ -646,7 +646,7 @@
       "demand": 15.2,
       "supply": 0.15,
       "gap": 12.92,
-      "dist_to_shop_km": 1.798
+      "dist_to_shop_km": 2.876
     },
     {
       "lng": 111.6975,
@@ -654,7 +654,7 @@
       "demand": 42.05,
       "supply": 0.7,
       "gap": 12.62,
-      "dist_to_shop_km": 0.951
+      "dist_to_shop_km": 0.536
     },
     {
       "lng": 111.6915,
@@ -662,7 +662,7 @@
       "demand": 14.8,
       "supply": 0.15,
       "gap": 12.58,
-      "dist_to_shop_km": 2.37
+      "dist_to_shop_km": 3.08
     },
     {
       "lng": 111.7215,
@@ -670,7 +670,7 @@
       "demand": 20.9,
       "supply": 0.4,
       "gap": 12.54,
-      "dist_to_shop_km": 1.549
+      "dist_to_shop_km": 2.635
     },
     {
       "lng": 111.6795,
@@ -678,7 +678,7 @@
       "demand": 20.85,
       "supply": 0.4,
       "gap": 12.51,
-      "dist_to_shop_km": 1.963
+      "dist_to_shop_km": 1.222
     },
     {
       "lng": 111.6795,
@@ -686,7 +686,7 @@
       "demand": 14.4,
       "supply": 0.15,
       "gap": 12.24,
-      "dist_to_shop_km": 2.682
+      "dist_to_shop_km": 2.912
     },
     {
       "lng": 111.6825,
@@ -694,7 +694,7 @@
       "demand": 40.8,
       "supply": 0.7,
       "gap": 12.24,
-      "dist_to_shop_km": 1.899
+      "dist_to_shop_km": 1.888
     },
     {
       "lng": 111.6855,
@@ -702,7 +702,7 @@
       "demand": 40.6,
       "supply": 0.7,
       "gap": 12.18,
-      "dist_to_shop_km": 1.466
+      "dist_to_shop_km": 1.176
     },
     {
       "lng": 111.7095,
@@ -710,7 +710,7 @@
       "demand": 20.05,
       "supply": 0.4,
       "gap": 12.03,
-      "dist_to_shop_km": 1.596
+      "dist_to_shop_km": 1.639
     },
     {
       "lng": 111.6975,
@@ -718,7 +718,7 @@
       "demand": 19.75,
       "supply": 0.4,
       "gap": 11.85,
-      "dist_to_shop_km": 1.569
+      "dist_to_shop_km": 0.792
     },
     {
       "lng": 111.6915,
@@ -726,7 +726,7 @@
       "demand": 13.8,
       "supply": 0.15,
       "gap": 11.73,
-      "dist_to_shop_km": 1.78
+      "dist_to_shop_km": 0.59
     },
     {
       "lng": 111.7185,
@@ -734,7 +734,7 @@
       "demand": 19.5,
       "supply": 0.4,
       "gap": 11.7,
-      "dist_to_shop_km": 1.536
+      "dist_to_shop_km": 2.28
     },
     {
       "lng": 111.7005,
@@ -742,7 +742,7 @@
       "demand": 19.45,
       "supply": 0.4,
       "gap": 11.67,
-      "dist_to_shop_km": 2.178
+      "dist_to_shop_km": 3.177
     },
     {
       "lng": 111.6765,
@@ -750,7 +750,7 @@
       "demand": 19.25,
       "supply": 0.4,
       "gap": 11.55,
-      "dist_to_shop_km": 2.668
+      "dist_to_shop_km": 2.703
     },
     {
       "lng": 111.7155,
@@ -758,7 +758,7 @@
       "demand": 19.05,
       "supply": 0.4,
       "gap": 11.43,
-      "dist_to_shop_km": 1.564
+      "dist_to_shop_km": 2.045
     },
     {
       "lng": 111.6735,
@@ -766,7 +766,7 @@
       "demand": 18.7,
       "supply": 0.4,
       "gap": 11.22,
-      "dist_to_shop_km": 2.593
+      "dist_to_shop_km": 2.281
     },
     {
       "lng": 111.6945,
@@ -774,7 +774,7 @@
       "demand": 18.3,
       "supply": 0.4,
       "gap": 10.98,
-      "dist_to_shop_km": 2.281
+      "dist_to_shop_km": 3.093
     },
     {
       "lng": 111.6975,
@@ -782,7 +782,7 @@
       "demand": 18.3,
       "supply": 0.4,
       "gap": 10.98,
-      "dist_to_shop_km": 2.216
+      "dist_to_shop_km": 3.125
     },
     {
       "lng": 111.6885,
@@ -790,7 +790,7 @@
       "demand": 12.8,
       "supply": 0.15,
       "gap": 10.88,
-      "dist_to_shop_km": 1.926
+      "dist_to_shop_km": 0.629
     },
     {
       "lng": 111.7245,
@@ -798,7 +798,7 @@
       "demand": 12.8,
       "supply": 0.15,
       "gap": 10.88,
-      "dist_to_shop_km": 1.858
+      "dist_to_shop_km": 2.808
     },
     {
       "lng": 111.7245,
@@ -806,7 +806,7 @@
       "demand": 17.9,
       "supply": 0.4,
       "gap": 10.74,
-      "dist_to_shop_km": 1.858
+      "dist_to_shop_km": 3.116
     },
     {
       "lng": 111.6945,
@@ -814,7 +814,7 @@
       "demand": 17.75,
       "supply": 0.4,
       "gap": 10.65,
-      "dist_to_shop_km": 1.66
+      "dist_to_shop_km": 0.652
     },
     {
       "lng": 111.7185,
@@ -822,7 +822,7 @@
       "demand": 35.1,
       "supply": 0.7,
       "gap": 10.53,
-      "dist_to_shop_km": 1.384
+      "dist_to_shop_km": 2.68
     },
     {
       "lng": 111.6825,
@@ -830,7 +830,7 @@
       "demand": 34.8,
       "supply": 0.7,
       "gap": 10.44,
-      "dist_to_shop_km": 1.715
+      "dist_to_shop_km": 1.296
     },
     {
       "lng": 111.6855,
@@ -838,7 +838,7 @@
       "demand": 12.2,
       "supply": 0.15,
       "gap": 10.37,
-      "dist_to_shop_km": 1.867
+      "dist_to_shop_km": 0.534
     },
     {
       "lng": 111.6735,
@@ -846,7 +846,7 @@
       "demand": 17.25,
       "supply": 0.4,
       "gap": 10.35,
-      "dist_to_shop_km": 2.719
+      "dist_to_shop_km": 2.545
     },
     {
       "lng": 111.6885,
@@ -854,7 +854,7 @@
       "demand": 12.0,
       "supply": 0.15,
       "gap": 10.2,
-      "dist_to_shop_km": 2.482
+      "dist_to_shop_km": 3.088
     },
     {
       "lng": 111.6885,
@@ -862,7 +862,7 @@
       "demand": 33.7,
       "supply": 0.7,
       "gap": 10.11,
-      "dist_to_shop_km": 1.307
+      "dist_to_shop_km": 0.466
     },
     {
       "lng": 111.7005,
@@ -870,7 +870,7 @@
       "demand": 33.65,
       "supply": 0.7,
       "gap": 10.1,
-      "dist_to_shop_km": 1.186
+      "dist_to_shop_km": 0.82
     },
     {
       "lng": 111.6855,
@@ -878,7 +878,7 @@
       "demand": 33.6,
       "supply": 0.7,
       "gap": 10.08,
-      "dist_to_shop_km": 1.466
+      "dist_to_shop_km": 0.881
     },
     {
       "lng": 111.7155,
@@ -886,7 +886,7 @@
       "demand": 33.4,
       "supply": 0.7,
       "gap": 10.02,
-      "dist_to_shop_km": 1.155
+      "dist_to_shop_km": 2.07
     },
     {
       "lng": 111.7215,
@@ -894,7 +894,7 @@
       "demand": 16.7,
       "supply": 0.4,
       "gap": 10.02,
-      "dist_to_shop_km": 1.619
+      "dist_to_shop_km": 2.561
     },
     {
       "lng": 111.7245,
@@ -902,7 +902,7 @@
       "demand": 16.55,
       "supply": 0.4,
       "gap": 9.93,
-      "dist_to_shop_km": 1.798
+      "dist_to_shop_km": 2.98
     },
     {
       "lng": 111.7125,
@@ -910,7 +910,7 @@
       "demand": 16.45,
       "supply": 0.4,
       "gap": 9.87,
-      "dist_to_shop_km": 1.697
+      "dist_to_shop_km": 1.874
     },
     {
       "lng": 111.7275,
@@ -918,7 +918,7 @@
       "demand": 11.6,
       "supply": 0.15,
       "gap": 9.86,
-      "dist_to_shop_km": 2.046
+      "dist_to_shop_km": 3.214
     },
     {
       "lng": 111.6765,
@@ -926,7 +926,7 @@
       "demand": 11.4,
       "supply": 0.15,
       "gap": 9.69,
-      "dist_to_shop_km": 2.262
+      "dist_to_shop_km": 1.286
     },
     {
       "lng": 111.6795,
@@ -934,7 +934,7 @@
       "demand": 16.15,
       "supply": 0.4,
       "gap": 9.69,
-      "dist_to_shop_km": 2.019
+      "dist_to_shop_km": 1.053
     },
     {
       "lng": 111.6795,
@@ -942,7 +942,7 @@
       "demand": 11.0,
       "supply": 0.15,
       "gap": 9.35,
-      "dist_to_shop_km": 2.127
+      "dist_to_shop_km": 0.972
     },
     {
       "lng": 111.6855,
@@ -950,7 +950,7 @@
       "demand": 10.8,
       "supply": 0.15,
       "gap": 9.18,
-      "dist_to_shop_km": 2.612
+      "dist_to_shop_km": 3.116
     },
     {
       "lng": 111.6945,
@@ -958,7 +958,7 @@
       "demand": 10.8,
       "supply": 0.15,
       "gap": 9.18,
-      "dist_to_shop_km": 2.6
+      "dist_to_shop_km": 3.425
     },
     {
       "lng": 111.7215,
@@ -966,7 +966,7 @@
       "demand": 10.6,
       "supply": 0.15,
       "gap": 9.01,
-      "dist_to_shop_km": 1.933
+      "dist_to_shop_km": 2.541
     },
     {
       "lng": 111.7005,
@@ -974,7 +974,7 @@
       "demand": 29.95,
       "supply": 0.7,
       "gap": 8.99,
-      "dist_to_shop_km": 1.846
+      "dist_to_shop_km": 2.855
     },
     {
       "lng": 111.7185,
@@ -982,7 +982,7 @@
       "demand": 14.9,
       "supply": 0.4,
       "gap": 8.94,
-      "dist_to_shop_km": 1.74
+      "dist_to_shop_km": 2.293
     },
     {
       "lng": 111.6825,
@@ -990,7 +990,7 @@
       "demand": 14.75,
       "supply": 0.4,
       "gap": 8.85,
-      "dist_to_shop_km": 1.899
+      "dist_to_shop_km": 0.723
     },
     {
       "lng": 111.6915,
@@ -998,7 +998,7 @@
       "demand": 10.4,
       "supply": 0.15,
       "gap": 8.84,
-      "dist_to_shop_km": 2.07
+      "dist_to_shop_km": 0.923
     },
     {
       "lng": 111.6945,
@@ -1006,7 +1006,7 @@
       "demand": 10.4,
       "supply": 0.15,
       "gap": 8.84,
-      "dist_to_shop_km": 1.966
+      "dist_to_shop_km": 0.964
     },
     {
       "lng": 111.6765,
@@ -1014,7 +1014,7 @@
       "demand": 14.7,
       "supply": 0.4,
       "gap": 8.82,
-      "dist_to_shop_km": 2.212
+      "dist_to_shop_km": 1.428
     },
     {
       "lng": 111.7275,
@@ -1022,7 +1022,7 @@
       "demand": 10.2,
       "supply": 0.15,
       "gap": 8.67,
-      "dist_to_shop_km": 2.046
+      "dist_to_shop_km": 3.118
     },
     {
       "lng": 111.7095,
@@ -1030,7 +1030,7 @@
       "demand": 14.1,
       "supply": 0.4,
       "gap": 8.46,
-      "dist_to_shop_km": 2.56
+      "dist_to_shop_km": 3.74
     },
     {
       "lng": 111.6915,
@@ -1038,7 +1038,7 @@
       "demand": 9.8,
       "supply": 0.15,
       "gap": 8.33,
-      "dist_to_shop_km": 2.679
+      "dist_to_shop_km": 3.414
     },
     {
       "lng": 111.6795,
@@ -1046,7 +1046,7 @@
       "demand": 27.35,
       "supply": 0.7,
       "gap": 8.21,
-      "dist_to_shop_km": 1.963
+      "dist_to_shop_km": 1.45
     },
     {
       "lng": 111.6825,
@@ -1054,7 +1054,7 @@
       "demand": 9.6,
       "supply": 0.15,
       "gap": 8.16,
-      "dist_to_shop_km": 2.759
+      "dist_to_shop_km": 3.163
     },
     {
       "lng": 111.7245,
@@ -1062,7 +1062,7 @@
       "demand": 9.6,
       "supply": 0.15,
       "gap": 8.16,
-      "dist_to_shop_km": 1.975
+      "dist_to_shop_km": 2.779
     },
     {
       "lng": 111.7095,
@@ -1070,7 +1070,7 @@
       "demand": 27.15,
       "supply": 0.7,
       "gap": 8.15,
-      "dist_to_shop_km": 1.287
+      "dist_to_shop_km": 1.55
     },
     {
       "lng": 111.7065,
@@ -1078,7 +1078,7 @@
       "demand": 13.35,
       "supply": 0.4,
       "gap": 8.01,
-      "dist_to_shop_km": 2.519
+      "dist_to_shop_km": 3.645
     },
     {
       "lng": 111.6825,
@@ -1086,7 +1086,7 @@
       "demand": 9.4,
       "supply": 0.15,
       "gap": 7.99,
-      "dist_to_shop_km": 2.068
+      "dist_to_shop_km": 0.763
     },
     {
       "lng": 111.7215,
@@ -1094,7 +1094,7 @@
       "demand": 13.3,
       "supply": 0.4,
       "gap": 7.98,
-      "dist_to_shop_km": 1.751
+      "dist_to_shop_km": 2.529
     },
     {
       "lng": 111.7005,
@@ -1102,7 +1102,7 @@
       "demand": 13.15,
       "supply": 0.4,
       "gap": 7.89,
-      "dist_to_shop_km": 1.846
+      "dist_to_shop_km": 1.208
     },
     {
       "lng": 111.7155,
@@ -1110,7 +1110,7 @@
       "demand": 26.15,
       "supply": 0.7,
       "gap": 7.85,
-      "dist_to_shop_km": 1.334
+      "dist_to_shop_km": 2.03
     },
     {
       "lng": 111.7155,
@@ -1118,7 +1118,7 @@
       "demand": 13.05,
       "supply": 0.4,
       "gap": 7.83,
-      "dist_to_shop_km": 1.827
+      "dist_to_shop_km": 2.112
     },
     {
       "lng": 111.7035,
@@ -1126,7 +1126,7 @@
       "demand": 12.95,
       "supply": 0.4,
       "gap": 7.77,
-      "dist_to_shop_km": 1.835
+      "dist_to_shop_km": 1.383
     },
     {
       "lng": 111.6735,
@@ -1134,7 +1134,7 @@
       "demand": 12.9,
       "supply": 0.4,
       "gap": 7.74,
-      "dist_to_shop_km": 2.461
+      "dist_to_shop_km": 1.822
     },
     {
       "lng": 111.6765,
@@ -1142,7 +1142,7 @@
       "demand": 25.6,
       "supply": 0.7,
       "gap": 7.68,
-      "dist_to_shop_km": 2.358
+      "dist_to_shop_km": 2.129
     },
     {
       "lng": 111.6735,
@@ -1150,7 +1150,7 @@
       "demand": 12.5,
       "supply": 0.4,
       "gap": 7.5,
-      "dist_to_shop_km": 2.878
+      "dist_to_shop_km": 2.825
     },
     {
       "lng": 111.6885,
@@ -1158,7 +1158,7 @@
       "demand": 8.8,
       "supply": 0.15,
       "gap": 7.48,
-      "dist_to_shop_km": 2.778
+      "dist_to_shop_km": 3.421
     },
     {
       "lng": 111.7185,
@@ -1166,7 +1166,7 @@
       "demand": 8.8,
       "supply": 0.15,
       "gap": 7.48,
-      "dist_to_shop_km": 1.98
+      "dist_to_shop_km": 2.353
     },
     {
       "lng": 111.7035,
@@ -1174,7 +1174,7 @@
       "demand": 12.4,
       "supply": 0.4,
       "gap": 7.44,
-      "dist_to_shop_km": 2.502
+      "dist_to_shop_km": 3.566
     },
     {
       "lng": 111.7215,
@@ -1182,7 +1182,7 @@
       "demand": 24.7,
       "supply": 0.7,
       "gap": 7.41,
-      "dist_to_shop_km": 1.751
+      "dist_to_shop_km": 3.072
     },
     {
       "lng": 111.7275,
@@ -1190,7 +1190,7 @@
       "demand": 12.3,
       "supply": 0.4,
       "gap": 7.38,
-      "dist_to_shop_km": 2.1
+      "dist_to_shop_km": 3.34
     },
     {
       "lng": 111.7275,
@@ -1198,7 +1198,7 @@
       "demand": 8.6,
       "supply": 0.15,
       "gap": 7.31,
-      "dist_to_shop_km": 2.1
+      "dist_to_shop_km": 3.055
     },
     {
       "lng": 111.7065,
@@ -1206,7 +1206,7 @@
       "demand": 12.15,
       "supply": 0.4,
       "gap": 7.29,
-      "dist_to_shop_km": 1.858
+      "dist_to_shop_km": 1.577
     },
     {
       "lng": 111.6735,
@@ -1214,7 +1214,7 @@
       "demand": 8.4,
       "supply": 0.15,
       "gap": 7.14,
-      "dist_to_shop_km": 2.506
+      "dist_to_shop_km": 1.525
     },
     {
       "lng": 111.6705,
@@ -1222,7 +1222,7 @@
       "demand": 11.85,
       "supply": 0.4,
       "gap": 7.11,
-      "dist_to_shop_km": 2.831
+      "dist_to_shop_km": 2.449
     },
     {
       "lng": 111.6705,
@@ -1230,7 +1230,7 @@
       "demand": 11.85,
       "supply": 0.4,
       "gap": 7.11,
-      "dist_to_shop_km": 2.946
+      "dist_to_shop_km": 2.697
     },
     {
       "lng": 111.6975,
@@ -1238,7 +1238,7 @@
       "demand": 11.75,
       "supply": 0.4,
       "gap": 7.05,
-      "dist_to_shop_km": 1.891
+      "dist_to_shop_km": 1.064
     },
     {
       "lng": 111.6855,
@@ -1246,7 +1246,7 @@
       "demand": 8.2,
       "supply": 0.15,
       "gap": 6.97,
-      "dist_to_shop_km": 2.092
+      "dist_to_shop_km": 0.753
     },
     {
       "lng": 111.7065,
@@ -1254,7 +1254,7 @@
       "demand": 22.8,
       "supply": 0.7,
       "gap": 6.84,
-      "dist_to_shop_km": 1.529
+      "dist_to_shop_km": 1.408
     },
     {
       "lng": 111.6795,
@@ -1262,7 +1262,7 @@
       "demand": 8.0,
       "supply": 0.15,
       "gap": 6.8,
-      "dist_to_shop_km": 2.92
+      "dist_to_shop_km": 3.229
     },
     {
       "lng": 111.6705,
@@ -1270,7 +1270,7 @@
       "demand": 11.3,
       "supply": 0.4,
       "gap": 6.78,
-      "dist_to_shop_km": 2.751
+      "dist_to_shop_km": 2.224
     },
     {
       "lng": 111.7005,
@@ -1278,7 +1278,7 @@
       "demand": 11.3,
       "supply": 0.4,
       "gap": 6.78,
-      "dist_to_shop_km": 2.511
+      "dist_to_shop_km": 3.502
     },
     {
       "lng": 111.7275,
@@ -1286,7 +1286,7 @@
       "demand": 11.3,
       "supply": 0.4,
       "gap": 6.78,
-      "dist_to_shop_km": 2.203
+      "dist_to_shop_km": 3.495
     },
     {
       "lng": 111.7095,
@@ -1294,7 +1294,7 @@
       "demand": 22.5,
       "supply": 0.7,
       "gap": 6.75,
-      "dist_to_shop_km": 2.235
+      "dist_to_shop_km": 3.439
     },
     {
       "lng": 111.6975,
@@ -1302,7 +1302,7 @@
       "demand": 7.8,
       "supply": 0.15,
       "gap": 6.63,
-      "dist_to_shop_km": 2.216
+      "dist_to_shop_km": 1.364
     },
     {
       "lng": 111.7005,
@@ -1310,7 +1310,7 @@
       "demand": 7.8,
       "supply": 0.15,
       "gap": 6.63,
-      "dist_to_shop_km": 2.178
+      "dist_to_shop_km": 1.479
     },
     {
       "lng": 111.7215,
@@ -1318,7 +1318,7 @@
       "demand": 11.0,
       "supply": 0.4,
       "gap": 6.6,
-      "dist_to_shop_km": 2.659
+      "dist_to_shop_km": 3.984
     },
     {
       "lng": 111.6975,
@@ -1326,7 +1326,7 @@
       "demand": 10.95,
       "supply": 0.4,
       "gap": 6.57,
-      "dist_to_shop_km": 2.543
+      "dist_to_shop_km": 3.455
     },
     {
       "lng": 111.7095,
@@ -1334,7 +1334,7 @@
       "demand": 10.95,
       "supply": 0.4,
       "gap": 6.57,
-      "dist_to_shop_km": 1.913
+      "dist_to_shop_km": 1.786
     },
     {
       "lng": 111.6735,
@@ -1342,7 +1342,7 @@
       "demand": 10.9,
       "supply": 0.4,
       "gap": 6.54,
-      "dist_to_shop_km": 2.461
+      "dist_to_shop_km": 1.646
     },
     {
       "lng": 111.7065,
@@ -1350,7 +1350,7 @@
       "demand": 21.6,
       "supply": 0.7,
       "gap": 6.48,
-      "dist_to_shop_km": 2.188
+      "dist_to_shop_km": 3.335
     },
     {
       "lng": 111.6765,
@@ -1358,7 +1358,7 @@
       "demand": 7.6,
       "supply": 0.15,
       "gap": 6.46,
-      "dist_to_shop_km": 2.358
+      "dist_to_shop_km": 1.221
     },
     {
       "lng": 111.6765,
@@ -1366,7 +1366,7 @@
       "demand": 7.6,
       "supply": 0.15,
       "gap": 6.46,
-      "dist_to_shop_km": 3.093
+      "dist_to_shop_km": 3.312
     },
     {
       "lng": 111.7035,
@@ -1374,7 +1374,7 @@
       "demand": 21.5,
       "supply": 0.7,
       "gap": 6.45,
-      "dist_to_shop_km": 1.502
+      "dist_to_shop_km": 1.186
     },
     {
       "lng": 111.7245,
@@ -1382,7 +1382,7 @@
       "demand": 10.75,
       "supply": 0.4,
       "gap": 6.45,
-      "dist_to_shop_km": 2.563
+      "dist_to_shop_km": 3.906
     },
     {
       "lng": 111.6765,
@@ -1390,7 +1390,7 @@
       "demand": 10.55,
       "supply": 0.4,
       "gap": 6.33,
-      "dist_to_shop_km": 2.869
+      "dist_to_shop_km": 3.005
     },
     {
       "lng": 111.7005,
@@ -1398,7 +1398,7 @@
       "demand": 21.1,
       "supply": 0.7,
       "gap": 6.33,
-      "dist_to_shop_km": 1.515
+      "dist_to_shop_km": 0.977
     },
     {
       "lng": 111.7035,
@@ -1406,7 +1406,7 @@
       "demand": 20.7,
       "supply": 0.7,
       "gap": 6.21,
-      "dist_to_shop_km": 2.169
+      "dist_to_shop_km": 3.248
     },
     {
       "lng": 111.6855,
@@ -1414,7 +1414,7 @@
       "demand": 7.2,
       "supply": 0.15,
       "gap": 6.12,
-      "dist_to_shop_km": 2.895
+      "dist_to_shop_km": 3.446
     },
     {
       "lng": 111.7245,
@@ -1422,7 +1422,7 @@
       "demand": 9.8,
       "supply": 0.4,
       "gap": 5.88,
-      "dist_to_shop_km": 2.811
+      "dist_to_shop_km": 4.147
     },
     {
       "lng": 111.7245,
@@ -1430,7 +1430,7 @@
       "demand": 19.55,
       "supply": 0.7,
       "gap": 5.87,
-      "dist_to_shop_km": 1.974
+      "dist_to_shop_km": 3.281
     },
     {
       "lng": 111.6735,
@@ -1438,7 +1438,7 @@
       "demand": 9.75,
       "supply": 0.4,
       "gap": 5.85,
-      "dist_to_shop_km": 3.065
+      "dist_to_shop_km": 3.114
     },
     {
       "lng": 111.6705,
@@ -1446,7 +1446,7 @@
       "demand": 6.8,
       "supply": 0.15,
       "gap": 5.78,
-      "dist_to_shop_km": 2.711
+      "dist_to_shop_km": 1.873
     },
     {
       "lng": 111.6765,
@@ -1454,7 +1454,7 @@
       "demand": 19.25,
       "supply": 0.7,
       "gap": 5.78,
-      "dist_to_shop_km": 2.212
+      "dist_to_shop_km": 1.627
     },
     {
       "lng": 111.7155,
@@ -1462,7 +1462,7 @@
       "demand": 6.8,
       "supply": 0.15,
       "gap": 5.78,
-      "dist_to_shop_km": 2.109
+      "dist_to_shop_km": 2.229
     },
     {
       "lng": 111.7305,
@@ -1470,7 +1470,7 @@
       "demand": 6.8,
       "supply": 0.15,
       "gap": 5.78,
-      "dist_to_shop_km": 2.295
+      "dist_to_shop_km": 3.45
     },
     {
       "lng": 111.6705,
@@ -1478,7 +1478,7 @@
       "demand": 9.5,
       "supply": 0.4,
       "gap": 5.7,
-      "dist_to_shop_km": 2.711
+      "dist_to_shop_km": 2.029
     },
     {
       "lng": 111.7305,
@@ -1486,7 +1486,7 @@
       "demand": 6.6,
       "supply": 0.15,
       "gap": 5.61,
-      "dist_to_shop_km": 2.295
+      "dist_to_shop_km": 3.361
     },
     {
       "lng": 111.7305,
@@ -1494,7 +1494,7 @@
       "demand": 6.6,
       "supply": 0.15,
       "gap": 5.61,
-      "dist_to_shop_km": 2.343
+      "dist_to_shop_km": 3.568
     },
     {
       "lng": 111.7125,
@@ -1502,7 +1502,7 @@
       "demand": 9.15,
       "supply": 0.4,
       "gap": 5.49,
-      "dist_to_shop_km": 1.998
+      "dist_to_shop_km": 2.004
     },
     {
       "lng": 111.7215,
@@ -1510,7 +1510,7 @@
       "demand": 9.1,
       "supply": 0.4,
       "gap": 5.46,
-      "dist_to_shop_km": 2.938
+      "dist_to_shop_km": 4.248
     },
     {
       "lng": 111.6825,
@@ -1518,7 +1518,7 @@
       "demand": 6.4,
       "supply": 0.15,
       "gap": 5.44,
-      "dist_to_shop_km": 2.273
+      "dist_to_shop_km": 0.93
     },
     {
       "lng": 111.6945,
@@ -1526,7 +1526,7 @@
       "demand": 6.4,
       "supply": 0.15,
       "gap": 5.44,
-      "dist_to_shop_km": 2.281
+      "dist_to_shop_km": 1.287
     },
     {
       "lng": 111.7215,
@@ -1534,7 +1534,7 @@
       "demand": 6.4,
       "supply": 0.15,
       "gap": 5.44,
-      "dist_to_shop_km": 2.151
+      "dist_to_shop_km": 2.596
     },
     {
       "lng": 111.6675,
@@ -1542,7 +1542,7 @@
       "demand": 8.95,
       "supply": 0.4,
       "gap": 5.37,
-      "dist_to_shop_km": 3.177
+      "dist_to_shop_km": 2.863
     },
     {
       "lng": 111.6675,
@@ -1550,7 +1550,7 @@
       "demand": 6.2,
       "supply": 0.15,
       "gap": 5.27,
-      "dist_to_shop_km": 2.96
+      "dist_to_shop_km": 2.244
     },
     {
       "lng": 111.6795,
@@ -1558,7 +1558,7 @@
       "demand": 6.2,
       "supply": 0.15,
       "gap": 5.27,
-      "dist_to_shop_km": 2.278
+      "dist_to_shop_km": 1.002
     },
     {
       "lng": 111.7245,
@@ -1566,7 +1566,7 @@
       "demand": 6.2,
       "supply": 0.15,
       "gap": 5.27,
-      "dist_to_shop_km": 2.137
+      "dist_to_shop_km": 2.79
     },
     {
       "lng": 111.6675,
@@ -1574,7 +1574,7 @@
       "demand": 8.7,
       "supply": 0.4,
       "gap": 5.22,
-      "dist_to_shop_km": 3.07
+      "dist_to_shop_km": 2.63
     },
     {
       "lng": 111.6735,
@@ -1582,7 +1582,7 @@
       "demand": 17.05,
       "supply": 0.7,
       "gap": 5.12,
-      "dist_to_shop_km": 2.506
+      "dist_to_shop_km": 2.037
     },
     {
       "lng": 111.6825,
@@ -1590,7 +1590,7 @@
       "demand": 6.0,
       "supply": 0.15,
       "gap": 5.1,
-      "dist_to_shop_km": 3.028
+      "dist_to_shop_km": 3.489
     },
     {
       "lng": 111.7275,
@@ -1598,7 +1598,7 @@
       "demand": 6.0,
       "supply": 0.15,
       "gap": 5.1,
-      "dist_to_shop_km": 2.204
+      "dist_to_shop_km": 3.029
     },
     {
       "lng": 111.7215,
@@ -1606,7 +1606,7 @@
       "demand": 16.95,
       "supply": 0.7,
       "gap": 5.09,
-      "dist_to_shop_km": 2.395
+      "dist_to_shop_km": 3.733
     },
     {
       "lng": 111.6705,
@@ -1614,7 +1614,7 @@
       "demand": 5.8,
       "supply": 0.15,
       "gap": 4.93,
-      "dist_to_shop_km": 2.751
+      "dist_to_shop_km": 1.767
     },
     {
       "lng": 111.6795,
@@ -1622,7 +1622,7 @@
       "demand": 5.8,
       "supply": 0.15,
       "gap": 4.93,
-      "dist_to_shop_km": 3.176
+      "dist_to_shop_km": 3.549
     },
     {
       "lng": 111.6885,
@@ -1630,7 +1630,7 @@
       "demand": 5.8,
       "supply": 0.15,
       "gap": 4.93,
-      "dist_to_shop_km": 2.196
+      "dist_to_shop_km": 0.949
     },
     {
       "lng": 111.6945,
@@ -1638,7 +1638,7 @@
       "demand": 5.8,
       "supply": 0.15,
       "gap": 4.93,
-      "dist_to_shop_km": 2.922
+      "dist_to_shop_km": 3.758
     },
     {
       "lng": 111.7005,
@@ -1646,7 +1646,7 @@
       "demand": 5.8,
       "supply": 0.15,
       "gap": 4.93,
-      "dist_to_shop_km": 2.843
+      "dist_to_shop_km": 3.828
     },
     {
       "lng": 111.7095,
@@ -1654,7 +1654,7 @@
       "demand": 5.8,
       "supply": 0.15,
       "gap": 4.93,
-      "dist_to_shop_km": 2.235
+      "dist_to_shop_km": 1.979
     },
     {
       "lng": 111.7245,
@@ -1662,7 +1662,7 @@
       "demand": 8.2,
       "supply": 0.4,
       "gap": 4.92,
-      "dist_to_shop_km": 3.076
+      "dist_to_shop_km": 4.401
     },
     {
       "lng": 111.7035,
@@ -1670,7 +1670,7 @@
       "demand": 7.95,
       "supply": 0.4,
       "gap": 4.77,
-      "dist_to_shop_km": 2.169
+      "dist_to_shop_km": 1.624
     },
     {
       "lng": 111.6675,
@@ -1678,7 +1678,7 @@
       "demand": 5.6,
       "supply": 0.15,
       "gap": 4.76,
-      "dist_to_shop_km": 2.96
+      "dist_to_shop_km": 2.104
     },
     {
       "lng": 111.6735,
@@ -1686,7 +1686,7 @@
       "demand": 5.6,
       "supply": 0.15,
       "gap": 4.76,
-      "dist_to_shop_km": 2.594
+      "dist_to_shop_km": 1.47
     },
     {
       "lng": 111.6765,
@@ -1694,7 +1694,7 @@
       "demand": 5.6,
       "supply": 0.15,
       "gap": 4.76,
-      "dist_to_shop_km": 3.335
+      "dist_to_shop_km": 3.625
     },
     {
       "lng": 111.7185,
@@ -1702,7 +1702,7 @@
       "demand": 15.55,
       "supply": 0.7,
       "gap": 4.67,
-      "dist_to_shop_km": 2.523
+      "dist_to_shop_km": 3.831
     },
     {
       "lng": 111.7275,
@@ -1710,7 +1710,7 @@
       "demand": 7.7,
       "supply": 0.4,
       "gap": 4.62,
-      "dist_to_shop_km": 2.743
+      "dist_to_shop_km": 4.087
     },
     {
       "lng": 111.6885,
@@ -1718,7 +1718,7 @@
       "demand": 5.4,
       "supply": 0.15,
       "gap": 4.59,
-      "dist_to_shop_km": 3.082
+      "dist_to_shop_km": 3.754
     },
     {
       "lng": 111.6975,
@@ -1726,7 +1726,7 @@
       "demand": 5.4,
       "supply": 0.15,
       "gap": 4.59,
-      "dist_to_shop_km": 2.872
+      "dist_to_shop_km": 3.785
     },
     {
       "lng": 111.7185,
@@ -1734,7 +1734,7 @@
       "demand": 5.4,
       "supply": 0.15,
       "gap": 4.59,
-      "dist_to_shop_km": 2.243
+      "dist_to_shop_km": 2.458
     },
     {
       "lng": 111.7215,
@@ -1742,7 +1742,7 @@
       "demand": 7.4,
       "supply": 0.4,
       "gap": 4.44,
-      "dist_to_shop_km": 3.227
+      "dist_to_shop_km": 4.52
     },
     {
       "lng": 111.6765,
@@ -1750,7 +1750,7 @@
       "demand": 5.2,
       "supply": 0.15,
       "gap": 4.42,
-      "dist_to_shop_km": 2.496
+      "dist_to_shop_km": 1.245
     },
     {
       "lng": 111.6915,
@@ -1758,7 +1758,7 @@
       "demand": 5.2,
       "supply": 0.15,
       "gap": 4.42,
-      "dist_to_shop_km": 2.993
+      "dist_to_shop_km": 3.747
     },
     {
       "lng": 111.7125,
@@ -1766,7 +1766,7 @@
       "demand": 5.2,
       "supply": 0.15,
       "gap": 4.42,
-      "dist_to_shop_km": 2.308
+      "dist_to_shop_km": 2.178
     },
     {
       "lng": 111.6675,
@@ -1774,7 +1774,7 @@
       "demand": 7.35,
       "supply": 0.4,
       "gap": 4.41,
-      "dist_to_shop_km": 2.997
+      "dist_to_shop_km": 2.422
     },
     {
       "lng": 111.7065,
@@ -1782,7 +1782,7 @@
       "demand": 7.35,
       "supply": 0.4,
       "gap": 4.41,
-      "dist_to_shop_km": 2.188
+      "dist_to_shop_km": 1.793
     },
     {
       "lng": 111.7305,
@@ -1790,7 +1790,7 @@
       "demand": 7.35,
       "supply": 0.4,
       "gap": 4.41,
-      "dist_to_shop_km": 2.436
+      "dist_to_shop_km": 3.713
     },
     {
       "lng": 111.7095,
@@ -1798,7 +1798,7 @@
       "demand": 7.1,
       "supply": 0.4,
       "gap": 4.26,
-      "dist_to_shop_km": 2.887
+      "dist_to_shop_km": 4.047
     },
     {
       "lng": 111.6645,
@@ -1806,7 +1806,7 @@
       "demand": 5.0,
       "supply": 0.15,
       "gap": 4.25,
-      "dist_to_shop_km": 3.244
+      "dist_to_shop_km": 2.629
     },
     {
       "lng": 111.6855,
@@ -1814,7 +1814,7 @@
       "demand": 5.0,
       "supply": 0.15,
       "gap": 4.25,
-      "dist_to_shop_km": 3.188
+      "dist_to_shop_km": 3.777
     },
     {
       "lng": 111.6645,
@@ -1822,7 +1822,7 @@
       "demand": 4.8,
       "supply": 0.15,
       "gap": 4.08,
-      "dist_to_shop_km": 3.209
+      "dist_to_shop_km": 2.466
     },
     {
       "lng": 111.6735,
@@ -1830,7 +1830,7 @@
       "demand": 4.8,
       "supply": 0.15,
       "gap": 4.08,
-      "dist_to_shop_km": 3.505
+      "dist_to_shop_km": 3.716
     },
     {
       "lng": 111.7335,
@@ -1838,7 +1838,7 @@
       "demand": 4.8,
       "supply": 0.15,
       "gap": 4.08,
-      "dist_to_shop_km": 2.672
+      "dist_to_shop_km": 3.935
     },
     {
       "lng": 111.6735,
@@ -1846,7 +1846,7 @@
       "demand": 6.75,
       "supply": 0.4,
       "gap": 4.05,
-      "dist_to_shop_km": 3.276
+      "dist_to_shop_km": 3.412
     },
     {
       "lng": 111.7245,
@@ -1854,7 +1854,7 @@
       "demand": 6.6,
       "supply": 0.4,
       "gap": 3.96,
-      "dist_to_shop_km": 3.353
+      "dist_to_shop_km": 4.664
     },
     {
       "lng": 111.7305,
@@ -1862,7 +1862,7 @@
       "demand": 6.55,
       "supply": 0.4,
       "gap": 3.93,
-      "dist_to_shop_km": 2.57
+      "dist_to_shop_km": 3.881
     },
     {
       "lng": 111.6795,
@@ -1870,7 +1870,7 @@
       "demand": 4.6,
       "supply": 0.15,
       "gap": 3.91,
-      "dist_to_shop_km": 2.466
+      "dist_to_shop_km": 1.134
     },
     {
       "lng": 111.6825,
@@ -1878,7 +1878,7 @@
       "demand": 4.6,
       "supply": 0.15,
       "gap": 3.91,
-      "dist_to_shop_km": 3.309
+      "dist_to_shop_km": 3.816
     },
     {
       "lng": 111.6855,
@@ -1886,7 +1886,7 @@
       "demand": 4.6,
       "supply": 0.15,
       "gap": 3.91,
-      "dist_to_shop_km": 2.343
+      "dist_to_shop_km": 1.035
     },
     {
       "lng": 111.6915,
@@ -1894,7 +1894,7 @@
       "demand": 4.6,
       "supply": 0.15,
       "gap": 3.91,
-      "dist_to_shop_km": 2.37
+      "dist_to_shop_km": 1.257
     },
     {
       "lng": 111.7065,
@@ -1902,7 +1902,7 @@
       "demand": 6.25,
       "supply": 0.4,
       "gap": 3.75,
-      "dist_to_shop_km": 2.85
+      "dist_to_shop_km": 3.96
     },
     {
       "lng": 111.7305,
@@ -1910,7 +1910,7 @@
       "demand": 4.4,
       "supply": 0.15,
       "gap": 3.74,
-      "dist_to_shop_km": 2.343
+      "dist_to_shop_km": 3.303
     },
     {
       "lng": 111.6795,
@@ -1918,7 +1918,7 @@
       "demand": 4.2,
       "supply": 0.15,
       "gap": 3.57,
-      "dist_to_shop_km": 3.445
+      "dist_to_shop_km": 3.871
     },
     {
       "lng": 111.7035,
@@ -1926,7 +1926,7 @@
       "demand": 5.95,
       "supply": 0.4,
       "gap": 3.57,
-      "dist_to_shop_km": 2.836
+      "dist_to_shop_km": 3.886
     },
     {
       "lng": 111.7125,
@@ -1934,7 +1934,7 @@
       "demand": 11.85,
       "supply": 0.7,
       "gap": 3.56,
-      "dist_to_shop_km": 2.624
+      "dist_to_shop_km": 3.849
     },
     {
       "lng": 111.7275,
@@ -1942,7 +1942,7 @@
       "demand": 11.65,
       "supply": 0.7,
       "gap": 3.5,
-      "dist_to_shop_km": 2.35
+      "dist_to_shop_km": 3.673
     },
     {
       "lng": 111.7245,
@@ -1950,7 +1950,7 @@
       "demand": 4.0,
       "supply": 0.15,
       "gap": 3.4,
-      "dist_to_shop_km": 2.336
+      "dist_to_shop_km": 2.84
     },
     {
       "lng": 111.7275,
@@ -1958,7 +1958,7 @@
       "demand": 4.0,
       "supply": 0.15,
       "gap": 3.4,
-      "dist_to_shop_km": 2.35
+      "dist_to_shop_km": 3.038
     },
     {
       "lng": 111.7305,
@@ -1966,7 +1966,7 @@
       "demand": 5.6,
       "supply": 0.4,
       "gap": 3.36,
-      "dist_to_shop_km": 2.934
+      "dist_to_shop_km": 4.276
     },
     {
       "lng": 111.6645,
@@ -1974,7 +1974,7 @@
       "demand": 5.55,
       "supply": 0.4,
       "gap": 3.33,
-      "dist_to_shop_km": 3.411
+      "dist_to_shop_km": 3.04
     },
     {
       "lng": 111.6705,
@@ -1982,7 +1982,7 @@
       "demand": 5.55,
       "supply": 0.4,
       "gap": 3.33,
-      "dist_to_shop_km": 3.467
+      "dist_to_shop_km": 3.527
     },
     {
       "lng": 111.7305,
@@ -1990,7 +1990,7 @@
       "demand": 5.5,
       "supply": 0.4,
       "gap": 3.3,
-      "dist_to_shop_km": 2.737
+      "dist_to_shop_km": 4.069
     },
     {
       "lng": 111.6615,
@@ -1998,7 +1998,7 @@
       "demand": 3.8,
       "supply": 0.15,
       "gap": 3.23,
-      "dist_to_shop_km": 3.491
+      "dist_to_shop_km": 2.843
     },
     {
       "lng": 111.7335,
@@ -2006,7 +2006,7 @@
       "demand": 3.8,
       "supply": 0.15,
       "gap": 3.23,
-      "dist_to_shop_km": 2.544
+      "dist_to_shop_km": 3.688
     },
     {
       "lng": 111.7335,
@@ -2014,7 +2014,7 @@
       "demand": 3.8,
       "supply": 0.15,
       "gap": 3.23,
-      "dist_to_shop_km": 2.588
+      "dist_to_shop_km": 3.799
     },
     {
       "lng": 111.6645,
@@ -2022,7 +2022,7 @@
       "demand": 5.35,
       "supply": 0.4,
       "gap": 3.21,
-      "dist_to_shop_km": 3.311
+      "dist_to_shop_km": 2.822
     },
     {
       "lng": 111.6705,
@@ -2030,7 +2030,7 @@
       "demand": 10.3,
       "supply": 0.7,
       "gap": 3.09,
-      "dist_to_shop_km": 3.094
+      "dist_to_shop_km": 2.962
     },
     {
       "lng": 111.6645,
@@ -2038,7 +2038,7 @@
       "demand": 3.6,
       "supply": 0.15,
       "gap": 3.06,
-      "dist_to_shop_km": 3.209
+      "dist_to_shop_km": 2.339
     },
     {
       "lng": 111.6825,
@@ -2046,7 +2046,7 @@
       "demand": 3.6,
       "supply": 0.15,
       "gap": 3.06,
-      "dist_to_shop_km": 2.506
+      "dist_to_shop_km": 1.17
     },
     {
       "lng": 111.7155,
@@ -2054,7 +2054,7 @@
       "demand": 3.6,
       "supply": 0.15,
       "gap": 3.06,
-      "dist_to_shop_km": 2.405
+      "dist_to_shop_km": 2.386
     },
     {
       "lng": 111.7305,
@@ -2062,7 +2062,7 @@
       "demand": 3.6,
       "supply": 0.15,
       "gap": 3.06,
-      "dist_to_shop_km": 2.437
+      "dist_to_shop_km": 3.278
     },
     {
       "lng": 111.7185,
@@ -2070,7 +2070,7 @@
       "demand": 4.95,
       "supply": 0.4,
       "gap": 2.97,
-      "dist_to_shop_km": 3.422
+      "dist_to_shop_km": 4.673
     },
     {
       "lng": 111.7215,
@@ -2078,7 +2078,7 @@
       "demand": 3.4,
       "supply": 0.15,
       "gap": 2.89,
-      "dist_to_shop_km": 2.396
+      "dist_to_shop_km": 2.691
     },
     {
       "lng": 111.7035,
@@ -2086,7 +2086,7 @@
       "demand": 4.7,
       "supply": 0.4,
       "gap": 2.82,
-      "dist_to_shop_km": 2.502
+      "dist_to_shop_km": 1.894
     },
     {
       "lng": 111.7335,
@@ -2094,7 +2094,7 @@
       "demand": 4.65,
       "supply": 0.4,
       "gap": 2.79,
-      "dist_to_shop_km": 3.132
+      "dist_to_shop_km": 4.47
     },
     {
       "lng": 111.7185,
@@ -2102,7 +2102,7 @@
       "demand": 9.2,
       "supply": 0.7,
       "gap": 2.76,
-      "dist_to_shop_km": 2.815
+      "dist_to_shop_km": 4.104
     },
     {
       "lng": 111.7065,
@@ -2110,7 +2110,7 @@
       "demand": 4.55,
       "supply": 0.4,
       "gap": 2.73,
-      "dist_to_shop_km": 2.519
+      "dist_to_shop_km": 2.041
     },
     {
       "lng": 111.7335,
@@ -2118,7 +2118,7 @@
       "demand": 4.55,
       "supply": 0.4,
       "gap": 2.73,
-      "dist_to_shop_km": 2.794
+      "dist_to_shop_km": 4.094
     },
     {
       "lng": 111.6615,
@@ -2126,7 +2126,7 @@
       "demand": 3.2,
       "supply": 0.15,
       "gap": 2.72,
-      "dist_to_shop_km": 3.459
+      "dist_to_shop_km": 2.693
     },
     {
       "lng": 111.6705,
@@ -2134,7 +2134,7 @@
       "demand": 3.2,
       "supply": 0.15,
       "gap": 2.72,
-      "dist_to_shop_km": 2.831
+      "dist_to_shop_km": 1.72
     },
     {
       "lng": 111.7095,
@@ -2142,7 +2142,7 @@
       "demand": 3.2,
       "supply": 0.15,
       "gap": 2.72,
-      "dist_to_shop_km": 2.56
+      "dist_to_shop_km": 2.206
     },
     {
       "lng": 111.7335,
@@ -2150,7 +2150,7 @@
       "demand": 4.5,
       "supply": 0.4,
       "gap": 2.7,
-      "dist_to_shop_km": 2.949
+      "dist_to_shop_km": 4.273
     },
     {
       "lng": 111.6615,
@@ -2158,7 +2158,7 @@
       "demand": 4.35,
       "supply": 0.4,
       "gap": 2.61,
-      "dist_to_shop_km": 3.554
+      "dist_to_shop_km": 3.022
     },
     {
       "lng": 111.7215,
@@ -2166,7 +2166,7 @@
       "demand": 4.35,
       "supply": 0.4,
       "gap": 2.61,
-      "dist_to_shop_km": 3.523
+      "dist_to_shop_km": 4.8
     },
     {
       "lng": 111.7275,
@@ -2174,7 +2174,7 @@
       "demand": 8.65,
       "supply": 0.7,
       "gap": 2.6,
-      "dist_to_shop_km": 2.532
+      "dist_to_shop_km": 3.871
     },
     {
       "lng": 111.7005,
@@ -2182,7 +2182,7 @@
       "demand": 4.3,
       "supply": 0.4,
       "gap": 2.58,
-      "dist_to_shop_km": 2.511
+      "dist_to_shop_km": 1.771
     },
     {
       "lng": 111.6675,
@@ -2190,7 +2190,7 @@
       "demand": 3.0,
       "supply": 0.15,
       "gap": 2.55,
-      "dist_to_shop_km": 2.997
+      "dist_to_shop_km": 2.01
     },
     {
       "lng": 111.7005,
@@ -2198,7 +2198,7 @@
       "demand": 3.0,
       "supply": 0.15,
       "gap": 2.55,
-      "dist_to_shop_km": 3.176
+      "dist_to_shop_km": 4.155
     },
     {
       "lng": 111.7035,
@@ -2206,7 +2206,7 @@
       "demand": 3.0,
       "supply": 0.15,
       "gap": 2.55,
-      "dist_to_shop_km": 3.169
+      "dist_to_shop_km": 4.209
     },
     {
       "lng": 111.7125,
@@ -2214,7 +2214,7 @@
       "demand": 3.0,
       "supply": 0.15,
       "gap": 2.55,
-      "dist_to_shop_km": 2.624
+      "dist_to_shop_km": 2.386
     },
     {
       "lng": 111.7365,
@@ -2222,7 +2222,7 @@
       "demand": 3.0,
       "supply": 0.15,
       "gap": 2.55,
-      "dist_to_shop_km": 3.167
+      "dist_to_shop_km": 4.481
     },
     {
       "lng": 111.7245,
@@ -2230,7 +2230,7 @@
       "demand": 4.2,
       "supply": 0.4,
       "gap": 2.52,
-      "dist_to_shop_km": 3.639
+      "dist_to_shop_km": 4.936
     },
     {
       "lng": 111.6615,
@@ -2238,7 +2238,7 @@
       "demand": 4.15,
       "supply": 0.4,
       "gap": 2.49,
-      "dist_to_shop_km": 3.646
+      "dist_to_shop_km": 3.226
     },
     {
       "lng": 111.7095,
@@ -2246,7 +2246,7 @@
       "demand": 4.15,
       "supply": 0.4,
       "gap": 2.49,
-      "dist_to_shop_km": 3.215
+      "dist_to_shop_km": 4.358
     },
     {
       "lng": 111.7125,
@@ -2254,7 +2254,7 @@
       "demand": 4.15,
       "supply": 0.4,
       "gap": 2.49,
-      "dist_to_shop_km": 3.266
+      "dist_to_shop_km": 4.452
     },
     {
       "lng": 111.6705,
@@ -2262,7 +2262,7 @@
       "demand": 8.1,
       "supply": 0.7,
       "gap": 2.43,
-      "dist_to_shop_km": 3.269
+      "dist_to_shop_km": 3.24
     },
     {
       "lng": 111.7275,
@@ -2270,7 +2270,7 @@
       "demand": 4.05,
       "supply": 0.4,
       "gap": 2.43,
-      "dist_to_shop_km": 3.768
+      "dist_to_shop_km": 5.081
     },
     {
       "lng": 111.7185,
@@ -2278,7 +2278,7 @@
       "demand": 2.8,
       "supply": 0.15,
       "gap": 2.38,
-      "dist_to_shop_km": 2.523
+      "dist_to_shop_km": 2.602
     },
     {
       "lng": 111.7365,
@@ -2286,7 +2286,7 @@
       "demand": 2.8,
       "supply": 0.15,
       "gap": 2.38,
-      "dist_to_shop_km": 3.023
+      "dist_to_shop_km": 4.311
     },
     {
       "lng": 111.7365,
@@ -2294,7 +2294,7 @@
       "demand": 3.85,
       "supply": 0.4,
       "gap": 2.31,
-      "dist_to_shop_km": 3.338
+      "dist_to_shop_km": 4.669
     },
     {
       "lng": 111.7275,
@@ -2302,7 +2302,7 @@
       "demand": 7.55,
       "supply": 0.7,
       "gap": 2.27,
-      "dist_to_shop_km": 2.977
+      "dist_to_shop_km": 4.319
     },
     {
       "lng": 111.6735,
@@ -2310,7 +2310,7 @@
       "demand": 2.6,
       "supply": 0.15,
       "gap": 2.21,
-      "dist_to_shop_km": 2.719
+      "dist_to_shop_km": 1.49
     },
     {
       "lng": 111.6765,
@@ -2318,7 +2318,7 @@
       "demand": 2.6,
       "supply": 0.15,
       "gap": 2.21,
-      "dist_to_shop_km": 3.592
+      "dist_to_shop_km": 3.94
     },
     {
       "lng": 111.6885,
@@ -2326,7 +2326,7 @@
       "demand": 2.6,
       "supply": 0.15,
       "gap": 2.21,
-      "dist_to_shop_km": 2.482
+      "dist_to_shop_km": 1.275
     },
     {
       "lng": 111.7275,
@@ -2334,7 +2334,7 @@
       "demand": 7.3,
       "supply": 0.7,
       "gap": 2.19,
-      "dist_to_shop_km": 3.228
+      "dist_to_shop_km": 4.562
     },
     {
       "lng": 111.7305,
@@ -2342,7 +2342,7 @@
       "demand": 3.65,
       "supply": 0.4,
       "gap": 2.19,
-      "dist_to_shop_km": 3.909
+      "dist_to_shop_km": 5.233
     },
     {
       "lng": 111.7335,
@@ -2350,7 +2350,7 @@
       "demand": 3.65,
       "supply": 0.4,
       "gap": 2.19,
-      "dist_to_shop_km": 4.06
+      "dist_to_shop_km": 5.393
     },
     {
       "lng": 111.7065,
@@ -2358,7 +2358,7 @@
       "demand": 2.4,
       "supply": 0.15,
       "gap": 2.04,
-      "dist_to_shop_km": 3.515
+      "dist_to_shop_km": 4.596
     },
     {
       "lng": 111.7335,
@@ -2366,7 +2366,7 @@
       "demand": 2.4,
       "supply": 0.15,
       "gap": 2.04,
-      "dist_to_shop_km": 2.544
+      "dist_to_shop_km": 3.605
     },
     {
       "lng": 111.6705,
@@ -2374,7 +2374,7 @@
       "demand": 3.35,
       "supply": 0.4,
       "gap": 2.01,
-      "dist_to_shop_km": 3.685
+      "dist_to_shop_km": 3.822
     },
     {
       "lng": 111.7065,
@@ -2382,7 +2382,7 @@
       "demand": 3.35,
       "supply": 0.4,
       "gap": 2.01,
-      "dist_to_shop_km": 3.182
+      "dist_to_shop_km": 4.277
     },
     {
       "lng": 111.6975,
@@ -2390,7 +2390,7 @@
       "demand": 3.3,
       "supply": 0.4,
       "gap": 1.98,
-      "dist_to_shop_km": 2.543
+      "dist_to_shop_km": 1.676
     },
     {
       "lng": 111.7275,
@@ -2398,7 +2398,7 @@
       "demand": 6.55,
       "supply": 0.7,
       "gap": 1.97,
-      "dist_to_shop_km": 3.493
+      "dist_to_shop_km": 4.817
     },
     {
       "lng": 111.7305,
@@ -2406,7 +2406,7 @@
       "demand": 6.35,
       "supply": 0.7,
       "gap": 1.91,
-      "dist_to_shop_km": 3.153
+      "dist_to_shop_km": 4.497
     },
     {
       "lng": 111.7125,
@@ -2414,7 +2414,7 @@
       "demand": 3.15,
       "supply": 0.4,
       "gap": 1.89,
-      "dist_to_shop_km": 3.591
+      "dist_to_shop_km": 4.759
     },
     {
       "lng": 111.6615,
@@ -2422,7 +2422,7 @@
       "demand": 2.2,
       "supply": 0.15,
       "gap": 1.87,
-      "dist_to_shop_km": 3.459
+      "dist_to_shop_km": 2.577
     },
     {
       "lng": 111.6765,
@@ -2430,7 +2430,7 @@
       "demand": 2.2,
       "supply": 0.15,
       "gap": 1.87,
-      "dist_to_shop_km": 2.668
+      "dist_to_shop_km": 1.354
     },
     {
       "lng": 111.6855,
@@ -2438,7 +2438,7 @@
       "demand": 2.2,
       "supply": 0.15,
       "gap": 1.87,
-      "dist_to_shop_km": 2.612
+      "dist_to_shop_km": 1.341
     },
     {
       "lng": 111.6915,
@@ -2446,7 +2446,7 @@
       "demand": 2.2,
       "supply": 0.15,
       "gap": 1.87,
-      "dist_to_shop_km": 2.679
+      "dist_to_shop_km": 1.59
     },
     {
       "lng": 111.6975,
@@ -2454,7 +2454,7 @@
       "demand": 2.2,
       "supply": 0.15,
       "gap": 1.87,
-      "dist_to_shop_km": 3.202
+      "dist_to_shop_km": 4.115
     },
     {
       "lng": 111.7365,
@@ -2462,7 +2462,7 @@
       "demand": 2.2,
       "supply": 0.15,
       "gap": 1.87,
-      "dist_to_shop_km": 2.911
+      "dist_to_shop_km": 4.16
     },
     {
       "lng": 111.7305,
@@ -2470,7 +2470,7 @@
       "demand": 2.9,
       "supply": 0.4,
       "gap": 1.74,
-      "dist_to_shop_km": 4.184
+      "dist_to_shop_km": 5.497
     },
     {
       "lng": 111.7365,
@@ -2478,7 +2478,7 @@
       "demand": 2.85,
       "supply": 0.4,
       "gap": 1.71,
-      "dist_to_shop_km": 4.221
+      "dist_to_shop_km": 5.56
     },
     {
       "lng": 111.6735,
@@ -2486,7 +2486,7 @@
       "demand": 2.0,
       "supply": 0.15,
       "gap": 1.7,
-      "dist_to_shop_km": 3.751
+      "dist_to_shop_km": 4.025
     },
     {
       "lng": 111.7245,
@@ -2494,7 +2494,7 @@
       "demand": 2.0,
       "supply": 0.15,
       "gap": 1.7,
-      "dist_to_shop_km": 2.563
+      "dist_to_shop_km": 2.927
     },
     {
       "lng": 111.7245,
@@ -2502,7 +2502,7 @@
       "demand": 2.0,
       "supply": 0.15,
       "gap": 1.7,
-      "dist_to_shop_km": 3.933
+      "dist_to_shop_km": 5.215
     },
     {
       "lng": 111.7275,
@@ -2510,7 +2510,7 @@
       "demand": 2.0,
       "supply": 0.15,
       "gap": 1.7,
-      "dist_to_shop_km": 2.533
+      "dist_to_shop_km": 3.084
     },
     {
       "lng": 111.7335,
@@ -2518,7 +2518,7 @@
       "demand": 5.55,
       "supply": 0.7,
       "gap": 1.67,
-      "dist_to_shop_km": 3.339
+      "dist_to_shop_km": 4.682
     },
     {
       "lng": 111.6945,
@@ -2526,7 +2526,7 @@
       "demand": 2.75,
       "supply": 0.4,
       "gap": 1.65,
-      "dist_to_shop_km": 2.6
+      "dist_to_shop_km": 1.614
     },
     {
       "lng": 111.7095,
@@ -2534,7 +2534,7 @@
       "demand": 2.75,
       "supply": 0.4,
       "gap": 1.65,
-      "dist_to_shop_km": 3.544
+      "dist_to_shop_km": 4.672
     },
     {
       "lng": 111.7275,
@@ -2542,7 +2542,7 @@
       "demand": 2.7,
       "supply": 0.4,
       "gap": 1.62,
-      "dist_to_shop_km": 4.053
+      "dist_to_shop_km": 5.352
     },
     {
       "lng": 111.6645,
@@ -2550,7 +2550,7 @@
       "demand": 1.8,
       "supply": 0.15,
       "gap": 1.53,
-      "dist_to_shop_km": 3.244
+      "dist_to_shop_km": 2.255
     },
     {
       "lng": 111.6945,
@@ -2558,7 +2558,7 @@
       "demand": 1.8,
       "supply": 0.15,
       "gap": 1.53,
-      "dist_to_shop_km": 3.247
+      "dist_to_shop_km": 4.091
     },
     {
       "lng": 111.7035,
@@ -2566,7 +2566,7 @@
       "demand": 1.8,
       "supply": 0.15,
       "gap": 1.53,
-      "dist_to_shop_km": 3.503
+      "dist_to_shop_km": 4.533
     },
     {
       "lng": 111.7155,
@@ -2574,7 +2574,7 @@
       "demand": 2.55,
       "supply": 0.4,
       "gap": 1.53,
-      "dist_to_shop_km": 3.654
+      "dist_to_shop_km": 4.858
     },
     {
       "lng": 111.7215,
@@ -2582,7 +2582,7 @@
       "demand": 1.8,
       "supply": 0.15,
       "gap": 1.53,
-      "dist_to_shop_km": 2.66
+      "dist_to_shop_km": 2.823
     },
     {
       "lng": 111.7305,
@@ -2590,7 +2590,7 @@
       "demand": 1.8,
       "supply": 0.15,
       "gap": 1.53,
-      "dist_to_shop_km": 2.57
+      "dist_to_shop_km": 3.287
     },
     {
       "lng": 111.7365,
@@ -2598,7 +2598,7 @@
       "demand": 1.8,
       "supply": 0.15,
       "gap": 1.53,
-      "dist_to_shop_km": 2.833
+      "dist_to_shop_km": 4.032
     },
     {
       "lng": 111.7395,
@@ -2606,7 +2606,7 @@
       "demand": 2.45,
       "supply": 0.4,
       "gap": 1.47,
-      "dist_to_shop_km": 3.936
+      "dist_to_shop_km": 5.278
     },
     {
       "lng": 111.7395,
@@ -2614,7 +2614,7 @@
       "demand": 2.45,
       "supply": 0.4,
       "gap": 1.47,
-      "dist_to_shop_km": 4.156
+      "dist_to_shop_km": 5.5
     },
     {
       "lng": 111.7155,
@@ -2622,7 +2622,7 @@
       "demand": 4.7,
       "supply": 0.7,
       "gap": 1.41,
-      "dist_to_shop_km": 3.335
+      "dist_to_shop_km": 4.557
     },
     {
       "lng": 111.7215,
@@ -2630,7 +2630,7 @@
       "demand": 2.35,
       "supply": 0.4,
       "gap": 1.41,
-      "dist_to_shop_km": 3.826
+      "dist_to_shop_km": 5.087
     },
     {
       "lng": 111.7335,
@@ -2638,7 +2638,7 @@
       "demand": 2.3,
       "supply": 0.4,
       "gap": 1.38,
-      "dist_to_shop_km": 4.326
+      "dist_to_shop_km": 5.65
     },
     {
       "lng": 111.6915,
@@ -2646,7 +2646,7 @@
       "demand": 1.6,
       "supply": 0.15,
       "gap": 1.36,
-      "dist_to_shop_km": 3.31
+      "dist_to_shop_km": 4.081
     },
     {
       "lng": 111.7155,
@@ -2654,7 +2654,7 @@
       "demand": 1.6,
       "supply": 0.15,
       "gap": 1.36,
-      "dist_to_shop_km": 2.71
+      "dist_to_shop_km": 2.578
     },
     {
       "lng": 111.7305,
@@ -2662,7 +2662,7 @@
       "demand": 1.6,
       "supply": 0.15,
       "gap": 1.36,
-      "dist_to_shop_km": 4.467
+      "dist_to_shop_km": 5.769
     },
     {
       "lng": 111.7335,
@@ -2670,7 +2670,7 @@
       "demand": 1.6,
       "supply": 0.15,
       "gap": 1.36,
-      "dist_to_shop_km": 2.588
+      "dist_to_shop_km": 3.551
     },
     {
       "lng": 111.6675,
@@ -2678,7 +2678,7 @@
       "demand": 4.5,
       "supply": 0.7,
       "gap": 1.35,
-      "dist_to_shop_km": 3.665
+      "dist_to_shop_km": 3.655
     },
     {
       "lng": 111.7395,
@@ -2686,7 +2686,7 @@
       "demand": 2.25,
       "supply": 0.4,
       "gap": 1.35,
-      "dist_to_shop_km": 4.39
+      "dist_to_shop_km": 5.732
     },
     {
       "lng": 111.6675,
@@ -2694,7 +2694,7 @@
       "demand": 2.15,
       "supply": 0.4,
       "gap": 1.29,
-      "dist_to_shop_km": 3.872
+      "dist_to_shop_km": 3.94
     },
     {
       "lng": 111.7185,
@@ -2702,7 +2702,7 @@
       "demand": 2.15,
       "supply": 0.4,
       "gap": 1.29,
-      "dist_to_shop_km": 3.733
+      "dist_to_shop_km": 4.967
     },
     {
       "lng": 111.6945,
@@ -2710,7 +2710,7 @@
       "demand": 2.1,
       "supply": 0.4,
       "gap": 1.26,
-      "dist_to_shop_km": 2.922
+      "dist_to_shop_km": 1.944
     },
     {
       "lng": 111.6975,
@@ -2718,7 +2718,7 @@
       "demand": 2.1,
       "supply": 0.4,
       "gap": 1.26,
-      "dist_to_shop_km": 2.872
+      "dist_to_shop_km": 1.995
     },
     {
       "lng": 111.7005,
@@ -2726,7 +2726,7 @@
       "demand": 2.1,
       "supply": 0.4,
       "gap": 1.26,
-      "dist_to_shop_km": 2.843
+      "dist_to_shop_km": 2.076
     },
     {
       "lng": 111.7035,
@@ -2734,7 +2734,7 @@
       "demand": 2.1,
       "supply": 0.4,
       "gap": 1.26,
-      "dist_to_shop_km": 2.836
+      "dist_to_shop_km": 2.182
     },
     {
       "lng": 111.7065,
@@ -2742,7 +2742,7 @@
       "demand": 2.1,
       "supply": 0.4,
       "gap": 1.26,
-      "dist_to_shop_km": 2.85
+      "dist_to_shop_km": 2.31
     },
     {
       "lng": 111.7095,
@@ -2750,7 +2750,7 @@
       "demand": 2.1,
       "supply": 0.4,
       "gap": 1.26,
-      "dist_to_shop_km": 2.887
+      "dist_to_shop_km": 2.457
     },
     {
       "lng": 111.7365,
@@ -2758,7 +2758,7 @@
       "demand": 2.1,
       "supply": 0.4,
       "gap": 1.26,
-      "dist_to_shop_km": 4.477
+      "dist_to_shop_km": 5.809
     },
     {
       "lng": 111.7395,
@@ -2766,7 +2766,7 @@
       "demand": 2.05,
       "supply": 0.4,
       "gap": 1.23,
-      "dist_to_shop_km": 3.732
+      "dist_to_shop_km": 5.069
     },
     {
       "lng": 111.6675,
@@ -2774,7 +2774,7 @@
       "demand": 1.4,
       "supply": 0.15,
       "gap": 1.19,
-      "dist_to_shop_km": 3.071
+      "dist_to_shop_km": 1.969
     },
     {
       "lng": 111.6705,
@@ -2782,7 +2782,7 @@
       "demand": 1.4,
       "supply": 0.15,
       "gap": 1.19,
-      "dist_to_shop_km": 3.919
+      "dist_to_shop_km": 4.122
     },
     {
       "lng": 111.6795,
@@ -2790,7 +2790,7 @@
       "demand": 1.4,
       "supply": 0.15,
       "gap": 1.19,
-      "dist_to_shop_km": 2.682
+      "dist_to_shop_km": 1.338
     },
     {
       "lng": 111.7005,
@@ -2798,7 +2798,7 @@
       "demand": 1.4,
       "supply": 0.15,
       "gap": 1.19,
-      "dist_to_shop_km": 3.509
+      "dist_to_shop_km": 4.483
     },
     {
       "lng": 111.7245,
@@ -2806,7 +2806,7 @@
       "demand": 1.4,
       "supply": 0.15,
       "gap": 1.19,
-      "dist_to_shop_km": 4.233
+      "dist_to_shop_km": 5.501
     },
     {
       "lng": 111.7335,
@@ -2814,7 +2814,7 @@
       "demand": 1.4,
       "supply": 0.15,
       "gap": 1.19,
-      "dist_to_shop_km": 4.6
+      "dist_to_shop_km": 5.914
     },
     {
       "lng": 111.7365,
@@ -2822,7 +2822,7 @@
       "demand": 3.95,
       "supply": 0.7,
       "gap": 1.19,
-      "dist_to_shop_km": 3.977
+      "dist_to_shop_km": 5.32
     },
     {
       "lng": 111.7395,
@@ -2830,7 +2830,7 @@
       "demand": 1.4,
       "supply": 0.15,
       "gap": 1.19,
-      "dist_to_shop_km": 3.255
+      "dist_to_shop_km": 4.531
     },
     {
       "lng": 111.7395,
@@ -2838,7 +2838,7 @@
       "demand": 1.4,
       "supply": 0.15,
       "gap": 1.19,
-      "dist_to_shop_km": 3.389
+      "dist_to_shop_km": 4.694
     },
     {
       "lng": 111.7395,
@@ -2846,7 +2846,7 @@
       "demand": 1.4,
       "supply": 0.15,
       "gap": 1.19,
-      "dist_to_shop_km": 4.636
+      "dist_to_shop_km": 5.974
     },
     {
       "lng": 111.7365,
@@ -2854,7 +2854,7 @@
       "demand": 3.9,
       "supply": 0.7,
       "gap": 1.17,
-      "dist_to_shop_km": 3.746
+      "dist_to_shop_km": 5.09
     },
     {
       "lng": 111.7365,
@@ -2862,7 +2862,7 @@
       "demand": 3.8,
       "supply": 0.7,
       "gap": 1.14,
-      "dist_to_shop_km": 3.532
+      "dist_to_shop_km": 4.873
     },
     {
       "lng": 111.7425,
@@ -2870,7 +2870,7 @@
       "demand": 1.85,
       "supply": 0.4,
       "gap": 1.11,
-      "dist_to_shop_km": 4.131
+      "dist_to_shop_km": 5.471
     },
     {
       "lng": 111.7425,
@@ -2878,7 +2878,7 @@
       "demand": 1.85,
       "supply": 0.4,
       "gap": 1.11,
-      "dist_to_shop_km": 4.341
+      "dist_to_shop_km": 5.685
     },
     {
       "lng": 111.6615,
@@ -2886,7 +2886,7 @@
       "demand": 3.5,
       "supply": 0.7,
       "gap": 1.05,
-      "dist_to_shop_km": 3.766
+      "dist_to_shop_km": 3.451
     },
     {
       "lng": 111.6615,
@@ -2894,7 +2894,7 @@
       "demand": 1.75,
       "supply": 0.4,
       "gap": 1.05,
-      "dist_to_shop_km": 4.078
+      "dist_to_shop_km": 3.946
     },
     {
       "lng": 111.7155,
@@ -2902,7 +2902,7 @@
       "demand": 1.2,
       "supply": 0.15,
       "gap": 1.02,
-      "dist_to_shop_km": 3.975
+      "dist_to_shop_km": 5.163
     },
     {
       "lng": 111.7185,
@@ -2910,7 +2910,7 @@
       "demand": 1.2,
       "supply": 0.15,
       "gap": 1.02,
-      "dist_to_shop_km": 4.047
+      "dist_to_shop_km": 5.266
     },
     {
       "lng": 111.7215,
@@ -2918,7 +2918,7 @@
       "demand": 1.2,
       "supply": 0.15,
       "gap": 1.02,
-      "dist_to_shop_km": 4.134
+      "dist_to_shop_km": 5.379
     },
     {
       "lng": 111.7275,
@@ -2926,7 +2926,7 @@
       "demand": 1.2,
       "supply": 0.15,
       "gap": 1.02,
-      "dist_to_shop_km": 4.344
+      "dist_to_shop_km": 5.631
     },
     {
       "lng": 111.7365,
@@ -2934,7 +2934,7 @@
       "demand": 1.2,
       "supply": 0.15,
       "gap": 1.02,
-      "dist_to_shop_km": 2.794
+      "dist_to_shop_km": 3.928
     },
     {
       "lng": 111.6645,
@@ -2942,7 +2942,7 @@
       "demand": 1.55,
       "supply": 0.4,
       "gap": 0.93,
-      "dist_to_shop_km": 4.065
+      "dist_to_shop_km": 4.071
     },
     {
       "lng": 111.6675,
@@ -2950,7 +2950,7 @@
       "demand": 1.0,
       "supply": 0.15,
       "gap": 0.85,
-      "dist_to_shop_km": 4.095
+      "dist_to_shop_km": 4.232
     },
     {
       "lng": 111.6825,
@@ -2958,7 +2958,7 @@
       "demand": 1.0,
       "supply": 0.15,
       "gap": 0.85,
-      "dist_to_shop_km": 2.759
+      "dist_to_shop_km": 1.448
     },
     {
       "lng": 111.7125,
@@ -2966,7 +2966,7 @@
       "demand": 1.0,
       "supply": 0.15,
       "gap": 0.85,
-      "dist_to_shop_km": 3.917
+      "dist_to_shop_km": 5.07
     },
     {
       "lng": 111.7245,
@@ -2974,7 +2974,7 @@
       "demand": 1.0,
       "supply": 0.15,
       "gap": 0.85,
-      "dist_to_shop_km": 2.812
+      "dist_to_shop_km": 3.049
     },
     {
       "lng": 111.7335,
@@ -2982,7 +2982,7 @@
       "demand": 1.0,
       "supply": 0.15,
       "gap": 0.85,
-      "dist_to_shop_km": 2.673
+      "dist_to_shop_km": 3.528
     },
     {
       "lng": 111.7365,
@@ -2990,7 +2990,7 @@
       "demand": 1.0,
       "supply": 0.15,
       "gap": 0.85,
-      "dist_to_shop_km": 4.742
+      "dist_to_shop_km": 6.066
     },
     {
       "lng": 111.7395,
@@ -2998,7 +2998,7 @@
       "demand": 1.0,
       "supply": 0.15,
       "gap": 0.85,
-      "dist_to_shop_km": 3.151
+      "dist_to_shop_km": 4.388
     },
     {
       "lng": 111.7425,
@@ -3006,7 +3006,7 @@
       "demand": 1.0,
       "supply": 0.15,
       "gap": 0.85,
-      "dist_to_shop_km": 4.566
+      "dist_to_shop_km": 5.91
     },
     {
       "lng": 111.6645,
@@ -3014,7 +3014,7 @@
       "demand": 2.7,
       "supply": 0.7,
       "gap": 0.81,
-      "dist_to_shop_km": 3.869
+      "dist_to_shop_km": 3.795
     },
     {
       "lng": 111.7395,
@@ -3022,7 +3022,7 @@
       "demand": 1.35,
       "supply": 0.4,
       "gap": 0.81,
-      "dist_to_shop_km": 3.549
+      "dist_to_shop_km": 4.874
     },
     {
       "lng": 111.6795,
@@ -3030,7 +3030,7 @@
       "demand": 0.8,
       "supply": 0.0,
       "gap": 0.8,
-      "dist_to_shop_km": 2.921
+      "dist_to_shop_km": 1.587
     },
     {
       "lng": 111.6855,
@@ -3038,7 +3038,7 @@
       "demand": 0.8,
       "supply": 0.0,
       "gap": 0.8,
-      "dist_to_shop_km": 3.488
+      "dist_to_shop_km": 4.108
     },
     {
       "lng": 111.6615,
@@ -3046,7 +3046,7 @@
       "demand": 2.5,
       "supply": 0.7,
       "gap": 0.75,
-      "dist_to_shop_km": 3.911
+      "dist_to_shop_km": 3.692
     },
     {
       "lng": 111.6615,
@@ -3054,7 +3054,7 @@
       "demand": 0.8,
       "supply": 0.15,
       "gap": 0.68,
-      "dist_to_shop_km": 3.491
+      "dist_to_shop_km": 2.501
     },
     {
       "lng": 111.6645,
@@ -3062,7 +3062,7 @@
       "demand": 0.8,
       "supply": 0.15,
       "gap": 0.68,
-      "dist_to_shop_km": 3.312
+      "dist_to_shop_km": 2.219
     },
     {
       "lng": 111.6825,
@@ -3070,7 +3070,7 @@
       "demand": 0.8,
       "supply": 0.15,
       "gap": 0.68,
-      "dist_to_shop_km": 3.029
+      "dist_to_shop_km": 1.745
     },
     {
       "lng": 111.6855,
@@ -3078,7 +3078,7 @@
       "demand": 0.8,
       "supply": 0.15,
       "gap": 0.68,
-      "dist_to_shop_km": 2.895
+      "dist_to_shop_km": 1.658
     },
     {
       "lng": 111.6885,
@@ -3086,10 +3086,34 @@
       "demand": 0.8,
       "supply": 0.15,
       "gap": 0.68,
-      "dist_to_shop_km": 3.082
+      "dist_to_shop_km": 1.936
     },
     {
       "lng": 111.6885,
+      "lat": 41.5045,
+      "demand": 0.8,
+      "supply": 0.15,
+      "gap": 0.68,
+      "dist_to_shop_km": 1.605
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5555,
+      "demand": 0.8,
+      "supply": 0.15,
+      "gap": 0.68,
+      "dist_to_shop_km": 4.087
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5615,
+      "demand": 0.8,
+      "supply": 0.15,
+      "gap": 0.68,
+      "dist_to_shop_km": 4.988
+    },
+    {
+      "lng": 111.7185,
       "lat": 41.5045,
       "demand": 0.8,
       "supply": 0.15,
@@ -3097,36 +3121,12 @@
       "dist_to_shop_km": 2.778
     },
     {
-      "lng": 111.6885,
-      "lat": 41.5555,
-      "demand": 0.8,
-      "supply": 0.15,
-      "gap": 0.68,
-      "dist_to_shop_km": 3.391
-    },
-    {
-      "lng": 111.7095,
-      "lat": 41.5615,
-      "demand": 0.8,
-      "supply": 0.15,
-      "gap": 0.68,
-      "dist_to_shop_km": 3.874
-    },
-    {
-      "lng": 111.7185,
-      "lat": 41.5045,
-      "demand": 0.8,
-      "supply": 0.15,
-      "gap": 0.68,
-      "dist_to_shop_km": 2.815
-    },
-    {
       "lng": 111.7365,
       "lat": 41.5255,
       "demand": 0.8,
       "supply": 0.15,
       "gap": 0.68,
-      "dist_to_shop_km": 2.794
+      "dist_to_shop_km": 3.849
     },
     {
       "lng": 111.6915,
@@ -3134,7 +3134,7 @@
       "demand": 1.1,
       "supply": 0.4,
       "gap": 0.66,
-      "dist_to_shop_km": 2.993
+      "dist_to_shop_km": 1.924
     },
     {
       "lng": 111.6825,
@@ -3142,7 +3142,7 @@
       "demand": 0.6,
       "supply": 0.0,
       "gap": 0.6,
-      "dist_to_shop_km": 3.599
+      "dist_to_shop_km": 4.144
     },
     {
       "lng": 111.6615,
@@ -3150,7 +3150,7 @@
       "demand": 0.95,
       "supply": 0.4,
       "gap": 0.57,
-      "dist_to_shop_km": 4.265
+      "dist_to_shop_km": 4.212
     },
     {
       "lng": 111.6705,
@@ -3158,7 +3158,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 2.947
+      "dist_to_shop_km": 1.737
     },
     {
       "lng": 111.6735,
@@ -3166,7 +3166,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.009
+      "dist_to_shop_km": 4.337
     },
     {
       "lng": 111.6765,
@@ -3174,7 +3174,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 3.861
+      "dist_to_shop_km": 4.259
     },
     {
       "lng": 111.6795,
@@ -3182,7 +3182,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 3.724
+      "dist_to_shop_km": 4.194
     },
     {
       "lng": 111.6855,
@@ -3190,7 +3190,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 3.188
+      "dist_to_shop_km": 1.98
     },
     {
       "lng": 111.7125,
@@ -3198,7 +3198,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 2.944
+      "dist_to_shop_km": 2.62
     },
     {
       "lng": 111.7275,
@@ -3206,7 +3206,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 2.744
+      "dist_to_shop_km": 3.165
     },
     {
       "lng": 111.7395,
@@ -3214,7 +3214,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 3.079
+      "dist_to_shop_km": 4.267
     },
     {
       "lng": 111.7395,
@@ -3222,7 +3222,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.893
+      "dist_to_shop_km": 6.225
     },
     {
       "lng": 111.7425,
@@ -3230,7 +3230,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 3.614
+      "dist_to_shop_km": 4.91
     },
     {
       "lng": 111.7425,
@@ -3238,7 +3238,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 3.765
+      "dist_to_shop_km": 5.082
     },
     {
       "lng": 111.7425,
@@ -3246,7 +3246,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.804
+      "dist_to_shop_km": 6.145
     },
     {
       "lng": 111.7425,
@@ -3254,7 +3254,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 5.052
+      "dist_to_shop_km": 6.389
     },
     {
       "lng": 111.7455,
@@ -3262,7 +3262,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 3.843
+      "dist_to_shop_km": 5.129
     },
     {
       "lng": 111.7455,
@@ -3270,7 +3270,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 3.985
+      "dist_to_shop_km": 5.294
     },
     {
       "lng": 111.7455,
@@ -3278,7 +3278,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.149
+      "dist_to_shop_km": 5.474
     },
     {
       "lng": 111.7455,
@@ -3286,7 +3286,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.333
+      "dist_to_shop_km": 5.668
     },
     {
       "lng": 111.7455,
@@ -3294,7 +3294,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.533
+      "dist_to_shop_km": 5.875
     },
     {
       "lng": 111.7455,
@@ -3302,7 +3302,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.749
+      "dist_to_shop_km": 6.093
     },
     {
       "lng": 111.7455,
@@ -3310,7 +3310,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.978
+      "dist_to_shop_km": 6.322
     },
     {
       "lng": 111.7455,
@@ -3318,7 +3318,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 5.218
+      "dist_to_shop_km": 6.559
     },
     {
       "lng": 111.7485,
@@ -3326,7 +3326,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.208
+      "dist_to_shop_km": 5.509
     },
     {
       "lng": 111.7485,
@@ -3334,7 +3334,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.364
+      "dist_to_shop_km": 5.682
     },
     {
       "lng": 111.7485,
@@ -3342,7 +3342,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.539
+      "dist_to_shop_km": 5.87
     },
     {
       "lng": 111.7485,
@@ -3350,7 +3350,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.731
+      "dist_to_shop_km": 6.07
     },
     {
       "lng": 111.7485,
@@ -3358,7 +3358,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.938
+      "dist_to_shop_km": 6.281
     },
     {
       "lng": 111.7485,
@@ -3366,7 +3366,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 5.158
+      "dist_to_shop_km": 6.503
     },
     {
       "lng": 111.7485,
@@ -3374,7 +3374,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 5.39
+      "dist_to_shop_km": 6.733
     },
     {
       "lng": 111.7515,
@@ -3382,7 +3382,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.582
+      "dist_to_shop_km": 5.894
     },
     {
       "lng": 111.7515,
@@ -3390,7 +3390,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.749
+      "dist_to_shop_km": 6.074
     },
     {
       "lng": 111.7515,
@@ -3398,7 +3398,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 4.933
+      "dist_to_shop_km": 6.268
     },
     {
       "lng": 111.7515,
@@ -3406,7 +3406,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 5.132
+      "dist_to_shop_km": 6.473
     },
     {
       "lng": 111.7515,
@@ -3414,7 +3414,7 @@
       "demand": 0.6,
       "supply": 0.15,
       "gap": 0.51,
-      "dist_to_shop_km": 5.344
+      "dist_to_shop_km": 6.688
     },
     {
       "lng": 111.7425,
@@ -3422,7 +3422,7 @@
       "demand": 0.75,
       "supply": 0.4,
       "gap": 0.45,
-      "dist_to_shop_km": 3.938
+      "dist_to_shop_km": 5.269
     },
     {
       "lng": 111.7245,
@@ -3430,7 +3430,7 @@
       "demand": 0.4,
       "supply": 0.0,
       "gap": 0.4,
-      "dist_to_shop_km": 3.353
+      "dist_to_shop_km": 3.379
     },
     {
       "lng": 111.7245,
@@ -3438,7 +3438,7 @@
       "demand": 0.4,
       "supply": 0.0,
       "gap": 0.4,
-      "dist_to_shop_km": 3.076
+      "dist_to_shop_km": 3.201
     },
     {
       "lng": 111.7365,
@@ -3446,7 +3446,7 @@
       "demand": 0.4,
       "supply": 0.0,
       "gap": 0.4,
-      "dist_to_shop_km": 2.833
+      "dist_to_shop_km": 3.799
     },
     {
       "lng": 111.7515,
@@ -3454,7 +3454,7 @@
       "demand": 0.4,
       "supply": 0.0,
       "gap": 0.4,
-      "dist_to_shop_km": 5.569
+      "dist_to_shop_km": 6.913
     },
     {
       "lng": 111.6645,
@@ -3462,7 +3462,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 4.279
+      "dist_to_shop_km": 4.354
     },
     {
       "lng": 111.6705,
@@ -3470,7 +3470,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 4.166
+      "dist_to_shop_km": 4.428
     },
     {
       "lng": 111.6795,
@@ -3478,7 +3478,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 3.176
+      "dist_to_shop_km": 1.862
     },
     {
       "lng": 111.6825,
@@ -3486,7 +3486,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 3.31
+      "dist_to_shop_km": 2.054
     },
     {
       "lng": 111.6975,
@@ -3494,7 +3494,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 3.532
+      "dist_to_shop_km": 4.446
     },
     {
       "lng": 111.7065,
@@ -3502,7 +3502,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 3.847
+      "dist_to_shop_km": 4.917
     },
     {
       "lng": 111.7155,
@@ -3510,7 +3510,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 3.02
+      "dist_to_shop_km": 2.796
     },
     {
       "lng": 111.7185,
@@ -3518,7 +3518,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 3.115
+      "dist_to_shop_km": 2.982
     },
     {
       "lng": 111.7215,
@@ -3526,7 +3526,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 3.227
+      "dist_to_shop_km": 3.177
     },
     {
       "lng": 111.7215,
@@ -3534,7 +3534,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 2.938
+      "dist_to_shop_km": 2.987
     },
     {
       "lng": 111.7305,
@@ -3542,7 +3542,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 2.738
+      "dist_to_shop_km": 3.33
     },
     {
       "lng": 111.7425,
@@ -3550,7 +3550,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 3.489
+      "dist_to_shop_km": 4.755
     },
     {
       "lng": 111.7485,
@@ -3558,7 +3558,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 4.074
+      "dist_to_shop_km": 5.35
     },
     {
       "lng": 111.7515,
@@ -3566,7 +3566,7 @@
       "demand": 0.4,
       "supply": 0.15,
       "gap": 0.34,
-      "dist_to_shop_km": 4.434
+      "dist_to_shop_km": 5.726
     },
     {
       "lng": 111.6675,
@@ -3574,7 +3574,7 @@
       "demand": 0.2,
       "supply": 0.0,
       "gap": 0.2,
-      "dist_to_shop_km": 3.178
+      "dist_to_shop_km": 1.984
     },
     {
       "lng": 111.6765,
@@ -3582,7 +3582,7 @@
       "demand": 0.2,
       "supply": 0.0,
       "gap": 0.2,
-      "dist_to_shop_km": 2.869
+      "dist_to_shop_km": 1.529
     },
     {
       "lng": 111.7395,
@@ -3590,7 +3590,7 @@
       "demand": 0.2,
       "supply": 0.0,
       "gap": 0.2,
-      "dist_to_shop_km": 3.043
+      "dist_to_shop_km": 4.095
     },
     {
       "lng": 111.6615,
@@ -3598,7 +3598,7 @@
       "demand": 0.2,
       "supply": 0.15,
       "gap": 0.17,
-      "dist_to_shop_km": 4.469
+      "dist_to_shop_km": 4.486
     },
     {
       "lng": 111.6645,
@@ -3606,7 +3606,7 @@
       "demand": 0.2,
       "supply": 0.15,
       "gap": 0.17,
-      "dist_to_shop_km": 4.507
+      "dist_to_shop_km": 4.644
     },
     {
       "lng": 111.6675,
@@ -3614,7 +3614,7 @@
       "demand": 0.2,
       "supply": 0.15,
       "gap": 0.17,
-      "dist_to_shop_km": 4.333
+      "dist_to_shop_km": 4.53
     },
     {
       "lng": 111.6735,
@@ -3622,7 +3622,7 @@
       "demand": 0.2,
       "supply": 0.15,
       "gap": 0.17,
-      "dist_to_shop_km": 2.878
+      "dist_to_shop_km": 1.582
     },
     {
       "lng": 111.6795,
@@ -3630,7 +3630,7 @@
       "demand": 0.2,
       "supply": 0.15,
       "gap": 0.17,
-      "dist_to_shop_km": 3.445
+      "dist_to_shop_km": 2.154
     },
     {
       "lng": 111.6945,
@@ -3638,7 +3638,7 @@
       "demand": 0.2,
       "supply": 0.15,
       "gap": 0.17,
-      "dist_to_shop_km": 3.573
+      "dist_to_shop_km": 4.423
     },
     {
       "lng": 111.7395,
@@ -3646,7 +3646,7 @@
       "demand": 0.2,
       "supply": 0.15,
       "gap": 0.17,
-      "dist_to_shop_km": 3.043
+      "dist_to_shop_km": 4.168
     },
     {
       "lng": 111.7455,
@@ -3654,7 +3654,7 @@
       "demand": 0.2,
       "supply": 0.15,
       "gap": 0.17,
-      "dist_to_shop_km": 3.725
+      "dist_to_shop_km": 4.98
     },
     {
       "lng": 111.7515,
@@ -3662,7 +3662,7 @@
       "demand": 0.2,
       "supply": 0.15,
       "gap": 0.17,
-      "dist_to_shop_km": 4.307
+      "dist_to_shop_km": 5.574
     },
     {
       "lng": 111.6615,
@@ -3670,7 +3670,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.47
+      "dist_to_shop_km": 3.129
     },
     {
       "lng": 111.6615,
@@ -3678,7 +3678,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.266
+      "dist_to_shop_km": 2.936
     },
     {
       "lng": 111.6615,
@@ -3686,7 +3686,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.079
+      "dist_to_shop_km": 2.769
     },
     {
       "lng": 111.6615,
@@ -3694,7 +3694,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.912
+      "dist_to_shop_km": 2.634
     },
     {
       "lng": 111.6615,
@@ -3702,7 +3702,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.767
+      "dist_to_shop_km": 2.537
     },
     {
       "lng": 111.6615,
@@ -3710,7 +3710,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.647
+      "dist_to_shop_km": 2.481
     },
     {
       "lng": 111.6615,
@@ -3718,7 +3718,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.554
+      "dist_to_shop_km": 2.469
     },
     {
       "lng": 111.6615,
@@ -3726,7 +3726,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 4.687
+      "dist_to_shop_km": 4.769
     },
     {
       "lng": 111.6615,
@@ -3734,7 +3734,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 4.919
+      "dist_to_shop_km": 5.057
     },
     {
       "lng": 111.6615,
@@ -3742,7 +3742,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 5.162
+      "dist_to_shop_km": 5.351
     },
     {
       "lng": 111.6645,
@@ -3750,7 +3750,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.28
+      "dist_to_shop_km": 2.936
     },
     {
       "lng": 111.6645,
@@ -3758,7 +3758,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.066
+      "dist_to_shop_km": 2.729
     },
     {
       "lng": 111.6645,
@@ -3766,7 +3766,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.87
+      "dist_to_shop_km": 2.549
     },
     {
       "lng": 111.6645,
@@ -3774,7 +3774,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.693
+      "dist_to_shop_km": 2.402
     },
     {
       "lng": 111.6645,
@@ -3782,7 +3782,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.539
+      "dist_to_shop_km": 2.295
     },
     {
       "lng": 111.6645,
@@ -3790,7 +3790,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.411
+      "dist_to_shop_km": 2.232
     },
     {
       "lng": 111.6645,
@@ -3798,7 +3798,7 @@
       "demand": 5.5,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.539
+      "dist_to_shop_km": 3.277
     },
     {
       "lng": 111.6645,
@@ -3806,7 +3806,7 @@
       "demand": 4.5,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.693
+      "dist_to_shop_km": 3.53
     },
     {
       "lng": 111.6645,
@@ -3814,7 +3814,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 4.747
+      "dist_to_shop_km": 4.94
     },
     {
       "lng": 111.6645,
@@ -3822,7 +3822,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.998
+      "dist_to_shop_km": 5.24
     },
     {
       "lng": 111.6675,
@@ -3830,7 +3830,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.096
+      "dist_to_shop_km": 2.752
     },
     {
       "lng": 111.6675,
@@ -3838,7 +3838,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.872
+      "dist_to_shop_km": 2.53
     },
     {
       "lng": 111.6675,
@@ -3846,7 +3846,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.666
+      "dist_to_shop_km": 2.335
     },
     {
       "lng": 111.6675,
@@ -3854,7 +3854,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.479
+      "dist_to_shop_km": 2.174
     },
     {
       "lng": 111.6675,
@@ -3862,7 +3862,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.315
+      "dist_to_shop_km": 2.054
     },
     {
       "lng": 111.6675,
@@ -3870,7 +3870,7 @@
       "demand": 7.7,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.314
+      "dist_to_shop_km": 3.113
     },
     {
       "lng": 111.6675,
@@ -3878,7 +3878,7 @@
       "demand": 6.1,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.478
+      "dist_to_shop_km": 3.379
     },
     {
       "lng": 111.6675,
@@ -3886,7 +3886,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 4.582
+      "dist_to_shop_km": 4.833
     },
     {
       "lng": 111.6675,
@@ -3894,7 +3894,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.842
+      "dist_to_shop_km": 5.14
     },
     {
       "lng": 111.6705,
@@ -3902,7 +3902,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.919
+      "dist_to_shop_km": 2.579
     },
     {
       "lng": 111.6705,
@@ -3910,7 +3910,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.685
+      "dist_to_shop_km": 2.341
     },
     {
       "lng": 111.6705,
@@ -3918,7 +3918,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.467
+      "dist_to_shop_km": 2.129
     },
     {
       "lng": 111.6705,
@@ -3926,7 +3926,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.269
+      "dist_to_shop_km": 1.95
     },
     {
       "lng": 111.6705,
@@ -3934,7 +3934,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.094
+      "dist_to_shop_km": 1.816
     },
     {
       "lng": 111.6705,
@@ -3942,7 +3942,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 4.425
+      "dist_to_shop_km": 4.737
     },
     {
       "lng": 111.6705,
@@ -3950,7 +3950,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.694
+      "dist_to_shop_km": 5.049
     },
     {
       "lng": 111.6735,
@@ -3958,7 +3958,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.751
+      "dist_to_shop_km": 2.42
     },
     {
       "lng": 111.6735,
@@ -3966,7 +3966,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.506
+      "dist_to_shop_km": 2.164
     },
     {
       "lng": 111.6735,
@@ -3974,7 +3974,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.276
+      "dist_to_shop_km": 1.933
     },
     {
       "lng": 111.6735,
@@ -3982,7 +3982,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.066
+      "dist_to_shop_km": 1.734
     },
     {
       "lng": 111.6735,
@@ -3990,7 +3990,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 4.277
+      "dist_to_shop_km": 4.652
     },
     {
       "lng": 111.6735,
@@ -3998,7 +3998,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.555
+      "dist_to_shop_km": 4.97
     },
     {
       "lng": 111.6765,
@@ -4006,7 +4006,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.593
+      "dist_to_shop_km": 2.277
     },
     {
       "lng": 111.6765,
@@ -4014,7 +4014,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.336
+      "dist_to_shop_km": 2.003
     },
     {
       "lng": 111.6765,
@@ -4022,7 +4022,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.093
+      "dist_to_shop_km": 1.75
     },
     {
       "lng": 111.6765,
@@ -4030,7 +4030,7 @@
       "demand": 24.6,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.262
+      "dist_to_shop_km": 1.865
     },
     {
       "lng": 111.6765,
@@ -4038,7 +4038,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.139
+      "dist_to_shop_km": 4.58
     },
     {
       "lng": 111.6765,
@@ -4046,7 +4046,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.425
+      "dist_to_shop_km": 4.902
     },
     {
       "lng": 111.6795,
@@ -4054,7 +4054,7 @@
       "demand": 31.8,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.019
+      "dist_to_shop_km": 1.713
     },
     {
       "lng": 111.6795,
@@ -4062,7 +4062,7 @@
       "demand": 32.2,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.127
+      "dist_to_shop_km": 1.997
     },
     {
       "lng": 111.6795,
@@ -4070,7 +4070,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.012
+      "dist_to_shop_km": 4.52
     },
     {
       "lng": 111.6795,
@@ -4078,7 +4078,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.306
+      "dist_to_shop_km": 4.846
     },
     {
       "lng": 111.6825,
@@ -4086,7 +4086,7 @@
       "demand": 39.15,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.778
+      "dist_to_shop_km": 1.585
     },
     {
       "lng": 111.6825,
@@ -4094,7 +4094,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.896
+      "dist_to_shop_km": 4.473
     },
     {
       "lng": 111.6825,
@@ -4102,7 +4102,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.198
+      "dist_to_shop_km": 4.802
     },
     {
       "lng": 111.6855,
@@ -4110,7 +4110,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.793
+      "dist_to_shop_km": 4.439
     },
     {
       "lng": 111.6855,
@@ -4118,7 +4118,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.103
+      "dist_to_shop_km": 4.771
     },
     {
       "lng": 111.6885,
@@ -4126,7 +4126,7 @@
       "demand": 41.3,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.219
+      "dist_to_shop_km": 0.777
     },
     {
       "lng": 111.6885,
@@ -4134,7 +4134,7 @@
       "demand": 51.6,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.219
+      "dist_to_shop_km": 1.101
     },
     {
       "lng": 111.6885,
@@ -4142,7 +4142,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.705
+      "dist_to_shop_km": 4.42
     },
     {
       "lng": 111.6885,
@@ -4150,7 +4150,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.022
+      "dist_to_shop_km": 4.753
     },
     {
       "lng": 111.6915,
@@ -4158,7 +4158,7 @@
       "demand": 49.45,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 0.972
+      "dist_to_shop_km": 0.746
     },
     {
       "lng": 111.6915,
@@ -4166,7 +4166,7 @@
       "demand": 56.5,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 0.972
+      "dist_to_shop_km": 1.079
     },
     {
       "lng": 111.6915,
@@ -4174,7 +4174,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.631
+      "dist_to_shop_km": 4.415
     },
     {
       "lng": 111.6915,
@@ -4182,7 +4182,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.954
+      "dist_to_shop_km": 4.748
     },
     {
       "lng": 111.6945,
@@ -4190,7 +4190,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.901
+      "dist_to_shop_km": 4.756
     },
     {
       "lng": 111.6975,
@@ -4198,7 +4198,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 3.863
+      "dist_to_shop_km": 4.778
     },
     {
       "lng": 111.7005,
@@ -4206,7 +4206,7 @@
       "demand": 63.55,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 0.542
+      "dist_to_shop_km": 0.882
     },
     {
       "lng": 111.7005,
@@ -4214,7 +4214,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 3.842
+      "dist_to_shop_km": 4.812
     },
     {
       "lng": 111.7035,
@@ -4222,7 +4222,7 @@
       "demand": 32.55,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.168
+      "dist_to_shop_km": 1.061
     },
     {
       "lng": 111.7035,
@@ -4230,7 +4230,7 @@
       "demand": 63.15,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 0.502
+      "dist_to_shop_km": 1.109
     },
     {
       "lng": 111.7035,
@@ -4238,7 +4238,7 @@
       "demand": 73.55,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 0.502
+      "dist_to_shop_km": 1.748
     },
     {
       "lng": 111.7035,
@@ -4246,7 +4246,7 @@
       "demand": 66.85,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 0.835
+      "dist_to_shop_km": 2.027
     },
     {
       "lng": 111.7035,
@@ -4254,7 +4254,7 @@
       "demand": 43.15,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.502
+      "dist_to_shop_km": 2.623
     },
     {
       "lng": 111.7035,
@@ -4262,7 +4262,7 @@
       "demand": 33.05,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.835
+      "dist_to_shop_km": 2.933
     },
     {
       "lng": 111.7035,
@@ -4270,7 +4270,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 3.836
+      "dist_to_shop_km": 4.858
     },
     {
       "lng": 111.7065,
@@ -4278,7 +4278,7 @@
       "demand": 29.35,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.203
+      "dist_to_shop_km": 1.304
     },
     {
       "lng": 111.7065,
@@ -4286,7 +4286,7 @@
       "demand": 71.9,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 0.579
+      "dist_to_shop_km": 1.905
     },
     {
       "lng": 111.7065,
@@ -4294,7 +4294,7 @@
       "demand": 65.35,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 0.883
+      "dist_to_shop_km": 2.164
     },
     {
       "lng": 111.7065,
@@ -4302,7 +4302,7 @@
       "demand": 44.35,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.529
+      "dist_to_shop_km": 2.731
     },
     {
       "lng": 111.7065,
@@ -4310,7 +4310,7 @@
       "demand": 33.7,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.858
+      "dist_to_shop_km": 3.03
     },
     {
       "lng": 111.7095,
@@ -4318,7 +4318,7 @@
       "demand": 40.5,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 0.994
+      "dist_to_shop_km": 1.531
     },
     {
       "lng": 111.7095,
@@ -4326,7 +4326,7 @@
       "demand": 52.05,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 0.737
+      "dist_to_shop_km": 1.583
     },
     {
       "lng": 111.7095,
@@ -4334,7 +4334,7 @@
       "demand": 62.3,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 0.737
+      "dist_to_shop_km": 2.081
     },
     {
       "lng": 111.7095,
@@ -4342,7 +4342,7 @@
       "demand": 39.9,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.596
+      "dist_to_shop_km": 2.856
     },
     {
       "lng": 111.7095,
@@ -4350,7 +4350,7 @@
       "demand": 34.9,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.913
+      "dist_to_shop_km": 3.143
     },
     {
       "lng": 111.7125,
@@ -4358,7 +4358,7 @@
       "demand": 32.7,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.149
+      "dist_to_shop_km": 1.78
     },
     {
       "lng": 111.7125,
@@ -4366,7 +4366,7 @@
       "demand": 46.9,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 0.936
+      "dist_to_shop_km": 1.826
     },
     {
       "lng": 111.7125,
@@ -4374,7 +4374,7 @@
       "demand": 53.05,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.149
+      "dist_to_shop_km": 2.492
     },
     {
       "lng": 111.7125,
@@ -4382,7 +4382,7 @@
       "demand": 47.2,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.41
+      "dist_to_shop_km": 2.736
     },
     {
       "lng": 111.7125,
@@ -4390,7 +4390,7 @@
       "demand": 37.2,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.697
+      "dist_to_shop_km": 2.998
     },
     {
       "lng": 111.7125,
@@ -4398,7 +4398,7 @@
       "demand": 31.95,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.998
+      "dist_to_shop_km": 3.272
     },
     {
       "lng": 111.7125,
@@ -4406,7 +4406,7 @@
       "demand": 22.25,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.308
+      "dist_to_shop_km": 3.557
     },
     {
       "lng": 111.7125,
@@ -4414,7 +4414,7 @@
       "demand": 7.25,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.944
+      "dist_to_shop_km": 4.148
     },
     {
       "lng": 111.7155,
@@ -4422,7 +4422,7 @@
       "demand": 43.25,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.155
+      "dist_to_shop_km": 2.472
     },
     {
       "lng": 111.7155,
@@ -4430,7 +4430,7 @@
       "demand": 41.5,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.333
+      "dist_to_shop_km": 2.676
     },
     {
       "lng": 111.7155,
@@ -4438,7 +4438,7 @@
       "demand": 39.7,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.564
+      "dist_to_shop_km": 2.905
     },
     {
       "lng": 111.7155,
@@ -4446,7 +4446,7 @@
       "demand": 34.9,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.826
+      "dist_to_shop_km": 3.152
     },
     {
       "lng": 111.7155,
@@ -4454,7 +4454,7 @@
       "demand": 28.85,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.109
+      "dist_to_shop_km": 3.414
     },
     {
       "lng": 111.7155,
@@ -4462,7 +4462,7 @@
       "demand": 19.35,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.405
+      "dist_to_shop_km": 3.688
     },
     {
       "lng": 111.7155,
@@ -4470,7 +4470,7 @@
       "demand": 11.1,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.71
+      "dist_to_shop_km": 3.971
     },
     {
       "lng": 111.7155,
@@ -4478,7 +4478,7 @@
       "demand": 6.85,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.02
+      "dist_to_shop_km": 4.261
     },
     {
       "lng": 111.7185,
@@ -4486,7 +4486,7 @@
       "demand": 33.55,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.536
+      "dist_to_shop_km": 2.87
     },
     {
       "lng": 111.7185,
@@ -4494,7 +4494,7 @@
       "demand": 32.6,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.74
+      "dist_to_shop_km": 3.084
     },
     {
       "lng": 111.7185,
@@ -4502,7 +4502,7 @@
       "demand": 28.05,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.979
+      "dist_to_shop_km": 3.318
     },
     {
       "lng": 111.7185,
@@ -4510,7 +4510,7 @@
       "demand": 22.9,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.243
+      "dist_to_shop_km": 3.568
     },
     {
       "lng": 111.7185,
@@ -4518,7 +4518,7 @@
       "demand": 7.05,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.115
+      "dist_to_shop_km": 4.385
     },
     {
       "lng": 111.7215,
@@ -4526,7 +4526,7 @@
       "demand": 23.6,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 1.932
+      "dist_to_shop_km": 3.273
     },
     {
       "lng": 111.7215,
@@ -4534,7 +4534,7 @@
       "demand": 21.5,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.15
+      "dist_to_shop_km": 3.494
     },
     {
       "lng": 111.7245,
@@ -4542,7 +4542,7 @@
       "demand": 16.3,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.137
+      "dist_to_shop_km": 3.47
     },
     {
       "lng": 111.7245,
@@ -4550,7 +4550,7 @@
       "demand": 15.95,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.336
+      "dist_to_shop_km": 3.679
     },
     {
       "lng": 111.7275,
@@ -4558,7 +4558,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.493
+      "dist_to_shop_km": 3.587
     },
     {
       "lng": 111.7275,
@@ -4566,7 +4566,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.228
+      "dist_to_shop_km": 3.42
     },
     {
       "lng": 111.7275,
@@ -4574,7 +4574,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.977
+      "dist_to_shop_km": 3.278
     },
     {
       "lng": 111.7305,
@@ -4582,7 +4582,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.645
+      "dist_to_shop_km": 3.8
     },
     {
       "lng": 111.7305,
@@ -4590,7 +4590,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.391
+      "dist_to_shop_km": 3.643
     },
     {
       "lng": 111.7305,
@@ -4598,7 +4598,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.153
+      "dist_to_shop_km": 3.51
     },
     {
       "lng": 111.7305,
@@ -4606,7 +4606,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.934
+      "dist_to_shop_km": 3.405
     },
     {
       "lng": 111.7305,
@@ -4614,7 +4614,7 @@
       "demand": 6.5,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.391
+      "dist_to_shop_km": 4.732
     },
     {
       "lng": 111.7305,
@@ -4622,7 +4622,7 @@
       "demand": 5.3,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.644
+      "dist_to_shop_km": 4.978
     },
     {
       "lng": 111.7335,
@@ -4630,7 +4630,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.806
+      "dist_to_shop_km": 4.018
     },
     {
       "lng": 111.7335,
@@ -4638,7 +4638,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.565
+      "dist_to_shop_km": 3.869
     },
     {
       "lng": 111.7335,
@@ -4646,7 +4646,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.339
+      "dist_to_shop_km": 3.744
     },
     {
       "lng": 111.7335,
@@ -4654,7 +4654,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.133
+      "dist_to_shop_km": 3.646
     },
     {
       "lng": 111.7335,
@@ -4662,7 +4662,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.95
+      "dist_to_shop_km": 3.576
     },
     {
       "lng": 111.7335,
@@ -4670,7 +4670,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 2.795
+      "dist_to_shop_km": 3.536
     },
     {
       "lng": 111.7335,
@@ -4678,7 +4678,7 @@
       "demand": 5.1,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.564
+      "dist_to_shop_km": 4.908
     },
     {
       "lng": 111.7335,
@@ -4686,7 +4686,7 @@
       "demand": 4.9,
       "supply": 1.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.806
+      "dist_to_shop_km": 5.146
     },
     {
       "lng": 111.7365,
@@ -4694,7 +4694,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.977
+      "dist_to_shop_km": 4.239
     },
     {
       "lng": 111.7365,
@@ -4702,7 +4702,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.747
+      "dist_to_shop_km": 4.098
     },
     {
       "lng": 111.7365,
@@ -4710,7 +4710,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.533
+      "dist_to_shop_km": 3.981
     },
     {
       "lng": 111.7365,
@@ -4718,7 +4718,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.338
+      "dist_to_shop_km": 3.888
     },
     {
       "lng": 111.7365,
@@ -4726,7 +4726,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.167
+      "dist_to_shop_km": 3.823
     },
     {
       "lng": 111.7365,
@@ -4734,7 +4734,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.023
+      "dist_to_shop_km": 3.786
     },
     {
       "lng": 111.7365,
@@ -4742,7 +4742,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 2.911
+      "dist_to_shop_km": 3.778
     },
     {
       "lng": 111.7395,
@@ -4750,7 +4750,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.156
+      "dist_to_shop_km": 4.463
     },
     {
       "lng": 111.7395,
@@ -4758,7 +4758,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.936
+      "dist_to_shop_km": 4.33
     },
     {
       "lng": 111.7395,
@@ -4766,7 +4766,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.733
+      "dist_to_shop_km": 4.218
     },
     {
       "lng": 111.7395,
@@ -4774,7 +4774,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.55
+      "dist_to_shop_km": 4.131
     },
     {
       "lng": 111.7395,
@@ -4782,7 +4782,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.389
+      "dist_to_shop_km": 4.07
     },
     {
       "lng": 111.7395,
@@ -4790,7 +4790,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.255
+      "dist_to_shop_km": 4.035
     },
     {
       "lng": 111.7395,
@@ -4798,7 +4798,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.151
+      "dist_to_shop_km": 4.027
     },
     {
       "lng": 111.7395,
@@ -4806,7 +4806,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.079
+      "dist_to_shop_km": 4.047
     },
     {
       "lng": 111.7425,
@@ -4814,7 +4814,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.342
+      "dist_to_shop_km": 4.69
     },
     {
       "lng": 111.7425,
@@ -4822,7 +4822,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.132
+      "dist_to_shop_km": 4.563
     },
     {
       "lng": 111.7425,
@@ -4830,7 +4830,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.939
+      "dist_to_shop_km": 4.457
     },
     {
       "lng": 111.7425,
@@ -4838,7 +4838,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.766
+      "dist_to_shop_km": 4.375
     },
     {
       "lng": 111.7425,
@@ -4846,7 +4846,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.615
+      "dist_to_shop_km": 4.317
     },
     {
       "lng": 111.7425,
@@ -4854,7 +4854,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.49
+      "dist_to_shop_km": 4.284
     },
     {
       "lng": 111.7425,
@@ -4862,7 +4862,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.392
+      "dist_to_shop_km": 4.277
     },
     {
       "lng": 111.7425,
@@ -4870,7 +4870,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.326
+      "dist_to_shop_km": 4.296
     },
     {
       "lng": 111.7425,
@@ -4878,7 +4878,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.292
+      "dist_to_shop_km": 4.341
     },
     {
       "lng": 111.7425,
@@ -4886,7 +4886,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 3.292
+      "dist_to_shop_km": 4.41
     },
     {
       "lng": 111.7425,
@@ -4894,7 +4894,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 3.326
+      "dist_to_shop_km": 4.503
     },
     {
       "lng": 111.7425,
@@ -4902,7 +4902,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 3.392
+      "dist_to_shop_km": 4.619
     },
     {
       "lng": 111.7455,
@@ -4910,7 +4910,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.535
+      "dist_to_shop_km": 4.918
     },
     {
       "lng": 111.7455,
@@ -4918,7 +4918,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.334
+      "dist_to_shop_km": 4.798
     },
     {
       "lng": 111.7455,
@@ -4926,7 +4926,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.15
+      "dist_to_shop_km": 4.698
     },
     {
       "lng": 111.7455,
@@ -4934,7 +4934,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.986
+      "dist_to_shop_km": 4.62
     },
     {
       "lng": 111.7455,
@@ -4942,7 +4942,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.844
+      "dist_to_shop_km": 4.565
     },
     {
       "lng": 111.7455,
@@ -4950,7 +4950,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.726
+      "dist_to_shop_km": 4.533
     },
     {
       "lng": 111.7455,
@@ -4958,7 +4958,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.635
+      "dist_to_shop_km": 4.527
     },
     {
       "lng": 111.7455,
@@ -4966,7 +4966,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.573
+      "dist_to_shop_km": 4.545
     },
     {
       "lng": 111.7455,
@@ -4974,7 +4974,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.542
+      "dist_to_shop_km": 4.587
     },
     {
       "lng": 111.7455,
@@ -4982,7 +4982,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.542
+      "dist_to_shop_km": 4.653
     },
     {
       "lng": 111.7455,
@@ -4990,7 +4990,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.573
+      "dist_to_shop_km": 4.741
     },
     {
       "lng": 111.7455,
@@ -4998,7 +4998,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 3.635
+      "dist_to_shop_km": 4.851
     },
     {
       "lng": 111.7485,
@@ -5006,7 +5006,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.732
+      "dist_to_shop_km": 5.149
     },
     {
       "lng": 111.7485,
@@ -5014,7 +5014,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.54
+      "dist_to_shop_km": 5.034
     },
     {
       "lng": 111.7485,
@@ -5022,7 +5022,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.365
+      "dist_to_shop_km": 4.939
     },
     {
       "lng": 111.7485,
@@ -5030,7 +5030,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.209
+      "dist_to_shop_km": 4.865
     },
     {
       "lng": 111.7485,
@@ -5038,7 +5038,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.075
+      "dist_to_shop_km": 4.812
     },
     {
       "lng": 111.7485,
@@ -5046,7 +5046,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.964
+      "dist_to_shop_km": 4.783
     },
     {
       "lng": 111.7485,
@@ -5054,7 +5054,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.879
+      "dist_to_shop_km": 4.777
     },
     {
       "lng": 111.7485,
@@ -5062,7 +5062,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.821
+      "dist_to_shop_km": 4.793
     },
     {
       "lng": 111.7485,
@@ -5070,7 +5070,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.791
+      "dist_to_shop_km": 4.833
     },
     {
       "lng": 111.7485,
@@ -5078,7 +5078,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.791
+      "dist_to_shop_km": 4.896
     },
     {
       "lng": 111.7485,
@@ -5086,7 +5086,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.82
+      "dist_to_shop_km": 4.98
     },
     {
       "lng": 111.7485,
@@ -5094,7 +5094,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 3.878
+      "dist_to_shop_km": 5.084
     },
     {
       "lng": 111.7485,
@@ -5102,7 +5102,7 @@
       "demand": 0.0,
       "supply": 0.15,
       "gap": 0.0,
-      "dist_to_shop_km": 3.963
+      "dist_to_shop_km": 5.208
     },
     {
       "lng": 111.7515,
@@ -5110,7 +5110,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.934
+      "dist_to_shop_km": 5.382
     },
     {
       "lng": 111.7515,
@@ -5118,7 +5118,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.75
+      "dist_to_shop_km": 5.272
     },
     {
       "lng": 111.7515,
@@ -5126,7 +5126,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.583
+      "dist_to_shop_km": 5.181
     },
     {
       "lng": 111.7515,
@@ -5134,7 +5134,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.435
+      "dist_to_shop_km": 5.11
     },
     {
       "lng": 111.7515,
@@ -5142,7 +5142,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.308
+      "dist_to_shop_km": 5.06
     },
     {
       "lng": 111.7515,
@@ -5150,7 +5150,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.203
+      "dist_to_shop_km": 5.032
     },
     {
       "lng": 111.7515,
@@ -5158,7 +5158,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.123
+      "dist_to_shop_km": 5.026
     },
     {
       "lng": 111.7515,
@@ -5166,7 +5166,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.068
+      "dist_to_shop_km": 5.042
     },
     {
       "lng": 111.7515,
@@ -5174,7 +5174,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.041
+      "dist_to_shop_km": 5.08
     },
     {
       "lng": 111.7515,
@@ -5182,7 +5182,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.041
+      "dist_to_shop_km": 5.14
     },
     {
       "lng": 111.7515,
@@ -5190,7 +5190,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.068
+      "dist_to_shop_km": 5.22
     },
     {
       "lng": 111.7515,
@@ -5198,7 +5198,7 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.122
+      "dist_to_shop_km": 5.32
     },
     {
       "lng": 111.7515,
@@ -5206,11 +5206,11 @@
       "demand": 0.0,
       "supply": 0.0,
       "gap": 0.0,
-      "dist_to_shop_km": 4.203
+      "dist_to_shop_km": 5.438
     }
   ],
-  "shop_gap_avg": 31.71,
-  "shop_demand_avg": 77.04,
+  "shop_gap_avg": 17.57,
+  "shop_demand_avg": 31.64,
   "top_gaps": [
     {
       "lng": 111.7005,
@@ -5218,7 +5218,7 @@
       "demand": 81.0,
       "supply": 0.4,
       "gap": 48.6,
-      "dist_to_shop_km": 0.267
+      "dist_to_shop_km": 1.331
     },
     {
       "lng": 111.6975,
@@ -5226,7 +5226,7 @@
       "demand": 74.4,
       "supply": 0.4,
       "gap": 44.64,
-      "dist_to_shop_km": 0.487
+      "dist_to_shop_km": 1.202
     },
     {
       "lng": 111.7065,
@@ -5234,7 +5234,7 @@
       "demand": 73.95,
       "supply": 0.4,
       "gap": 44.37,
-      "dist_to_shop_km": 0.336
+      "dist_to_shop_km": 1.48
     },
     {
       "lng": 111.6975,
@@ -5242,7 +5242,7 @@
       "demand": 72.65,
       "supply": 0.4,
       "gap": 43.59,
-      "dist_to_shop_km": 0.678
+      "dist_to_shop_km": 1.508
     },
     {
       "lng": 111.6945,
@@ -5250,7 +5250,7 @@
       "demand": 68.1,
       "supply": 0.4,
       "gap": 40.86,
-      "dist_to_shop_km": 0.867
+      "dist_to_shop_km": 1.44
     },
     {
       "lng": 111.6915,
@@ -5258,7 +5258,7 @@
       "demand": 45.6,
       "supply": 0.15,
       "gap": 38.76,
-      "dist_to_shop_km": 1.51
+      "dist_to_shop_km": 2.08
     },
     {
       "lng": 111.6975,
@@ -5266,7 +5266,7 @@
       "demand": 63.05,
       "supply": 0.4,
       "gap": 37.83,
-      "dist_to_shop_km": 0.951
+      "dist_to_shop_km": 1.824
     },
     {
       "lng": 111.6945,
@@ -5274,7 +5274,7 @@
       "demand": 59.95,
       "supply": 0.4,
       "gap": 35.97,
-      "dist_to_shop_km": 1.094
+      "dist_to_shop_km": 1.768
     },
     {
       "lng": 111.6915,
@@ -5282,7 +5282,7 @@
       "demand": 59.9,
       "supply": 0.4,
       "gap": 35.94,
-      "dist_to_shop_km": 1.08
+      "dist_to_shop_km": 1.413
     },
     {
       "lng": 111.7125,
@@ -5290,7 +5290,7 @@
       "demand": 56.1,
       "supply": 0.4,
       "gap": 33.66,
-      "dist_to_shop_km": 0.808
+      "dist_to_shop_km": 2.08
     }
   ]
 }

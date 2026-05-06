@@ -67,7 +67,7 @@ var colorMap = {
   '云快充':'#264653','其他':'#8d99ae'
 };
 var brands = ['蒙电e充','星星充电','蒙来电','蒙马(高速)','咔咔电姆','驴充充','云快充','其他'];
-var shop = [41.5270, 111.7030];
+var shop = [41.51879906, 111.69113591];
 
 var map = L.map('map').setView([41.53, 111.70], 13);
 L.tileLayer('https://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}', {

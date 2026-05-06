@@ -18,7 +18,7 @@ plt.rcParams['font.sans-serif'] = ['Microsoft YaHei', 'SimHei']
 plt.rcParams['axes.unicode_minus'] = False
 
 OUT = "D:/bl/.claude/projects/C--Users-bl/memory/charging_station_project/"
-SHOP_LON, SHOP_LAT = 111.7030, 41.5270
+SHOP_LON, SHOP_LAT = 111.69113591, 41.51879906
 
 with open(OUT + "stations_data.json", encoding="utf-8") as f:
     stations = json.load(f)

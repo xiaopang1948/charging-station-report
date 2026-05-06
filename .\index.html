@@ -342,8 +342,8 @@ canvas{max-height:200px}
 
 <div class="hd">
   <h1>四子王旗充电桩投资决策报告</h1>
-  <div class="sub">商铺位置：脑木更路7号 &nbsp;|&nbsp; 基于POI场景匹配 + 需求缺口网格 + 成本优化模型</div>
-  <div class="st">综合评分 71/100</div>
+  <div class="sub">商铺位置：高油房路（充电桩规划位） &nbsp;|&nbsp; 基于POI场景匹配 + 需求缺口网格 + 成本优化模型</div>
+  <div class="st">综合评分 57/100</div>
   <a class="btn-sm" href="模拟器.html" target="_blank">独立模拟器</a>
   <button class="dm" onclick="toggleDark()" id="dmBtn">暗色</button>
 </div>
@@ -352,8 +352,8 @@ canvas{max-height:200px}
   <div class="c"><div class="n">32</div><div class="l">充电站总数</div></div>
   <div class="c"><div class="n">1</div><div class="l">500m内对手</div></div>
   <div class="c"><div class="n">651</div><div class="l">分析网格(300m)</div></div>
-  <div class="c"><div class="n" style="color:var(--success)">55.5%</div><div class="l">1km小区覆盖率</div></div>
-  <div class="c"><div class="n" style="color:var(--accent)">71</div><div class="l">v2综合评分</div></div>
+  <div class="c"><div class="n" style="color:var(--success)">54.9%</div><div class="l">1km小区覆盖率</div></div>
+  <div class="c"><div class="n" style="color:var(--accent)">57</div><div class="l">v2综合评分</div></div>
   <div class="c"><div class="n" style="font-size:22px;color:var(--accent)">住区过夜</div><div class="l">最佳充电场景</div></div>
 </div>
 
@@ -374,37 +374,31 @@ canvas{max-height:200px}
 <section class="sc">
   <h2>v2 优化分析结论</h2>
   <div class="met">
-    <div class="m"><div class="mv">71</div><div class="ml">综合评分 (旧版51)</div></div>
+    <div class="m"><div class="mv">57.1</div><div class="ml">综合评分 (旧版51)</div></div>
     <div class="m"><div class="mv">25</div><div class="ml">场景匹配度</div></div>
-    <div class="m"><div class="mv">16.3</div><div class="ml">需求缺口</div></div>
-    <div class="m"><div class="mv">14.7</div><div class="ml">成本效益</div></div>
+    <div class="m"><div class="mv">9.0</div><div class="ml">需求缺口</div></div>
+    <div class="m"><div class="mv">8.1</div><div class="ml">成本效益</div></div>
     <div class="m"><div class="mv">15</div><div class="ml">增长潜力</div></div>
-    <div class="m"><div class="mv" style="color:var(--success)">+20</div><div class="ml">较旧版提升</div></div>
+    <div class="m"><div class="mv" style="color:var(--success)">+6</div><div class="ml">较旧版提升</div></div>
   </div>
   <div class="flow">
     <div class="s"><div class="num">1</div><h4>POI 场景匹配</h4><p>基于周边设施类型，判断商铺最适合"住区过夜充电"(95%)和"商圈日间充电"(70%)</p></div>
     <div class="s"><div class="num">2</div><h4>需求缺口分析</h4><p>300m网格化计算人口+POI需求 vs 已有站供给，商铺周边平均缺口31.7分</p></div>
-    <div class="s"><div class="num">3</div><h4>成本优化模型</h4><p>Min(安装成本46,469元 + 用户到达成本2,599元)，1km覆盖91个小区(55.5%)</p></div>
+    <div class="s"><div class="num">3</div><h4>成本优化模型</h4><p>Min(安装成本47,543元 + 用户到达成本1,825元)，1km覆盖19个小区(54.9%)</p></div>
   </div>
 </section>
 
 <section class="ban">
-  <h3>关键发现：评分提升20分，从"谨慎"升级到"中等偏上"</h3>
+  <h3>关键发现：评分提升6分，从"谨慎"升级到"中等偏上"</h3>
   <p>旧版20.4/40（勉强及格）的原因是仅用了4个粗糙维度。优化版引入更细粒度的网格分析(300m)、POI类型匹配、成本优化模型后，商铺优势被更准确地量化出来——<strong>周边小区密集(164个小区中147个在2km内)、竞争相对宽松、最适合住区过夜充电场景。</strong></p>
-  <span class="big">71</span>
+  <span class="big">57</span>
   <p style="font-size:13px">综合评分 /100 &nbsp;|&nbsp; 仍需电话确认关键数据后再做最终决策</p>
 </section>
 
 <section class="sc">
   <h2>距商铺最近的充电站</h2>
   <div class="tw">
-    <table><tr><th>#</th><th>品牌</th><th>站名</th><th>距离</th><th>评分</th><th>充电场景</th></tr><tr><td>1</td><td><span class="tag" style="background:#7209b7">蒙来电</span></td><td>蒙来电超级充电站(维也纳3好酒店)</td><td>0.49km</td><td>3.2</td><td>酒店旅游</td></tr>
-<tr><td>2</td><td><span class="tag" style="background:var(--accent)">蒙电e充</span></td><td>蒙电e充汽车充电站(蒙电浩翔贵宾酒店站)</td><td>0.61km</td><td>2.9</td><td>酒店旅游</td></tr>
-<tr><td>3</td><td><span class="tag" style="background:#8d99ae">其他</span></td><td>汽车充电站(四子王旗人民政府院内停车场站)</td><td>0.74km</td><td>-</td><td>办公通勤</td></tr>
-<tr><td>4</td><td><span class="tag" style="background:var(--accent)">蒙电e充</span></td><td>蒙电e充汽车充电站(蒙电乌兰花公园站)</td><td>0.93km</td><td>2.4</td><td>公共服务</td></tr>
-<tr><td>5</td><td><span class="tag" style="background:#8d99ae">其他</span></td><td>乌兰花公园停车场汽车充电站</td><td>0.93km</td><td>-</td><td>公共服务</td></tr>
-<tr><td>6</td><td><span class="tag" style="background:var(--accent)">蒙电e充</span></td><td>蒙电e充汽车充电站(蒙电文化路就业市场站)</td><td>1.13km</td><td>2.9</td><td>办公通勤</td></tr>
-</table>
+    <table><tr><th>#</th><th>品牌</th><th>站名</th><th>距离</th><th>评分</th><th>充电场景</th></tr><tr><td>1</td><td><span class="tag" style="background:var(--accent)">蒙电e充</span></td><td>蒙电e充汽车充电站(蒙电文化路就业市场站)</td><td>0.85km</td><td>2.9</td><td>办公通勤</td></tr><tr><td>2</td><td><span class="tag" style="background:#7209b7">蒙来电</span></td><td>蒙来电超级充电站(维也纳3好酒店)</td><td>0.96km</td><td>3.2</td><td>酒店旅游</td></tr><tr><td>3</td><td><span class="tag" style="background:var(--accent)">蒙电e充</span></td><td>蒙电e充汽车充电站(蒙电滨河公园站)</td><td>1.14km</td><td>2.4</td><td>公共服务</td></tr><tr><td>4</td><td><span class="tag" style="background:#8d99ae">其他</span></td><td>乌兰花公园停车场汽车充电站</td><td>1.7km</td><td>-</td><td>公共服务</td></tr><tr><td>5</td><td><span class="tag" style="background:var(--accent)">蒙电e充</span></td><td>蒙电e充汽车充电站(蒙电乌兰花公园站)</td><td>1.71km</td><td>2.4</td><td>公共服务</td></tr><tr><td>6</td><td><span class="tag" style="background:var(--accent)">蒙电e充</span></td><td>汽车充电站(四子王供电分公司门口停车场站)</td><td>1.78km</td><td>-</td><td>办公通勤</td></tr></table>
   </div>
 </section>
 
@@ -431,7 +425,7 @@ canvas{max-height:200px}
   <div style="text-align:center"><img src="depth_demand_gap.png" alt="" style="width:100%;max-width:800px;border-radius:var(--radius-xs);cursor:pointer" onclick="window.open('depth_demand_gap.png')"></div>
   <div class="ins" style="margin-top:16px">
     <div class="i" style="border-color:var(--danger)"><h4>Top 缺口位置</h4><p>(111.7005, 41.5285) 缺口48.6 — 就在商铺西南侧200m，目前无站覆盖</p></div>
-    <div class="i" style="border-color:var(--success)"><h4>商铺周边</h4><p>500m内8个网格平均缺口31.7，需求77.0供给仅0.59，高需求低供给区域</p></div>
+    <div class="i" style="border-color:var(--success)"><h4>商铺周边</h4><p>500m内8个网格平均缺口17.6，需求77.0供给仅0.59，高需求低供给区域</p></div>
     <div class="i" style="border-color:var(--accent)"><h4>分析方法</h4><p>借鉴evcs-geospatial-ml网格化思路+evchargestation-optimizer需求缺口算法</p></div>
   </div>
 </section>
@@ -439,13 +433,7 @@ canvas{max-height:200px}
   <h2>成本优化：候选位置对比</h2>
   <div style="text-align:center"><img src="depth_candidate_scores.png" alt="" style="width:100%;max-width:680px;border-radius:var(--radius-xs);cursor:pointer" onclick="window.open('depth_candidate_scores.png')"></div>
   <div class="tw" style="margin-top:16px">
-    <table><tr><th>排名</th><th>位置</th><th>总成本</th><th>1km内小区</th><th>覆盖率</th><th>综合分</th></tr>
-<tr><td><span class="tag" style="background:var(--danger)">商铺</span></td><td>脑木更路7号</td><td>49,069元</td><td>91</td><td>55.5%</td><td>58.8</td></tr>
-<tr><td>1</td><td>商铺东北 1.8km（缺口热区）</td><td>49,758元</td><td>93</td><td>56.7%</td><td>59.3</td></tr>
-<tr><td>2</td><td>脑木更路北 1.8km</td><td>50,066元</td><td>82</td><td>50.0%</td><td>55.2</td></tr>
-<tr><td>3</td><td>脑木更路东北 1.6km</td><td>48,965元</td><td>79</td><td>48.2%</td><td>54.4</td></tr>
-<tr><td>4</td><td>脑木更路北 2.1km</td><td>50,295元</td><td>81</td><td>49.4%</td><td>54.7</td></tr>
-</table>
+    <table><tr><th>排名</th><th>位置</th><th>总成本</th><th>1km内小区</th><th>覆盖率</th><th>综合分</th></tr><tr><td><span class="tag" style="background:var(--danger)">商铺</span></td><td>高油房路（充电桩规划位）</td><td>49,368元</td><td>19</td><td>11.6%</td><td>32.3</td></tr><tr><td>1</td><td>商铺东北 1.8km（缺口热区）</td><td>49,758元</td><td>93</td><td>56.7%</td><td>59.3</td></tr><tr><td>2</td><td>文化路北 1.8km</td><td>50,066元</td><td>82</td><td>50.0%</td><td>55.2</td></tr><tr><td>3</td><td>滨河公园东 1.6km</td><td>48,965元</td><td>79</td><td>48.2%</td><td>54.4</td></tr><tr><td>4</td><td>文化路北 2.1km</td><td>50,295元</td><td>81</td><td>49.4%</td><td>54.7</td></tr></table>
   </div>
 </section>
 <section class="sc">
@@ -470,7 +458,7 @@ canvas{max-height:200px}
 <section class="sc">
   <h2>综合建议</h2>
   <div class="fd">
-    <div class="fc g"><h3>优势</h3><p>周边小区密集(500m内10个)、竞争宽松(1km内3个)、最适合住区/商圈场景、Top缺口在商铺旁</p></div>
+    <div class="fc g"><h3>优势</h3><p>周边小区密集(500m内10个)、竞争宽松(1km内1个)、最适合住区/商圈场景、Top缺口在商铺旁</p></div>
     <div class="fc b"><h3>待确认</h3><p>电车保有量（车管所电话）、供电容量（供电公司）、补贴资格（发改委 0474-8321656）</p></div>
     <div class="fc a"><h3>预测</h3><p>内蒙古电车翻倍增长，2026年预估107万辆。按比例四子王旗约9000辆，2027年充电枪缺口将出现</p></div>
     <div class="fc r"><h3>风险</h3><p>蒙电e充垄断53%市场、补贴2500KW门槛待确认、单台桩覆盖率有限</p></div>
@@ -614,7 +602,7 @@ canvas{max-height:200px}
 <script>
 /* ===== 数据 ===== */
 var colorMap = {'蒙电e充':'#059669','星星充电':'#dc2626','蒙来电':'#7209b7','蒙马(高速)':'#d97706','咔咔电姆':'#16a34a','驴充充':'#ca8a04','云快充':'#1c1917','其他':'#8d99ae'};
-var stations = [{"name":"星星充电汽车充电站(四子王旗德正弘加油充电站)","address":"乌兰花镇晟泰新村北京能源德正弘加油充电站","lng":111.70588,"lat":41.5438,"brand":"星星充电","distance":1.88,"rating":"3.8"},{"name":"蒙马超级充电站(格根塔拉服务区快充电站)","address":"查干补力格苏木G209国道(K295+500)公里处","lng":111.84766,"lat":41.794273,"brand":"蒙马(高速)","distance":32.06,"rating":"3.1"},{"name":"蒙来电超级充电站(维也纳3好酒店)","address":"新华街69号(原旧政府大楼)","lng":111.701331,"lat":41.522776,"brand":"蒙来电","distance":0.49,"rating":"3.2"},{"name":"蒙马超级汽车充电站(四子王旗艾勒格庙服务区快充电站)","address":"江岸苏木G331巴江线(K6316 900)公里处","lng":111.290219,"lat":43.143129,"brand":"蒙马(高速)","distance":182.88,"rating":"3.1"},{"name":"蒙电e充汽车充电站(蒙电文化路就业市场站)","address":"乌兰花镇文化路就业市场停车场","lng":111.68945,"lat":41.526318,"brand":"蒙电e充","distance":1.13,"rating":"2.9"},{"name":"蒙电e充汽车充电站(蒙电浩翔贵宾酒店站)","address":"乌兰花镇浩翔贵宾酒店停车场","lng":111.70761,"lat":41.53131,"brand":"蒙电e充","distance":0.61,"rating":"2.9"},{"name":"蒙电e充汽车充电站(蒙电美食街站)","address":"乌兰花镇四子王旗美食街管理咨询有限公司","lng":111.713036,"lat":41.54544,"brand":"蒙电e充","distance":2.21,"rating":"2.9"},{"name":"蒙马超级充电站(四子王旗国道331江岸服务区快充电站)","address":"江岸苏木331国道","lng":110.75669,"lat":42.903873,"brand":"蒙马(高速)","distance":171.79,"rating":"3.1"},{"name":"蒙电e充汽车充电站(蒙电四子王旗供电公司站)","address":"乌兰花镇文化路168号","lng":111.6791,"lat":41.53261,"brand":"蒙电e充","distance":2.08,"rating":"2.4"},{"name":"蒙电e充汽车充电站(蒙电滨河公园站)","address":"乌兰花镇和平路","lng":111.70445,"lat":41.516228,"brand":"蒙电e充","distance":1.2,"rating":"2.4"},{"name":"蒙电e充汽车充电站(蒙电电子商务中心站)","address":"乌兰花镇电子商务中心停车场","lng":111.71597,"lat":41.53391,"brand":"蒙电e充","distance":1.33,"rating":"1.0"},{"name":"蒙电e充汽车充电站(蒙电乌兰花公园站)","address":"乌兰花镇乌兰花公园停车场汽车充电站","lng":111.71134,"lat":41.52147,"brand":"蒙电e充","distance":0.93,"rating":"2.4"},{"name":"蒙电e充汽车充电站(蒙电四子王旗博物馆站)","address":"乌兰花镇四子王旗博物馆","lng":111.7006,"lat":41.49658,"brand":"蒙电e充","distance":3.39,"rating":"2.9"},{"name":"蒙电e充汽车充电站(蒙电人民医院站)","address":"乌兰花镇四子王旗人民医院停车场","lng":111.713974,"lat":41.536545,"brand":"蒙电e充","distance":1.4,"rating":"2.9"},{"name":"蒙电e充汽车充电站(蒙电晟泰新村小区站)","address":"乌兰花镇德广骨科医院晟泰新村","lng":111.70442,"lat":41.541576,"brand":"蒙电e充","distance":1.63,"rating":"0.0"},{"name":"蒙电e充汽车充电站(蒙电泰和花园站)","address":"乌兰花镇泰和花园停车场","lng":111.71571,"lat":41.54278,"brand":"蒙电e充","distance":2.05,"rating":"2.9"},{"name":"蒙电e充汽车充电站(蒙电乌镇味道饭店站)","address":"乌兰花镇乌镇味道饭店门前停车场","lng":111.72251,"lat":41.53836,"brand":"蒙电e充","distance":2.06,"rating":"2.9"},{"name":"蒙电e充汽车充电站(蒙电民生小区站)","address":"乌兰花镇民生住宅小区(南门)","lng":111.73171,"lat":41.54919,"brand":"蒙电e充","distance":3.43,"rating":"0.0"},{"name":"云快充(互联接入汽车充电站新通四子王旗汽车)","address":"乌兰花镇西外环路国通物流园路东停车场内","lng":111.665436,"lat":41.54238,"brand":"云快充","distance":3.56,"rating":"0.0"},{"name":"汽车充电站蒙马","address":"209国道","lng":112.064322,"lat":42.024066,"brand":"蒙马(高速)","distance":62.87,"rating":"3.1"},{"name":"四子王供电分公司自营汽车充电站(四子王旗博物馆停车场充电站)","address":"四子王旗博物馆停车场","lng":111.700542,"lat":41.496753,"brand":"蒙电e充","distance":3.37,"rating":"-"},{"name":"四子王供电分公司自营充电桩(民生小区停车场)","address":"民生小区停车场","lng":111.731879,"lat":41.550807,"brand":"蒙电e充","distance":3.58,"rating":"-"},{"name":"汽车充电站(四子王供电分公司门口停车场站)","address":"四子王供电分公司门口西停车场","lng":111.679659,"lat":41.532267,"brand":"蒙电e充","distance":2.03,"rating":"-"},{"name":"汽车充电站(四子王旗人民政府院内停车场站)","address":"四子王旗人民政府院内停车场","lng":111.705866,"lat":41.53329,"brand":"其他","distance":0.74,"rating":"-"},{"name":"驴充充汽车充电站(王府假日酒店)","address":"德广医院东北侧约150米碧生源宴会城","lng":111.710335,"lat":41.54288,"brand":"驴充充","distance":1.87,"rating":"2.4"},{"name":"乌兰花公园停车场汽车充电站","address":"乌兰花公园停车场充电站","lng":111.711294,"lat":41.521437,"brand":"其他","distance":0.93,"rating":"-"},{"name":"汽车充电站(咔咔电姆充电站库伦图镇人民政府)","address":"库伦图镇人民政府院内","lng":111.993631,"lat":41.613497,"brand":"咔咔电姆","distance":26.02,"rating":"-"},{"name":"咔咔电姆充电站","address":"和平路29-31号","lng":111.715449,"lat":41.551094,"brand":"咔咔电姆","distance":2.87,"rating":"-"},{"name":"咔咔电姆汽车充电站(碧生源小区)","address":"和平路29-31号","lng":111.712148,"lat":41.540312,"brand":"咔咔电姆","distance":1.66,"rating":"-"},{"name":"汽车充电站(蒙马充电乌兰察布市209国道格根塔拉服务区站)","address":"209国道","lng":111.845825,"lat":41.791586,"brand":"蒙马(高速)","distance":31.72,"rating":"-"},{"name":"咔咔电姆汽车充电站(政务中心站)","address":"四子王旗税务局办税服务厅南侧","lng":111.717571,"lat":41.539731,"brand":"咔咔电姆","distance":1.86,"rating":"-"},{"name":"蒙电e充充电站(蒙电民生小区站)","address":"四子王输变电管理处东北侧250米","lng":111.731931,"lat":41.550875,"brand":"蒙电e充","distance":3.58,"rating":"-"}];
+var stations = [{"name": "星星充电汽车充电站(四子王旗德正弘加油充电站)", "address": "乌兰花镇晟泰新村北京能源德正弘加油充电站", "lng": 111.70588, "lat": 41.5438, "brand": "星星充电", "distance": 3.04, "rating": "3.8"},{"name": "蒙马超级充电站(格根塔拉服务区快充电站)", "address": "查干补力格苏木G209国道(K295+500)公里处", "lng": 111.84766, "lat": 41.794273, "brand": "蒙马(高速)", "distance": 33.28, "rating": "3.1"},{"name": "蒙来电超级充电站(维也纳3好酒店)", "address": "新华街69号(原旧政府大楼)", "lng": 111.701331, "lat": 41.522776, "brand": "蒙来电", "distance": 0.96, "rating": "3.2"},{"name": "蒙马超级汽车充电站(四子王旗艾勒格庙服务区快充电站)", "address": "江岸苏木G331巴江线(K6316 900)公里处", "lng": 111.290219, "lat": 43.143129, "brand": "蒙马(高速)", "distance": 183.6, "rating": "3.1"},{"name": "蒙电e充汽车充电站(蒙电文化路就业市场站)", "address": "乌兰花镇文化路就业市场停车场", "lng": 111.68945, "lat": 41.526318, "brand": "蒙电e充", "distance": 0.85, "rating": "2.9"},{"name": "蒙电e充汽车充电站(蒙电浩翔贵宾酒店站)", "address": "乌兰花镇浩翔贵宾酒店停车场", "lng": 111.70761, "lat": 41.53131, "brand": "蒙电e充", "distance": 1.95, "rating": "2.9"},{"name": "蒙电e充汽车充电站(蒙电美食街站)", "address": "乌兰花镇四子王旗美食街管理咨询有限公司", "lng": 111.713036, "lat": 41.54544, "brand": "蒙电e充", "distance": 3.48, "rating": "2.9"},{"name": "蒙马超级充电站(四子王旗国道331江岸服务区快充电站)", "address": "江岸苏木331国道", "lng": 110.75669, "lat": 42.903873, "brand": "蒙马(高速)", "distance": 172.17, "rating": "3.1"},{"name": "蒙电e充汽车充电站(蒙电四子王旗供电公司站)", "address": "乌兰花镇文化路168号", "lng": 111.6791, "lat": 41.53261, "brand": "蒙电e充", "distance": 1.83, "rating": "2.4"},{"name": "蒙电e充汽车充电站(蒙电滨河公园站)", "address": "乌兰花镇和平路", "lng": 111.70445, "lat": 41.516228, "brand": "蒙电e充", "distance": 1.14, "rating": "2.4"},{"name": "蒙电e充汽车充电站(蒙电电子商务中心站)", "address": "乌兰花镇电子商务中心停车场", "lng": 111.71597, "lat": 41.53391, "brand": "蒙电e充", "distance": 2.66, "rating": "1.0"},{"name": "蒙电e充汽车充电站(蒙电乌兰花公园站)", "address": "乌兰花镇乌兰花公园停车场汽车充电站", "lng": 111.71134, "lat": 41.52147, "brand": "蒙电e充", "distance": 1.71, "rating": "2.4"},{"name": "蒙电e充汽车充电站(蒙电四子王旗博物馆站)", "address": "乌兰花镇四子王旗博物馆", "lng": 111.7006, "lat": 41.49658, "brand": "蒙电e充", "distance": 2.59, "rating": "2.9"},{"name": "蒙电e充汽车充电站(蒙电人民医院站)", "address": "乌兰花镇四子王旗人民医院停车场", "lng": 111.713974, "lat": 41.536545, "brand": "蒙电e充", "distance": 2.74, "rating": "2.9"},{"name": "蒙电e充汽车充电站(蒙电晟泰新村小区站)", "address": "乌兰花镇德广骨科医院晟泰新村", "lng": 111.70442, "lat": 41.541576, "brand": "蒙电e充", "distance": 2.76, "rating": "0.0"},{"name": "蒙电e充汽车充电站(蒙电泰和花园站)", "address": "乌兰花镇泰和花园停车场", "lng": 111.71571, "lat": 41.54278, "brand": "蒙电e充", "distance": 3.36, "rating": "2.9"},{"name": "蒙电e充汽车充电站(蒙电乌镇味道饭店站)", "address": "乌兰花镇乌镇味道饭店门前停车场", "lng": 111.72251, "lat": 41.53836, "brand": "蒙电e充", "distance": 3.4, "rating": "2.9"},{"name": "蒙电e充汽车充电站(蒙电民生小区站)", "address": "乌兰花镇民生住宅小区(南门)", "lng": 111.73171, "lat": 41.54919, "brand": "蒙电e充", "distance": 4.78, "rating": "0.0"},{"name": "云快充(互联接入汽车充电站新通四子王旗汽车)", "address": "乌兰花镇西外环路国通物流园路东停车场内", "lng": 111.665436, "lat": 41.54238, "brand": "云快充", "distance": 3.38, "rating": "0.0"},{"name": "汽车充电站蒙马", "address": "209国道", "lng": 112.064322, "lat": 42.024066, "brand": "蒙马(高速)", "distance": 64.14, "rating": "3.1"},{"name": "四子王供电分公司自营汽车充电站(四子王旗博物馆停车场充电站)", "address": "四子王旗博物馆停车场", "lng": 111.700542, "lat": 41.496753, "brand": "蒙电e充", "distance": 2.57, "rating": "-"},{"name": "四子王供电分公司自营充电桩(民生小区停车场)", "address": "民生小区停车场", "lng": 111.731879, "lat": 41.550807, "brand": "蒙电e充", "distance": 4.92, "rating": "-"},{"name": "汽车充电站(四子王供电分公司门口停车场站)", "address": "四子王供电分公司门口西停车场", "lng": 111.679659, "lat": 41.532267, "brand": "蒙电e充", "distance": 1.78, "rating": "-"},{"name": "汽车充电站(四子王旗人民政府院内停车场站)", "address": "四子王旗人民政府院内停车场", "lng": 111.705866, "lat": 41.53329, "brand": "其他", "distance": 2.02, "rating": "-"},{"name": "驴充充汽车充电站(王府假日酒店)", "address": "德广医院东北侧约150米碧生源宴会城", "lng": 111.710335, "lat": 41.54288, "brand": "驴充充", "distance": 3.12, "rating": "2.4"},{"name": "乌兰花公园停车场汽车充电站", "address": "乌兰花公园停车场充电站", "lng": 111.711294, "lat": 41.521437, "brand": "其他", "distance": 1.7, "rating": "-"},{"name": "汽车充电站(咔咔电姆充电站库伦图镇人民政府)", "address": "库伦图镇人民政府院内", "lng": 111.993631, "lat": 41.613497, "brand": "咔咔电姆", "distance": 27.28, "rating": "-"},{"name": "咔咔电姆充电站", "address": "和平路29-31号", "lng": 111.715449, "lat": 41.551094, "brand": "咔咔电姆", "distance": 4.12, "rating": "-"},{"name": "咔咔电姆汽车充电站(碧生源小区)", "address": "和平路29-31号", "lng": 111.712148, "lat": 41.540312, "brand": "咔咔电姆", "distance": 2.96, "rating": "-"},{"name": "汽车充电站(蒙马充电乌兰察布市209国道格根塔拉服务区站)", "address": "209国道", "lng": 111.845825, "lat": 41.791586, "brand": "蒙马(高速)", "distance": 32.94, "rating": "-"},{"name": "咔咔电姆汽车充电站(政务中心站)", "address": "四子王旗税务局办税服务厅南侧", "lng": 111.717571, "lat": 41.539731, "brand": "咔咔电姆", "distance": 3.2, "rating": "-"},{"name": "蒙电e充充电站(蒙电民生小区站)", "address": "四子王输变电管理处东北侧250米", "lng": 111.731931, "lat": 41.550875, "brand": "蒙电e充", "distance": 4.92, "rating": "-"}];;
 
 /* ===== Table ===== */
 (function(){
@@ -659,8 +647,8 @@ if(localStorage.getItem('darkMode')==='1'){
 /* ===== Map ===== */
 var map = L.map('map').setView([41.53,111.70],13);
 L.tileLayer('https://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}',{attribution:'&copy; 高德地图',maxZoom:18}).addTo(map);
-L.marker([41.512269,111.694882],{icon:L.divIcon({html:'<div style="background:#dc2626;width:28px;height:28px;border-radius:50%;border:2px solid #fff;text-align:center;line-height:28px;font-size:14px;color:#fff;font-weight:700">S</div>',className:'',iconSize:[28,28],iconAnchor:[14,14]})}).addTo(map).bindTooltip('<b>脑木更路7号（商铺）</b>');
-[{r:500,c:'#dc2626'},{r:1000,c:'#d97706'},{r:3000,c:'#059669'}].forEach(function(d){L.circle([41.512269,111.694882],{radius:d.r,color:d.c,fill:false,weight:1.5,dashArray:'4,7',opacity:0.5}).addTo(map)});
+L.marker([41.51879906,111.69113591],{icon:L.divIcon({html:'<div style="background:#dc2626;width:28px;height:28px;border-radius:50%;border:2px solid #fff;text-align:center;line-height:28px;font-size:14px;color:#fff;font-weight:700">S</div>',className:'',iconSize:[28,28],iconAnchor:[14,14]})}).addTo(map).bindTooltip('<b>高油房路（充电桩规划位）</b>');
+[{r:500,c:'#dc2626'},{r:1000,c:'#d97706'},{r:3000,c:'#059669'}].forEach(function(d){L.circle([41.51879906,111.69113591],{radius:d.r,color:d.c,fill:false,weight:1.5,dashArray:'4,7',opacity:0.5}).addTo(map)});
 stations.forEach(function(s){var c=colorMap[s.brand]||'#8d99ae',sz=s.distance<1?24:s.distance<3?20:16;L.marker([s.lat,s.lng],{icon:L.divIcon({html:'<div style="background:'+c+';width:'+sz+'px;height:'+sz+'px;border-radius:50%;border:2px solid #fff;text-align:center;line-height:'+sz+'px;font-size:'+(sz*0.4)+'px;color:#fff">+</div>',className:'',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]})}).addTo(map).bindTooltip('<b>'+s.name+'</b><br><span style="color:'+c+'">'+s.brand+'</span> | '+s.distance.toFixed(2)+'km')});
 
 /* ===== Scene Chart ===== */

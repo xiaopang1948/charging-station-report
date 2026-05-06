@@ -10,7 +10,7 @@ DATA_PATH = "D:/bl/.claude/projects/C--Users-bl/memory/charging_station_project/
 OUT_DIR = "D:/bl/.claude/projects/C--Users-bl/memory/charging_station_project/"
 
 # 高油房路南侧商铺（估算坐标）
-SHOP_LON, SHOP_LAT = 111.7030, 41.5270
+SHOP_LON, SHOP_LAT = 111.69113591, 41.51879906
 
 # ========== 1. 读数据 + 去重 ==========
 rows = []
