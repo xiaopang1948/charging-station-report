@@ -58,6 +58,19 @@ for root, dirs, filenames in os.walk('.'):
 
 print(f'  {len(files)} files to upload')
 
+# Fetch base tree to find deleted files
+existing_tree = gh_api('GET', f'repos/{repo}/git/trees/{base_tree_sha}')
+existing_paths = set()
+deleted = []
+if existing_tree and 'tree' in existing_tree:
+    existing_paths = {e['path'] for e in existing_tree['tree']}
+    local_set = set(files)
+    deleted = sorted(existing_paths - local_set)
+    if deleted:
+        print(f'  {len(deleted)} files to delete:')
+        for d in deleted:
+            print(f'    DELETE: {d}')
+
 blobs = []
 for path in files:
     with open(path, 'rb') as fh:
@@ -83,6 +96,10 @@ for path in files:
     sha = data['sha']
     blobs.append({'path': path, 'mode': '100644', 'type': 'blob', 'sha': sha})
     print(f'  OK: {path}')
+
+# Add deleted files (null SHA = delete)
+for d in deleted:
+    blobs.append({'path': d, 'mode': '100644', 'type': 'blob', 'sha': None})
 
 # Step 4: Create tree
 print('Step 4: Creating tree...')
