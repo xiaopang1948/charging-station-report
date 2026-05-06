@@ -1,0 +1,21 @@
+{
+  "total_stations": 32,
+  "town_stations_5km": 26,
+  "blind_grids_500m": 205,
+  "rated_stations": 18,
+  "avg_rating": 2.8,
+  "rating_distance_correlation": 0.25,
+  "clusters": {
+    "cluster_1": 26,
+    "cluster_2": 2,
+    "cluster_3": 1
+  },
+  "shop_score": 20.4,
+  "competition_1km": 3,
+  "recommended_location": {
+    "lng": 111.703,
+    "lat": 41.527
+  },
+  "growth_forecast_2026": 107.2,
+  "growth_forecast_2030": 1715.2
+}

@@ -1,0 +1,22 @@
+{
+  "total_grids": 651,
+  "shop_gap_avg": 31.71,
+  "shop_score_v1": 20.4,
+  "shop_score_v2": 71.0,
+  "shop_score_v2_max": 100,
+  "dim_scene": 25,
+  "dim_gap": 16.3,
+  "dim_cost": 14.7,
+  "dim_growth": 15.0,
+  "best_scenario": "住区过夜充电",
+  "best_scenario_score": 0.95,
+  "top_gap_location": {
+    "lng": 111.7005,
+    "lat": 41.5285,
+    "gap": 48.6
+  },
+  "shop_install_cost": 46469,
+  "shop_user_cost": 2599,
+  "shop_total_cost": 49069,
+  "shop_coverage_1km": 91
+}

@@ -1,0 +1,79 @@
+{
+  "shop": {
+    "install_cost": 46469,
+    "user_cost": 2599,
+    "total_cost": 49069,
+    "total_users": 147,
+    "coverage_1km": 91,
+    "coverage_rate": 0.555,
+    "score": 58.8,
+    "min_station_dist_km": 0.49
+  },
+  "candidates": [
+    {
+      "install_cost": 46921,
+      "user_cost": 2837,
+      "total_cost": 49758,
+      "total_users": 150,
+      "coverage_1km": 93,
+      "coverage_rate": 0.567,
+      "score": 59.3,
+      "min_station_dist_km": 0.64,
+      "lng": 111.7005,
+      "lat": 41.5285,
+      "rank": 1
+    },
+    {
+      "install_cost": 47136,
+      "user_cost": 2930,
+      "total_cost": 50066,
+      "total_users": 151,
+      "coverage_1km": 82,
+      "coverage_rate": 0.5,
+      "score": 55.2,
+      "min_station_dist_km": 0.712,
+      "lng": 111.6975,
+      "lat": 41.5285,
+      "rank": 2
+    },
+    {
+      "install_cost": 46579,
+      "user_cost": 2387,
+      "total_cost": 48965,
+      "total_users": 134,
+      "coverage_1km": 79,
+      "coverage_rate": 0.482,
+      "score": 54.4,
+      "min_station_dist_km": 0.526,
+      "lng": 111.7065,
+      "lat": 41.5255,
+      "rank": 3
+    },
+    {
+      "install_cost": 47173,
+      "user_cost": 3122,
+      "total_cost": 50295,
+      "total_users": 155,
+      "coverage_1km": 81,
+      "coverage_rate": 0.494,
+      "score": 54.7,
+      "min_station_dist_km": 0.724,
+      "lng": 111.6975,
+      "lat": 41.5315,
+      "rank": 4
+    },
+    {
+      "install_cost": 47140,
+      "user_cost": 3078,
+      "total_cost": 50217,
+      "total_users": 153,
+      "coverage_1km": 75,
+      "coverage_rate": 0.457,
+      "score": 52.6,
+      "min_station_dist_km": 0.713,
+      "lng": 111.6945,
+      "lat": 41.5315,
+      "rank": 5
+    }
+  ]
+}

@@ -1,0 +1,5296 @@
+{
+  "grids": [
+    {
+      "lng": 111.7005,
+      "lat": 41.5285,
+      "demand": 81.0,
+      "supply": 0.4,
+      "gap": 48.6,
+      "dist_to_shop_km": 0.267
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5285,
+      "demand": 74.4,
+      "supply": 0.4,
+      "gap": 44.64,
+      "dist_to_shop_km": 0.487
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5255,
+      "demand": 73.95,
+      "supply": 0.4,
+      "gap": 44.37,
+      "dist_to_shop_km": 0.336
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5315,
+      "demand": 72.65,
+      "supply": 0.4,
+      "gap": 43.59,
+      "dist_to_shop_km": 0.678
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5315,
+      "demand": 68.1,
+      "supply": 0.4,
+      "gap": 40.86,
+      "dist_to_shop_km": 0.867
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5375,
+      "demand": 45.6,
+      "supply": 0.15,
+      "gap": 38.76,
+      "dist_to_shop_km": 1.51
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5345,
+      "demand": 63.05,
+      "supply": 0.4,
+      "gap": 37.83,
+      "dist_to_shop_km": 0.951
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5345,
+      "demand": 59.95,
+      "supply": 0.4,
+      "gap": 35.97,
+      "dist_to_shop_km": 1.094
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5315,
+      "demand": 59.9,
+      "supply": 0.4,
+      "gap": 35.94,
+      "dist_to_shop_km": 1.08
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5285,
+      "demand": 56.1,
+      "supply": 0.4,
+      "gap": 33.66,
+      "dist_to_shop_km": 0.808
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5345,
+      "demand": 55.55,
+      "supply": 0.4,
+      "gap": 33.33,
+      "dist_to_shop_km": 1.27
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5375,
+      "demand": 55.0,
+      "supply": 0.4,
+      "gap": 33.0,
+      "dist_to_shop_km": 1.186
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5345,
+      "demand": 53.65,
+      "supply": 0.4,
+      "gap": 32.19,
+      "dist_to_shop_km": 1.467
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5375,
+      "demand": 52.85,
+      "supply": 0.4,
+      "gap": 31.71,
+      "dist_to_shop_km": 1.254
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5375,
+      "demand": 51.75,
+      "supply": 0.4,
+      "gap": 31.05,
+      "dist_to_shop_km": 1.365
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5405,
+      "demand": 36.4,
+      "supply": 0.15,
+      "gap": 30.94,
+      "dist_to_shop_km": 1.78
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5315,
+      "demand": 51.45,
+      "supply": 0.4,
+      "gap": 30.87,
+      "dist_to_shop_km": 1.307
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5225,
+      "demand": 48.9,
+      "supply": 0.4,
+      "gap": 29.34,
+      "dist_to_shop_km": 0.867
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5405,
+      "demand": 33.2,
+      "supply": 0.15,
+      "gap": 28.22,
+      "dist_to_shop_km": 1.926
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5375,
+      "demand": 46.1,
+      "supply": 0.4,
+      "gap": 27.66,
+      "dist_to_shop_km": 1.679
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5285,
+      "demand": 46.1,
+      "supply": 0.4,
+      "gap": 27.66,
+      "dist_to_shop_km": 1.054
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5345,
+      "demand": 45.25,
+      "supply": 0.4,
+      "gap": 27.15,
+      "dist_to_shop_km": 1.679
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5255,
+      "demand": 43.4,
+      "supply": 0.4,
+      "gap": 26.04,
+      "dist_to_shop_km": 1.054
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5405,
+      "demand": 29.4,
+      "supply": 0.15,
+      "gap": 24.99,
+      "dist_to_shop_km": 2.092
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5285,
+      "demand": 82.6,
+      "supply": 0.7,
+      "gap": 24.78,
+      "dist_to_shop_km": 0.172
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5405,
+      "demand": 40.9,
+      "supply": 0.4,
+      "gap": 24.54,
+      "dist_to_shop_km": 1.569
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5255,
+      "demand": 79.95,
+      "supply": 0.7,
+      "gap": 23.99,
+      "dist_to_shop_km": 0.267
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5375,
+      "demand": 39.9,
+      "supply": 0.4,
+      "gap": 23.94,
+      "dist_to_shop_km": 1.867
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5285,
+      "demand": 78.65,
+      "supply": 0.7,
+      "gap": 23.6,
+      "dist_to_shop_km": 0.336
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5315,
+      "demand": 77.4,
+      "supply": 0.7,
+      "gap": 23.22,
+      "dist_to_shop_km": 0.542
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5405,
+      "demand": 38.55,
+      "supply": 0.4,
+      "gap": 23.13,
+      "dist_to_shop_km": 1.66
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5195,
+      "demand": 38.45,
+      "supply": 0.4,
+      "gap": 23.07,
+      "dist_to_shop_km": 1.094
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5255,
+      "demand": 76.3,
+      "supply": 0.7,
+      "gap": 22.89,
+      "dist_to_shop_km": 0.172
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5375,
+      "demand": 36.9,
+      "supply": 0.4,
+      "gap": 22.14,
+      "dist_to_shop_km": 2.068
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5255,
+      "demand": 69.45,
+      "supply": 0.7,
+      "gap": 20.84,
+      "dist_to_shop_km": 0.487
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5285,
+      "demand": 68.0,
+      "supply": 0.7,
+      "gap": 20.4,
+      "dist_to_shop_km": 0.566
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5285,
+      "demand": 67.05,
+      "supply": 0.7,
+      "gap": 20.12,
+      "dist_to_shop_km": 0.727
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5285,
+      "demand": 33.15,
+      "supply": 0.4,
+      "gap": 19.89,
+      "dist_to_shop_km": 1.301
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5195,
+      "demand": 33.1,
+      "supply": 0.4,
+      "gap": 19.86,
+      "dist_to_shop_km": 1.27
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5345,
+      "demand": 66.0,
+      "supply": 0.7,
+      "gap": 19.8,
+      "dist_to_shop_km": 0.86
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5435,
+      "demand": 22.6,
+      "supply": 0.15,
+      "gap": 19.21,
+      "dist_to_shop_km": 2.196
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5435,
+      "demand": 22.6,
+      "supply": 0.15,
+      "gap": 19.21,
+      "dist_to_shop_km": 2.069
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5435,
+      "demand": 22.4,
+      "supply": 0.15,
+      "gap": 19.04,
+      "dist_to_shop_km": 2.343
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5255,
+      "demand": 31.65,
+      "supply": 0.4,
+      "gap": 18.99,
+      "dist_to_shop_km": 1.301
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5255,
+      "demand": 63.25,
+      "supply": 0.7,
+      "gap": 18.98,
+      "dist_to_shop_km": 0.566
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5165,
+      "demand": 22.2,
+      "supply": 0.15,
+      "gap": 18.87,
+      "dist_to_shop_km": 1.51
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5375,
+      "demand": 31.1,
+      "supply": 0.4,
+      "gap": 18.66,
+      "dist_to_shop_km": 2.278
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5225,
+      "demand": 30.95,
+      "supply": 0.4,
+      "gap": 18.57,
+      "dist_to_shop_km": 1.54
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5435,
+      "demand": 30.3,
+      "supply": 0.4,
+      "gap": 18.18,
+      "dist_to_shop_km": 1.891
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5225,
+      "demand": 60.4,
+      "supply": 0.7,
+      "gap": 18.12,
+      "dist_to_shop_km": 0.579
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5345,
+      "demand": 60.05,
+      "supply": 0.7,
+      "gap": 18.02,
+      "dist_to_shop_km": 0.994
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5255,
+      "demand": 59.65,
+      "supply": 0.7,
+      "gap": 17.9,
+      "dist_to_shop_km": 0.727
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5165,
+      "demand": 29.1,
+      "supply": 0.4,
+      "gap": 17.46,
+      "dist_to_shop_km": 1.254
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5225,
+      "demand": 57.8,
+      "supply": 0.7,
+      "gap": 17.34,
+      "dist_to_shop_km": 0.678
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5195,
+      "demand": 28.15,
+      "supply": 0.4,
+      "gap": 16.89,
+      "dist_to_shop_km": 1.467
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5405,
+      "demand": 27.9,
+      "supply": 0.4,
+      "gap": 16.74,
+      "dist_to_shop_km": 2.273
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5435,
+      "demand": 27.9,
+      "supply": 0.4,
+      "gap": 16.74,
+      "dist_to_shop_km": 1.966
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5375,
+      "demand": 55.6,
+      "supply": 0.7,
+      "gap": 16.68,
+      "dist_to_shop_km": 1.168
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5165,
+      "demand": 27.5,
+      "supply": 0.4,
+      "gap": 16.5,
+      "dist_to_shop_km": 1.365
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5435,
+      "demand": 19.4,
+      "supply": 0.15,
+      "gap": 16.49,
+      "dist_to_shop_km": 2.506
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5375,
+      "demand": 54.4,
+      "supply": 0.7,
+      "gap": 16.32,
+      "dist_to_shop_km": 1.203
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5315,
+      "demand": 54.05,
+      "supply": 0.7,
+      "gap": 16.21,
+      "dist_to_shop_km": 0.936
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5315,
+      "demand": 26.6,
+      "supply": 0.4,
+      "gap": 15.96,
+      "dist_to_shop_km": 1.619
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5255,
+      "demand": 26.45,
+      "supply": 0.4,
+      "gap": 15.87,
+      "dist_to_shop_km": 1.715
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5375,
+      "demand": 51.55,
+      "supply": 0.7,
+      "gap": 15.47,
+      "dist_to_shop_km": 1.287
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5255,
+      "demand": 51.25,
+      "supply": 0.7,
+      "gap": 15.38,
+      "dist_to_shop_km": 0.808
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5225,
+      "demand": 25.3,
+      "supply": 0.4,
+      "gap": 15.18,
+      "dist_to_shop_km": 1.384
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5285,
+      "demand": 24.35,
+      "supply": 0.4,
+      "gap": 14.61,
+      "dist_to_shop_km": 1.549
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5375,
+      "demand": 24.1,
+      "supply": 0.4,
+      "gap": 14.46,
+      "dist_to_shop_km": 2.496
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5405,
+      "demand": 24.1,
+      "supply": 0.4,
+      "gap": 14.46,
+      "dist_to_shop_km": 2.466
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5165,
+      "demand": 16.8,
+      "supply": 0.15,
+      "gap": 14.28,
+      "dist_to_shop_km": 1.679
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5225,
+      "demand": 23.35,
+      "supply": 0.4,
+      "gap": 14.01,
+      "dist_to_shop_km": 1.778
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5315,
+      "demand": 46.6,
+      "supply": 0.7,
+      "gap": 13.98,
+      "dist_to_shop_km": 1.54
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5195,
+      "demand": 46.5,
+      "supply": 0.7,
+      "gap": 13.95,
+      "dist_to_shop_km": 0.835
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5225,
+      "demand": 45.85,
+      "supply": 0.7,
+      "gap": 13.76,
+      "dist_to_shop_km": 1.08
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5195,
+      "demand": 45.65,
+      "supply": 0.7,
+      "gap": 13.7,
+      "dist_to_shop_km": 0.883
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5195,
+      "demand": 44.5,
+      "supply": 0.7,
+      "gap": 13.35,
+      "dist_to_shop_km": 0.86
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5165,
+      "demand": 22.25,
+      "supply": 0.4,
+      "gap": 13.35,
+      "dist_to_shop_km": 1.41
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5405,
+      "demand": 43.9,
+      "supply": 0.7,
+      "gap": 13.17,
+      "dist_to_shop_km": 1.515
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5195,
+      "demand": 21.75,
+      "supply": 0.4,
+      "gap": 13.05,
+      "dist_to_shop_km": 1.679
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5255,
+      "demand": 15.2,
+      "supply": 0.15,
+      "gap": 12.92,
+      "dist_to_shop_km": 1.798
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5195,
+      "demand": 42.05,
+      "supply": 0.7,
+      "gap": 12.62,
+      "dist_to_shop_km": 0.951
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5465,
+      "demand": 14.8,
+      "supply": 0.15,
+      "gap": 12.58,
+      "dist_to_shop_km": 2.37
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5255,
+      "demand": 20.9,
+      "supply": 0.4,
+      "gap": 12.54,
+      "dist_to_shop_km": 1.549
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5255,
+      "demand": 20.85,
+      "supply": 0.4,
+      "gap": 12.51,
+      "dist_to_shop_km": 1.963
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5435,
+      "demand": 14.4,
+      "supply": 0.15,
+      "gap": 12.24,
+      "dist_to_shop_km": 2.682
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5345,
+      "demand": 40.8,
+      "supply": 0.7,
+      "gap": 12.24,
+      "dist_to_shop_km": 1.899
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5285,
+      "demand": 40.6,
+      "supply": 0.7,
+      "gap": 12.18,
+      "dist_to_shop_km": 1.466
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5135,
+      "demand": 20.05,
+      "supply": 0.4,
+      "gap": 12.03,
+      "dist_to_shop_km": 1.596
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5135,
+      "demand": 19.75,
+      "supply": 0.4,
+      "gap": 11.85,
+      "dist_to_shop_km": 1.569
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5135,
+      "demand": 13.8,
+      "supply": 0.15,
+      "gap": 11.73,
+      "dist_to_shop_km": 1.78
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5195,
+      "demand": 19.5,
+      "supply": 0.4,
+      "gap": 11.7,
+      "dist_to_shop_km": 1.536
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5465,
+      "demand": 19.45,
+      "supply": 0.4,
+      "gap": 11.67,
+      "dist_to_shop_km": 2.178
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5405,
+      "demand": 19.25,
+      "supply": 0.4,
+      "gap": 11.55,
+      "dist_to_shop_km": 2.668
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5165,
+      "demand": 19.05,
+      "supply": 0.4,
+      "gap": 11.43,
+      "dist_to_shop_km": 1.564
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5345,
+      "demand": 18.7,
+      "supply": 0.4,
+      "gap": 11.22,
+      "dist_to_shop_km": 2.593
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5465,
+      "demand": 18.3,
+      "supply": 0.4,
+      "gap": 10.98,
+      "dist_to_shop_km": 2.281
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5465,
+      "demand": 18.3,
+      "supply": 0.4,
+      "gap": 10.98,
+      "dist_to_shop_km": 2.216
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5135,
+      "demand": 12.8,
+      "supply": 0.15,
+      "gap": 10.88,
+      "dist_to_shop_km": 1.926
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5225,
+      "demand": 12.8,
+      "supply": 0.15,
+      "gap": 10.88,
+      "dist_to_shop_km": 1.858
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5315,
+      "demand": 17.9,
+      "supply": 0.4,
+      "gap": 10.74,
+      "dist_to_shop_km": 1.858
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5135,
+      "demand": 17.75,
+      "supply": 0.4,
+      "gap": 10.65,
+      "dist_to_shop_km": 1.66
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5315,
+      "demand": 35.1,
+      "supply": 0.7,
+      "gap": 10.53,
+      "dist_to_shop_km": 1.384
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5285,
+      "demand": 34.8,
+      "supply": 0.7,
+      "gap": 10.44,
+      "dist_to_shop_km": 1.715
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5165,
+      "demand": 12.2,
+      "supply": 0.15,
+      "gap": 10.37,
+      "dist_to_shop_km": 1.867
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5375,
+      "demand": 17.25,
+      "supply": 0.4,
+      "gap": 10.35,
+      "dist_to_shop_km": 2.719
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5465,
+      "demand": 12.0,
+      "supply": 0.15,
+      "gap": 10.2,
+      "dist_to_shop_km": 2.482
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5225,
+      "demand": 33.7,
+      "supply": 0.7,
+      "gap": 10.11,
+      "dist_to_shop_km": 1.307
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5165,
+      "demand": 33.65,
+      "supply": 0.7,
+      "gap": 10.1,
+      "dist_to_shop_km": 1.186
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5255,
+      "demand": 33.6,
+      "supply": 0.7,
+      "gap": 10.08,
+      "dist_to_shop_km": 1.466
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5225,
+      "demand": 33.4,
+      "supply": 0.7,
+      "gap": 10.02,
+      "dist_to_shop_km": 1.155
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5225,
+      "demand": 16.7,
+      "supply": 0.4,
+      "gap": 10.02,
+      "dist_to_shop_km": 1.619
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5285,
+      "demand": 16.55,
+      "supply": 0.4,
+      "gap": 9.93,
+      "dist_to_shop_km": 1.798
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5135,
+      "demand": 16.45,
+      "supply": 0.4,
+      "gap": 9.87,
+      "dist_to_shop_km": 1.697
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5285,
+      "demand": 11.6,
+      "supply": 0.15,
+      "gap": 9.86,
+      "dist_to_shop_km": 2.046
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5225,
+      "demand": 11.4,
+      "supply": 0.15,
+      "gap": 9.69,
+      "dist_to_shop_km": 2.262
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5225,
+      "demand": 16.15,
+      "supply": 0.4,
+      "gap": 9.69,
+      "dist_to_shop_km": 2.019
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5195,
+      "demand": 11.0,
+      "supply": 0.15,
+      "gap": 9.35,
+      "dist_to_shop_km": 2.127
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5465,
+      "demand": 10.8,
+      "supply": 0.15,
+      "gap": 9.18,
+      "dist_to_shop_km": 2.612
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5495,
+      "demand": 10.8,
+      "supply": 0.15,
+      "gap": 9.18,
+      "dist_to_shop_km": 2.6
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5165,
+      "demand": 10.6,
+      "supply": 0.15,
+      "gap": 9.01,
+      "dist_to_shop_km": 1.933
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5435,
+      "demand": 29.95,
+      "supply": 0.7,
+      "gap": 8.99,
+      "dist_to_shop_km": 1.846
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5165,
+      "demand": 14.9,
+      "supply": 0.4,
+      "gap": 8.94,
+      "dist_to_shop_km": 1.74
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5195,
+      "demand": 14.75,
+      "supply": 0.4,
+      "gap": 8.85,
+      "dist_to_shop_km": 1.899
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5105,
+      "demand": 10.4,
+      "supply": 0.15,
+      "gap": 8.84,
+      "dist_to_shop_km": 2.07
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5105,
+      "demand": 10.4,
+      "supply": 0.15,
+      "gap": 8.84,
+      "dist_to_shop_km": 1.966
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5255,
+      "demand": 14.7,
+      "supply": 0.4,
+      "gap": 8.82,
+      "dist_to_shop_km": 2.212
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5255,
+      "demand": 10.2,
+      "supply": 0.15,
+      "gap": 8.67,
+      "dist_to_shop_km": 2.046
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5495,
+      "demand": 14.1,
+      "supply": 0.4,
+      "gap": 8.46,
+      "dist_to_shop_km": 2.56
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5495,
+      "demand": 9.8,
+      "supply": 0.15,
+      "gap": 8.33,
+      "dist_to_shop_km": 2.679
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5285,
+      "demand": 27.35,
+      "supply": 0.7,
+      "gap": 8.21,
+      "dist_to_shop_km": 1.963
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5465,
+      "demand": 9.6,
+      "supply": 0.15,
+      "gap": 8.16,
+      "dist_to_shop_km": 2.759
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5195,
+      "demand": 9.6,
+      "supply": 0.15,
+      "gap": 8.16,
+      "dist_to_shop_km": 1.975
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5165,
+      "demand": 27.15,
+      "supply": 0.7,
+      "gap": 8.15,
+      "dist_to_shop_km": 1.287
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5495,
+      "demand": 13.35,
+      "supply": 0.4,
+      "gap": 8.01,
+      "dist_to_shop_km": 2.519
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5165,
+      "demand": 9.4,
+      "supply": 0.15,
+      "gap": 7.99,
+      "dist_to_shop_km": 2.068
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5195,
+      "demand": 13.3,
+      "supply": 0.4,
+      "gap": 7.98,
+      "dist_to_shop_km": 1.751
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5105,
+      "demand": 13.15,
+      "supply": 0.4,
+      "gap": 7.89,
+      "dist_to_shop_km": 1.846
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5195,
+      "demand": 26.15,
+      "supply": 0.7,
+      "gap": 7.85,
+      "dist_to_shop_km": 1.334
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5135,
+      "demand": 13.05,
+      "supply": 0.4,
+      "gap": 7.83,
+      "dist_to_shop_km": 1.827
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5105,
+      "demand": 12.95,
+      "supply": 0.4,
+      "gap": 7.77,
+      "dist_to_shop_km": 1.835
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5285,
+      "demand": 12.9,
+      "supply": 0.4,
+      "gap": 7.74,
+      "dist_to_shop_km": 2.461
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5345,
+      "demand": 25.6,
+      "supply": 0.7,
+      "gap": 7.68,
+      "dist_to_shop_km": 2.358
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5405,
+      "demand": 12.5,
+      "supply": 0.4,
+      "gap": 7.5,
+      "dist_to_shop_km": 2.878
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5495,
+      "demand": 8.8,
+      "supply": 0.15,
+      "gap": 7.48,
+      "dist_to_shop_km": 2.778
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5135,
+      "demand": 8.8,
+      "supply": 0.15,
+      "gap": 7.48,
+      "dist_to_shop_km": 1.98
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5495,
+      "demand": 12.4,
+      "supply": 0.4,
+      "gap": 7.44,
+      "dist_to_shop_km": 2.502
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5345,
+      "demand": 24.7,
+      "supply": 0.7,
+      "gap": 7.41,
+      "dist_to_shop_km": 1.751
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5315,
+      "demand": 12.3,
+      "supply": 0.4,
+      "gap": 7.38,
+      "dist_to_shop_km": 2.1
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5225,
+      "demand": 8.6,
+      "supply": 0.15,
+      "gap": 7.31,
+      "dist_to_shop_km": 2.1
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5105,
+      "demand": 12.15,
+      "supply": 0.4,
+      "gap": 7.29,
+      "dist_to_shop_km": 1.858
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5225,
+      "demand": 8.4,
+      "supply": 0.15,
+      "gap": 7.14,
+      "dist_to_shop_km": 2.506
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5345,
+      "demand": 11.85,
+      "supply": 0.4,
+      "gap": 7.11,
+      "dist_to_shop_km": 2.831
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5375,
+      "demand": 11.85,
+      "supply": 0.4,
+      "gap": 7.11,
+      "dist_to_shop_km": 2.946
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5105,
+      "demand": 11.75,
+      "supply": 0.4,
+      "gap": 7.05,
+      "dist_to_shop_km": 1.891
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5135,
+      "demand": 8.2,
+      "supply": 0.15,
+      "gap": 6.97,
+      "dist_to_shop_km": 2.092
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5135,
+      "demand": 22.8,
+      "supply": 0.7,
+      "gap": 6.84,
+      "dist_to_shop_km": 1.529
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5465,
+      "demand": 8.0,
+      "supply": 0.15,
+      "gap": 6.8,
+      "dist_to_shop_km": 2.92
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5315,
+      "demand": 11.3,
+      "supply": 0.4,
+      "gap": 6.78,
+      "dist_to_shop_km": 2.751
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5495,
+      "demand": 11.3,
+      "supply": 0.4,
+      "gap": 6.78,
+      "dist_to_shop_km": 2.511
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5345,
+      "demand": 11.3,
+      "supply": 0.4,
+      "gap": 6.78,
+      "dist_to_shop_km": 2.203
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5465,
+      "demand": 22.5,
+      "supply": 0.7,
+      "gap": 6.75,
+      "dist_to_shop_km": 2.235
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5075,
+      "demand": 7.8,
+      "supply": 0.15,
+      "gap": 6.63,
+      "dist_to_shop_km": 2.216
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5075,
+      "demand": 7.8,
+      "supply": 0.15,
+      "gap": 6.63,
+      "dist_to_shop_km": 2.178
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5465,
+      "demand": 11.0,
+      "supply": 0.4,
+      "gap": 6.6,
+      "dist_to_shop_km": 2.659
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5495,
+      "demand": 10.95,
+      "supply": 0.4,
+      "gap": 6.57,
+      "dist_to_shop_km": 2.543
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5105,
+      "demand": 10.95,
+      "supply": 0.4,
+      "gap": 6.57,
+      "dist_to_shop_km": 1.913
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5255,
+      "demand": 10.9,
+      "supply": 0.4,
+      "gap": 6.54,
+      "dist_to_shop_km": 2.461
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5465,
+      "demand": 21.6,
+      "supply": 0.7,
+      "gap": 6.48,
+      "dist_to_shop_km": 2.188
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5195,
+      "demand": 7.6,
+      "supply": 0.15,
+      "gap": 6.46,
+      "dist_to_shop_km": 2.358
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5465,
+      "demand": 7.6,
+      "supply": 0.15,
+      "gap": 6.46,
+      "dist_to_shop_km": 3.093
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5135,
+      "demand": 21.5,
+      "supply": 0.7,
+      "gap": 6.45,
+      "dist_to_shop_km": 1.502
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5435,
+      "demand": 10.75,
+      "supply": 0.4,
+      "gap": 6.45,
+      "dist_to_shop_km": 2.563
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5435,
+      "demand": 10.55,
+      "supply": 0.4,
+      "gap": 6.33,
+      "dist_to_shop_km": 2.869
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5135,
+      "demand": 21.1,
+      "supply": 0.7,
+      "gap": 6.33,
+      "dist_to_shop_km": 1.515
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5465,
+      "demand": 20.7,
+      "supply": 0.7,
+      "gap": 6.21,
+      "dist_to_shop_km": 2.169
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5495,
+      "demand": 7.2,
+      "supply": 0.15,
+      "gap": 6.12,
+      "dist_to_shop_km": 2.895
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5465,
+      "demand": 9.8,
+      "supply": 0.4,
+      "gap": 5.88,
+      "dist_to_shop_km": 2.811
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5345,
+      "demand": 19.55,
+      "supply": 0.7,
+      "gap": 5.87,
+      "dist_to_shop_km": 1.974
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5435,
+      "demand": 9.75,
+      "supply": 0.4,
+      "gap": 5.85,
+      "dist_to_shop_km": 3.065
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5255,
+      "demand": 6.8,
+      "supply": 0.15,
+      "gap": 5.78,
+      "dist_to_shop_km": 2.711
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5285,
+      "demand": 19.25,
+      "supply": 0.7,
+      "gap": 5.78,
+      "dist_to_shop_km": 2.212
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5105,
+      "demand": 6.8,
+      "supply": 0.15,
+      "gap": 5.78,
+      "dist_to_shop_km": 2.109
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5285,
+      "demand": 6.8,
+      "supply": 0.15,
+      "gap": 5.78,
+      "dist_to_shop_km": 2.295
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5285,
+      "demand": 9.5,
+      "supply": 0.4,
+      "gap": 5.7,
+      "dist_to_shop_km": 2.711
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5255,
+      "demand": 6.6,
+      "supply": 0.15,
+      "gap": 5.61,
+      "dist_to_shop_km": 2.295
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5315,
+      "demand": 6.6,
+      "supply": 0.15,
+      "gap": 5.61,
+      "dist_to_shop_km": 2.343
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5105,
+      "demand": 9.15,
+      "supply": 0.4,
+      "gap": 5.49,
+      "dist_to_shop_km": 1.998
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5495,
+      "demand": 9.1,
+      "supply": 0.4,
+      "gap": 5.46,
+      "dist_to_shop_km": 2.938
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5135,
+      "demand": 6.4,
+      "supply": 0.15,
+      "gap": 5.44,
+      "dist_to_shop_km": 2.273
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5075,
+      "demand": 6.4,
+      "supply": 0.15,
+      "gap": 5.44,
+      "dist_to_shop_km": 2.281
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5135,
+      "demand": 6.4,
+      "supply": 0.15,
+      "gap": 5.44,
+      "dist_to_shop_km": 2.151
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5375,
+      "demand": 8.95,
+      "supply": 0.4,
+      "gap": 5.37,
+      "dist_to_shop_km": 3.177
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5285,
+      "demand": 6.2,
+      "supply": 0.15,
+      "gap": 5.27,
+      "dist_to_shop_km": 2.96
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5165,
+      "demand": 6.2,
+      "supply": 0.15,
+      "gap": 5.27,
+      "dist_to_shop_km": 2.278
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5165,
+      "demand": 6.2,
+      "supply": 0.15,
+      "gap": 5.27,
+      "dist_to_shop_km": 2.137
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5345,
+      "demand": 8.7,
+      "supply": 0.4,
+      "gap": 5.22,
+      "dist_to_shop_km": 3.07
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5315,
+      "demand": 17.05,
+      "supply": 0.7,
+      "gap": 5.12,
+      "dist_to_shop_km": 2.506
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5495,
+      "demand": 6.0,
+      "supply": 0.15,
+      "gap": 5.1,
+      "dist_to_shop_km": 3.028
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5195,
+      "demand": 6.0,
+      "supply": 0.15,
+      "gap": 5.1,
+      "dist_to_shop_km": 2.204
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5435,
+      "demand": 16.95,
+      "supply": 0.7,
+      "gap": 5.09,
+      "dist_to_shop_km": 2.395
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5225,
+      "demand": 5.8,
+      "supply": 0.15,
+      "gap": 4.93,
+      "dist_to_shop_km": 2.751
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5495,
+      "demand": 5.8,
+      "supply": 0.15,
+      "gap": 4.93,
+      "dist_to_shop_km": 3.176
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5105,
+      "demand": 5.8,
+      "supply": 0.15,
+      "gap": 4.93,
+      "dist_to_shop_km": 2.196
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5525,
+      "demand": 5.8,
+      "supply": 0.15,
+      "gap": 4.93,
+      "dist_to_shop_km": 2.922
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5525,
+      "demand": 5.8,
+      "supply": 0.15,
+      "gap": 4.93,
+      "dist_to_shop_km": 2.843
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5075,
+      "demand": 5.8,
+      "supply": 0.15,
+      "gap": 4.93,
+      "dist_to_shop_km": 2.235
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5495,
+      "demand": 8.2,
+      "supply": 0.4,
+      "gap": 4.92,
+      "dist_to_shop_km": 3.076
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5075,
+      "demand": 7.95,
+      "supply": 0.4,
+      "gap": 4.77,
+      "dist_to_shop_km": 2.169
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5255,
+      "demand": 5.6,
+      "supply": 0.15,
+      "gap": 4.76,
+      "dist_to_shop_km": 2.96
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5195,
+      "demand": 5.6,
+      "supply": 0.15,
+      "gap": 4.76,
+      "dist_to_shop_km": 2.594
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5495,
+      "demand": 5.6,
+      "supply": 0.15,
+      "gap": 4.76,
+      "dist_to_shop_km": 3.335
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5465,
+      "demand": 15.55,
+      "supply": 0.7,
+      "gap": 4.67,
+      "dist_to_shop_km": 2.523
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5435,
+      "demand": 7.7,
+      "supply": 0.4,
+      "gap": 4.62,
+      "dist_to_shop_km": 2.743
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5525,
+      "demand": 5.4,
+      "supply": 0.15,
+      "gap": 4.59,
+      "dist_to_shop_km": 3.082
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5525,
+      "demand": 5.4,
+      "supply": 0.15,
+      "gap": 4.59,
+      "dist_to_shop_km": 2.872
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5105,
+      "demand": 5.4,
+      "supply": 0.15,
+      "gap": 4.59,
+      "dist_to_shop_km": 2.243
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5525,
+      "demand": 7.4,
+      "supply": 0.4,
+      "gap": 4.44,
+      "dist_to_shop_km": 3.227
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5165,
+      "demand": 5.2,
+      "supply": 0.15,
+      "gap": 4.42,
+      "dist_to_shop_km": 2.496
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5525,
+      "demand": 5.2,
+      "supply": 0.15,
+      "gap": 4.42,
+      "dist_to_shop_km": 2.993
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5075,
+      "demand": 5.2,
+      "supply": 0.15,
+      "gap": 4.42,
+      "dist_to_shop_km": 2.308
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5315,
+      "demand": 7.35,
+      "supply": 0.4,
+      "gap": 4.41,
+      "dist_to_shop_km": 2.997
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5075,
+      "demand": 7.35,
+      "supply": 0.4,
+      "gap": 4.41,
+      "dist_to_shop_km": 2.188
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5345,
+      "demand": 7.35,
+      "supply": 0.4,
+      "gap": 4.41,
+      "dist_to_shop_km": 2.436
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5525,
+      "demand": 7.1,
+      "supply": 0.4,
+      "gap": 4.26,
+      "dist_to_shop_km": 2.887
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5315,
+      "demand": 5.0,
+      "supply": 0.15,
+      "gap": 4.25,
+      "dist_to_shop_km": 3.244
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5525,
+      "demand": 5.0,
+      "supply": 0.15,
+      "gap": 4.25,
+      "dist_to_shop_km": 3.188
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5285,
+      "demand": 4.8,
+      "supply": 0.15,
+      "gap": 4.08,
+      "dist_to_shop_km": 3.209
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5495,
+      "demand": 4.8,
+      "supply": 0.15,
+      "gap": 4.08,
+      "dist_to_shop_km": 3.505
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5345,
+      "demand": 4.8,
+      "supply": 0.15,
+      "gap": 4.08,
+      "dist_to_shop_km": 2.672
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5465,
+      "demand": 6.75,
+      "supply": 0.4,
+      "gap": 4.05,
+      "dist_to_shop_km": 3.276
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5525,
+      "demand": 6.6,
+      "supply": 0.4,
+      "gap": 3.96,
+      "dist_to_shop_km": 3.353
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5375,
+      "demand": 6.55,
+      "supply": 0.4,
+      "gap": 3.93,
+      "dist_to_shop_km": 2.57
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5135,
+      "demand": 4.6,
+      "supply": 0.15,
+      "gap": 3.91,
+      "dist_to_shop_km": 2.466
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5525,
+      "demand": 4.6,
+      "supply": 0.15,
+      "gap": 3.91,
+      "dist_to_shop_km": 3.309
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5105,
+      "demand": 4.6,
+      "supply": 0.15,
+      "gap": 3.91,
+      "dist_to_shop_km": 2.343
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5075,
+      "demand": 4.6,
+      "supply": 0.15,
+      "gap": 3.91,
+      "dist_to_shop_km": 2.37
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5525,
+      "demand": 6.25,
+      "supply": 0.4,
+      "gap": 3.75,
+      "dist_to_shop_km": 2.85
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5225,
+      "demand": 4.4,
+      "supply": 0.15,
+      "gap": 3.74,
+      "dist_to_shop_km": 2.343
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5525,
+      "demand": 4.2,
+      "supply": 0.15,
+      "gap": 3.57,
+      "dist_to_shop_km": 3.445
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5525,
+      "demand": 5.95,
+      "supply": 0.4,
+      "gap": 3.57,
+      "dist_to_shop_km": 2.836
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5495,
+      "demand": 11.85,
+      "supply": 0.7,
+      "gap": 3.56,
+      "dist_to_shop_km": 2.624
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5375,
+      "demand": 11.65,
+      "supply": 0.7,
+      "gap": 3.5,
+      "dist_to_shop_km": 2.35
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5135,
+      "demand": 4.0,
+      "supply": 0.15,
+      "gap": 3.4,
+      "dist_to_shop_km": 2.336
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5165,
+      "demand": 4.0,
+      "supply": 0.15,
+      "gap": 3.4,
+      "dist_to_shop_km": 2.35
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5435,
+      "demand": 5.6,
+      "supply": 0.4,
+      "gap": 3.36,
+      "dist_to_shop_km": 2.934
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5375,
+      "demand": 5.55,
+      "supply": 0.4,
+      "gap": 3.33,
+      "dist_to_shop_km": 3.411
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5465,
+      "demand": 5.55,
+      "supply": 0.4,
+      "gap": 3.33,
+      "dist_to_shop_km": 3.467
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5405,
+      "demand": 5.5,
+      "supply": 0.4,
+      "gap": 3.3,
+      "dist_to_shop_km": 2.737
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5315,
+      "demand": 3.8,
+      "supply": 0.15,
+      "gap": 3.23,
+      "dist_to_shop_km": 3.491
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5285,
+      "demand": 3.8,
+      "supply": 0.15,
+      "gap": 3.23,
+      "dist_to_shop_km": 2.544
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5315,
+      "demand": 3.8,
+      "supply": 0.15,
+      "gap": 3.23,
+      "dist_to_shop_km": 2.588
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5345,
+      "demand": 5.35,
+      "supply": 0.4,
+      "gap": 3.21,
+      "dist_to_shop_km": 3.311
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5405,
+      "demand": 10.3,
+      "supply": 0.7,
+      "gap": 3.09,
+      "dist_to_shop_km": 3.094
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5255,
+      "demand": 3.6,
+      "supply": 0.15,
+      "gap": 3.06,
+      "dist_to_shop_km": 3.209
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5105,
+      "demand": 3.6,
+      "supply": 0.15,
+      "gap": 3.06,
+      "dist_to_shop_km": 2.506
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5075,
+      "demand": 3.6,
+      "supply": 0.15,
+      "gap": 3.06,
+      "dist_to_shop_km": 2.405
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5195,
+      "demand": 3.6,
+      "supply": 0.15,
+      "gap": 3.06,
+      "dist_to_shop_km": 2.437
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5555,
+      "demand": 4.95,
+      "supply": 0.4,
+      "gap": 2.97,
+      "dist_to_shop_km": 3.422
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5105,
+      "demand": 3.4,
+      "supply": 0.15,
+      "gap": 2.89,
+      "dist_to_shop_km": 2.396
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5045,
+      "demand": 4.7,
+      "supply": 0.4,
+      "gap": 2.82,
+      "dist_to_shop_km": 2.502
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5435,
+      "demand": 4.65,
+      "supply": 0.4,
+      "gap": 2.79,
+      "dist_to_shop_km": 3.132
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5495,
+      "demand": 9.2,
+      "supply": 0.7,
+      "gap": 2.76,
+      "dist_to_shop_km": 2.815
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5045,
+      "demand": 4.55,
+      "supply": 0.4,
+      "gap": 2.73,
+      "dist_to_shop_km": 2.519
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5375,
+      "demand": 4.55,
+      "supply": 0.4,
+      "gap": 2.73,
+      "dist_to_shop_km": 2.794
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5285,
+      "demand": 3.2,
+      "supply": 0.15,
+      "gap": 2.72,
+      "dist_to_shop_km": 3.459
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5195,
+      "demand": 3.2,
+      "supply": 0.15,
+      "gap": 2.72,
+      "dist_to_shop_km": 2.831
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5045,
+      "demand": 3.2,
+      "supply": 0.15,
+      "gap": 2.72,
+      "dist_to_shop_km": 2.56
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5405,
+      "demand": 4.5,
+      "supply": 0.4,
+      "gap": 2.7,
+      "dist_to_shop_km": 2.949
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5345,
+      "demand": 4.35,
+      "supply": 0.4,
+      "gap": 2.61,
+      "dist_to_shop_km": 3.554
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5555,
+      "demand": 4.35,
+      "supply": 0.4,
+      "gap": 2.61,
+      "dist_to_shop_km": 3.523
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5405,
+      "demand": 8.65,
+      "supply": 0.7,
+      "gap": 2.6,
+      "dist_to_shop_km": 2.532
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5045,
+      "demand": 4.3,
+      "supply": 0.4,
+      "gap": 2.58,
+      "dist_to_shop_km": 2.511
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5225,
+      "demand": 3.0,
+      "supply": 0.15,
+      "gap": 2.55,
+      "dist_to_shop_km": 2.997
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5555,
+      "demand": 3.0,
+      "supply": 0.15,
+      "gap": 2.55,
+      "dist_to_shop_km": 3.176
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5555,
+      "demand": 3.0,
+      "supply": 0.15,
+      "gap": 2.55,
+      "dist_to_shop_km": 3.169
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5045,
+      "demand": 3.0,
+      "supply": 0.15,
+      "gap": 2.55,
+      "dist_to_shop_km": 2.624
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5405,
+      "demand": 3.0,
+      "supply": 0.15,
+      "gap": 2.55,
+      "dist_to_shop_km": 3.167
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5555,
+      "demand": 4.2,
+      "supply": 0.4,
+      "gap": 2.52,
+      "dist_to_shop_km": 3.639
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5375,
+      "demand": 4.15,
+      "supply": 0.4,
+      "gap": 2.49,
+      "dist_to_shop_km": 3.646
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5555,
+      "demand": 4.15,
+      "supply": 0.4,
+      "gap": 2.49,
+      "dist_to_shop_km": 3.215
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5555,
+      "demand": 4.15,
+      "supply": 0.4,
+      "gap": 2.49,
+      "dist_to_shop_km": 3.266
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5435,
+      "demand": 8.1,
+      "supply": 0.7,
+      "gap": 2.43,
+      "dist_to_shop_km": 3.269
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5555,
+      "demand": 4.05,
+      "supply": 0.4,
+      "gap": 2.43,
+      "dist_to_shop_km": 3.768
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5075,
+      "demand": 2.8,
+      "supply": 0.15,
+      "gap": 2.38,
+      "dist_to_shop_km": 2.523
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5375,
+      "demand": 2.8,
+      "supply": 0.15,
+      "gap": 2.38,
+      "dist_to_shop_km": 3.023
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5435,
+      "demand": 3.85,
+      "supply": 0.4,
+      "gap": 2.31,
+      "dist_to_shop_km": 3.338
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5465,
+      "demand": 7.55,
+      "supply": 0.7,
+      "gap": 2.27,
+      "dist_to_shop_km": 2.977
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5165,
+      "demand": 2.6,
+      "supply": 0.15,
+      "gap": 2.21,
+      "dist_to_shop_km": 2.719
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5525,
+      "demand": 2.6,
+      "supply": 0.15,
+      "gap": 2.21,
+      "dist_to_shop_km": 3.592
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5075,
+      "demand": 2.6,
+      "supply": 0.15,
+      "gap": 2.21,
+      "dist_to_shop_km": 2.482
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5495,
+      "demand": 7.3,
+      "supply": 0.7,
+      "gap": 2.19,
+      "dist_to_shop_km": 3.228
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5555,
+      "demand": 3.65,
+      "supply": 0.4,
+      "gap": 2.19,
+      "dist_to_shop_km": 3.909
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5555,
+      "demand": 3.65,
+      "supply": 0.4,
+      "gap": 2.19,
+      "dist_to_shop_km": 4.06
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5585,
+      "demand": 2.4,
+      "supply": 0.15,
+      "gap": 2.04,
+      "dist_to_shop_km": 3.515
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5255,
+      "demand": 2.4,
+      "supply": 0.15,
+      "gap": 2.04,
+      "dist_to_shop_km": 2.544
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5495,
+      "demand": 3.35,
+      "supply": 0.4,
+      "gap": 2.01,
+      "dist_to_shop_km": 3.685
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5555,
+      "demand": 3.35,
+      "supply": 0.4,
+      "gap": 2.01,
+      "dist_to_shop_km": 3.182
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5045,
+      "demand": 3.3,
+      "supply": 0.4,
+      "gap": 1.98,
+      "dist_to_shop_km": 2.543
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5525,
+      "demand": 6.55,
+      "supply": 0.7,
+      "gap": 1.97,
+      "dist_to_shop_km": 3.493
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5465,
+      "demand": 6.35,
+      "supply": 0.7,
+      "gap": 1.91,
+      "dist_to_shop_km": 3.153
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5585,
+      "demand": 3.15,
+      "supply": 0.4,
+      "gap": 1.89,
+      "dist_to_shop_km": 3.591
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5255,
+      "demand": 2.2,
+      "supply": 0.15,
+      "gap": 1.87,
+      "dist_to_shop_km": 3.459
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5135,
+      "demand": 2.2,
+      "supply": 0.15,
+      "gap": 1.87,
+      "dist_to_shop_km": 2.668
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5075,
+      "demand": 2.2,
+      "supply": 0.15,
+      "gap": 1.87,
+      "dist_to_shop_km": 2.612
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5045,
+      "demand": 2.2,
+      "supply": 0.15,
+      "gap": 1.87,
+      "dist_to_shop_km": 2.679
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5555,
+      "demand": 2.2,
+      "supply": 0.15,
+      "gap": 1.87,
+      "dist_to_shop_km": 3.202
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5345,
+      "demand": 2.2,
+      "supply": 0.15,
+      "gap": 1.87,
+      "dist_to_shop_km": 2.911
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5585,
+      "demand": 2.9,
+      "supply": 0.4,
+      "gap": 1.74,
+      "dist_to_shop_km": 4.184
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5555,
+      "demand": 2.85,
+      "supply": 0.4,
+      "gap": 1.71,
+      "dist_to_shop_km": 4.221
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5525,
+      "demand": 2.0,
+      "supply": 0.15,
+      "gap": 1.7,
+      "dist_to_shop_km": 3.751
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5105,
+      "demand": 2.0,
+      "supply": 0.15,
+      "gap": 1.7,
+      "dist_to_shop_km": 2.563
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5585,
+      "demand": 2.0,
+      "supply": 0.15,
+      "gap": 1.7,
+      "dist_to_shop_km": 3.933
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5135,
+      "demand": 2.0,
+      "supply": 0.15,
+      "gap": 1.7,
+      "dist_to_shop_km": 2.533
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5465,
+      "demand": 5.55,
+      "supply": 0.7,
+      "gap": 1.67,
+      "dist_to_shop_km": 3.339
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5045,
+      "demand": 2.75,
+      "supply": 0.4,
+      "gap": 1.65,
+      "dist_to_shop_km": 2.6
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5585,
+      "demand": 2.75,
+      "supply": 0.4,
+      "gap": 1.65,
+      "dist_to_shop_km": 3.544
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5585,
+      "demand": 2.7,
+      "supply": 0.4,
+      "gap": 1.62,
+      "dist_to_shop_km": 4.053
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5225,
+      "demand": 1.8,
+      "supply": 0.15,
+      "gap": 1.53,
+      "dist_to_shop_km": 3.244
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5555,
+      "demand": 1.8,
+      "supply": 0.15,
+      "gap": 1.53,
+      "dist_to_shop_km": 3.247
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5585,
+      "demand": 1.8,
+      "supply": 0.15,
+      "gap": 1.53,
+      "dist_to_shop_km": 3.503
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5585,
+      "demand": 2.55,
+      "supply": 0.4,
+      "gap": 1.53,
+      "dist_to_shop_km": 3.654
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5075,
+      "demand": 1.8,
+      "supply": 0.15,
+      "gap": 1.53,
+      "dist_to_shop_km": 2.66
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5165,
+      "demand": 1.8,
+      "supply": 0.15,
+      "gap": 1.53,
+      "dist_to_shop_km": 2.57
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5315,
+      "demand": 1.8,
+      "supply": 0.15,
+      "gap": 1.53,
+      "dist_to_shop_km": 2.833
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5495,
+      "demand": 2.45,
+      "supply": 0.4,
+      "gap": 1.47,
+      "dist_to_shop_km": 3.936
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5525,
+      "demand": 2.45,
+      "supply": 0.4,
+      "gap": 1.47,
+      "dist_to_shop_km": 4.156
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5555,
+      "demand": 4.7,
+      "supply": 0.7,
+      "gap": 1.41,
+      "dist_to_shop_km": 3.335
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5585,
+      "demand": 2.35,
+      "supply": 0.4,
+      "gap": 1.41,
+      "dist_to_shop_km": 3.826
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5585,
+      "demand": 2.3,
+      "supply": 0.4,
+      "gap": 1.38,
+      "dist_to_shop_km": 4.326
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5555,
+      "demand": 1.6,
+      "supply": 0.15,
+      "gap": 1.36,
+      "dist_to_shop_km": 3.31
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5045,
+      "demand": 1.6,
+      "supply": 0.15,
+      "gap": 1.36,
+      "dist_to_shop_km": 2.71
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5615,
+      "demand": 1.6,
+      "supply": 0.15,
+      "gap": 1.36,
+      "dist_to_shop_km": 4.467
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5225,
+      "demand": 1.6,
+      "supply": 0.15,
+      "gap": 1.36,
+      "dist_to_shop_km": 2.588
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5465,
+      "demand": 4.5,
+      "supply": 0.7,
+      "gap": 1.35,
+      "dist_to_shop_km": 3.665
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5555,
+      "demand": 2.25,
+      "supply": 0.4,
+      "gap": 1.35,
+      "dist_to_shop_km": 4.39
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5495,
+      "demand": 2.15,
+      "supply": 0.4,
+      "gap": 1.29,
+      "dist_to_shop_km": 3.872
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5585,
+      "demand": 2.15,
+      "supply": 0.4,
+      "gap": 1.29,
+      "dist_to_shop_km": 3.733
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5015,
+      "demand": 2.1,
+      "supply": 0.4,
+      "gap": 1.26,
+      "dist_to_shop_km": 2.922
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5015,
+      "demand": 2.1,
+      "supply": 0.4,
+      "gap": 1.26,
+      "dist_to_shop_km": 2.872
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5015,
+      "demand": 2.1,
+      "supply": 0.4,
+      "gap": 1.26,
+      "dist_to_shop_km": 2.843
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5015,
+      "demand": 2.1,
+      "supply": 0.4,
+      "gap": 1.26,
+      "dist_to_shop_km": 2.836
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5015,
+      "demand": 2.1,
+      "supply": 0.4,
+      "gap": 1.26,
+      "dist_to_shop_km": 2.85
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5015,
+      "demand": 2.1,
+      "supply": 0.4,
+      "gap": 1.26,
+      "dist_to_shop_km": 2.887
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5585,
+      "demand": 2.1,
+      "supply": 0.4,
+      "gap": 1.26,
+      "dist_to_shop_km": 4.477
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5465,
+      "demand": 2.05,
+      "supply": 0.4,
+      "gap": 1.23,
+      "dist_to_shop_km": 3.732
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5195,
+      "demand": 1.4,
+      "supply": 0.15,
+      "gap": 1.19,
+      "dist_to_shop_km": 3.071
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5525,
+      "demand": 1.4,
+      "supply": 0.15,
+      "gap": 1.19,
+      "dist_to_shop_km": 3.919
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5105,
+      "demand": 1.4,
+      "supply": 0.15,
+      "gap": 1.19,
+      "dist_to_shop_km": 2.682
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5585,
+      "demand": 1.4,
+      "supply": 0.15,
+      "gap": 1.19,
+      "dist_to_shop_km": 3.509
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5615,
+      "demand": 1.4,
+      "supply": 0.15,
+      "gap": 1.19,
+      "dist_to_shop_km": 4.233
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5615,
+      "demand": 1.4,
+      "supply": 0.15,
+      "gap": 1.19,
+      "dist_to_shop_km": 4.6
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5525,
+      "demand": 3.95,
+      "supply": 0.7,
+      "gap": 1.19,
+      "dist_to_shop_km": 3.977
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5375,
+      "demand": 1.4,
+      "supply": 0.15,
+      "gap": 1.19,
+      "dist_to_shop_km": 3.255
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5405,
+      "demand": 1.4,
+      "supply": 0.15,
+      "gap": 1.19,
+      "dist_to_shop_km": 3.389
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5585,
+      "demand": 1.4,
+      "supply": 0.15,
+      "gap": 1.19,
+      "dist_to_shop_km": 4.636
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5495,
+      "demand": 3.9,
+      "supply": 0.7,
+      "gap": 1.17,
+      "dist_to_shop_km": 3.746
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5465,
+      "demand": 3.8,
+      "supply": 0.7,
+      "gap": 1.14,
+      "dist_to_shop_km": 3.532
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5495,
+      "demand": 1.85,
+      "supply": 0.4,
+      "gap": 1.11,
+      "dist_to_shop_km": 4.131
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5525,
+      "demand": 1.85,
+      "supply": 0.4,
+      "gap": 1.11,
+      "dist_to_shop_km": 4.341
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5405,
+      "demand": 3.5,
+      "supply": 0.7,
+      "gap": 1.05,
+      "dist_to_shop_km": 3.766
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5465,
+      "demand": 1.75,
+      "supply": 0.4,
+      "gap": 1.05,
+      "dist_to_shop_km": 4.078
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5615,
+      "demand": 1.2,
+      "supply": 0.15,
+      "gap": 1.02,
+      "dist_to_shop_km": 3.975
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5615,
+      "demand": 1.2,
+      "supply": 0.15,
+      "gap": 1.02,
+      "dist_to_shop_km": 4.047
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5615,
+      "demand": 1.2,
+      "supply": 0.15,
+      "gap": 1.02,
+      "dist_to_shop_km": 4.134
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5615,
+      "demand": 1.2,
+      "supply": 0.15,
+      "gap": 1.02,
+      "dist_to_shop_km": 4.344
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5285,
+      "demand": 1.2,
+      "supply": 0.15,
+      "gap": 1.02,
+      "dist_to_shop_km": 2.794
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5495,
+      "demand": 1.55,
+      "supply": 0.4,
+      "gap": 0.93,
+      "dist_to_shop_km": 4.065
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5525,
+      "demand": 1.0,
+      "supply": 0.15,
+      "gap": 0.85,
+      "dist_to_shop_km": 4.095
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5075,
+      "demand": 1.0,
+      "supply": 0.15,
+      "gap": 0.85,
+      "dist_to_shop_km": 2.759
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5615,
+      "demand": 1.0,
+      "supply": 0.15,
+      "gap": 0.85,
+      "dist_to_shop_km": 3.917
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5075,
+      "demand": 1.0,
+      "supply": 0.15,
+      "gap": 0.85,
+      "dist_to_shop_km": 2.812
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5195,
+      "demand": 1.0,
+      "supply": 0.15,
+      "gap": 0.85,
+      "dist_to_shop_km": 2.673
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5615,
+      "demand": 1.0,
+      "supply": 0.15,
+      "gap": 0.85,
+      "dist_to_shop_km": 4.742
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5345,
+      "demand": 1.0,
+      "supply": 0.15,
+      "gap": 0.85,
+      "dist_to_shop_km": 3.151
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5555,
+      "demand": 1.0,
+      "supply": 0.15,
+      "gap": 0.85,
+      "dist_to_shop_km": 4.566
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5465,
+      "demand": 2.7,
+      "supply": 0.7,
+      "gap": 0.81,
+      "dist_to_shop_km": 3.869
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5435,
+      "demand": 1.35,
+      "supply": 0.4,
+      "gap": 0.81,
+      "dist_to_shop_km": 3.549
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5075,
+      "demand": 0.8,
+      "supply": 0.0,
+      "gap": 0.8,
+      "dist_to_shop_km": 2.921
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5555,
+      "demand": 0.8,
+      "supply": 0.0,
+      "gap": 0.8,
+      "dist_to_shop_km": 3.488
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5435,
+      "demand": 2.5,
+      "supply": 0.7,
+      "gap": 0.75,
+      "dist_to_shop_km": 3.911
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5225,
+      "demand": 0.8,
+      "supply": 0.15,
+      "gap": 0.68,
+      "dist_to_shop_km": 3.491
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5195,
+      "demand": 0.8,
+      "supply": 0.15,
+      "gap": 0.68,
+      "dist_to_shop_km": 3.312
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5045,
+      "demand": 0.8,
+      "supply": 0.15,
+      "gap": 0.68,
+      "dist_to_shop_km": 3.029
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5045,
+      "demand": 0.8,
+      "supply": 0.15,
+      "gap": 0.68,
+      "dist_to_shop_km": 2.895
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5015,
+      "demand": 0.8,
+      "supply": 0.15,
+      "gap": 0.68,
+      "dist_to_shop_km": 3.082
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5045,
+      "demand": 0.8,
+      "supply": 0.15,
+      "gap": 0.68,
+      "dist_to_shop_km": 2.778
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5555,
+      "demand": 0.8,
+      "supply": 0.15,
+      "gap": 0.68,
+      "dist_to_shop_km": 3.391
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5615,
+      "demand": 0.8,
+      "supply": 0.15,
+      "gap": 0.68,
+      "dist_to_shop_km": 3.874
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5045,
+      "demand": 0.8,
+      "supply": 0.15,
+      "gap": 0.68,
+      "dist_to_shop_km": 2.815
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5255,
+      "demand": 0.8,
+      "supply": 0.15,
+      "gap": 0.68,
+      "dist_to_shop_km": 2.794
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5015,
+      "demand": 1.1,
+      "supply": 0.4,
+      "gap": 0.66,
+      "dist_to_shop_km": 2.993
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5555,
+      "demand": 0.6,
+      "supply": 0.0,
+      "gap": 0.6,
+      "dist_to_shop_km": 3.599
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5495,
+      "demand": 0.95,
+      "supply": 0.4,
+      "gap": 0.57,
+      "dist_to_shop_km": 4.265
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5165,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 2.947
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5555,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.009
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5555,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 3.861
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5555,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 3.724
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5015,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 3.188
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5015,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 2.944
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5105,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 2.744
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5315,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 3.079
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5615,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.893
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5405,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 3.614
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5435,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 3.765
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5585,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.804
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5615,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 5.052
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5405,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 3.843
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5435,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 3.985
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5465,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.149
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5495,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.333
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5525,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.533
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5555,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.749
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5585,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.978
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5615,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 5.218
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5435,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.208
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5465,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.364
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5495,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.539
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5525,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.731
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5555,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.938
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5585,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 5.158
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5615,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 5.39
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5465,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.582
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5495,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.749
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5525,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 4.933
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5555,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 5.132
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5585,
+      "demand": 0.6,
+      "supply": 0.15,
+      "gap": 0.51,
+      "dist_to_shop_km": 5.344
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5465,
+      "demand": 0.75,
+      "supply": 0.4,
+      "gap": 0.45,
+      "dist_to_shop_km": 3.938
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5015,
+      "demand": 0.4,
+      "supply": 0.0,
+      "gap": 0.4,
+      "dist_to_shop_km": 3.353
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5045,
+      "demand": 0.4,
+      "supply": 0.0,
+      "gap": 0.4,
+      "dist_to_shop_km": 3.076
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5225,
+      "demand": 0.4,
+      "supply": 0.0,
+      "gap": 0.4,
+      "dist_to_shop_km": 2.833
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5615,
+      "demand": 0.4,
+      "supply": 0.0,
+      "gap": 0.4,
+      "dist_to_shop_km": 5.569
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5525,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 4.279
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5555,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 4.166
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5045,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 3.176
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5015,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 3.31
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5585,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 3.532
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5615,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 3.847
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5015,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 3.02
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5015,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 3.115
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5015,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 3.227
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5045,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 2.938
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5135,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 2.738
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5375,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 3.489
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5405,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 4.074
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5435,
+      "demand": 0.4,
+      "supply": 0.15,
+      "gap": 0.34,
+      "dist_to_shop_km": 4.434
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5165,
+      "demand": 0.2,
+      "supply": 0.0,
+      "gap": 0.2,
+      "dist_to_shop_km": 3.178
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5105,
+      "demand": 0.2,
+      "supply": 0.0,
+      "gap": 0.2,
+      "dist_to_shop_km": 2.869
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5255,
+      "demand": 0.2,
+      "supply": 0.0,
+      "gap": 0.2,
+      "dist_to_shop_km": 3.043
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5525,
+      "demand": 0.2,
+      "supply": 0.15,
+      "gap": 0.17,
+      "dist_to_shop_km": 4.469
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5555,
+      "demand": 0.2,
+      "supply": 0.15,
+      "gap": 0.17,
+      "dist_to_shop_km": 4.507
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5555,
+      "demand": 0.2,
+      "supply": 0.15,
+      "gap": 0.17,
+      "dist_to_shop_km": 4.333
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5135,
+      "demand": 0.2,
+      "supply": 0.15,
+      "gap": 0.17,
+      "dist_to_shop_km": 2.878
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5015,
+      "demand": 0.2,
+      "supply": 0.15,
+      "gap": 0.17,
+      "dist_to_shop_km": 3.445
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5585,
+      "demand": 0.2,
+      "supply": 0.15,
+      "gap": 0.17,
+      "dist_to_shop_km": 3.573
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5285,
+      "demand": 0.2,
+      "supply": 0.15,
+      "gap": 0.17,
+      "dist_to_shop_km": 3.043
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5375,
+      "demand": 0.2,
+      "supply": 0.15,
+      "gap": 0.17,
+      "dist_to_shop_km": 3.725
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5405,
+      "demand": 0.2,
+      "supply": 0.15,
+      "gap": 0.17,
+      "dist_to_shop_km": 4.307
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.47
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.266
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.079
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5105,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.912
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5135,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.767
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5165,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.647
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5195,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.554
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5555,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.687
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5585,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.919
+    },
+    {
+      "lng": 111.6615,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 5.162
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.28
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.066
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.87
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5105,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.693
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5135,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.539
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5165,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.411
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5405,
+      "demand": 5.5,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.539
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5435,
+      "demand": 4.5,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.693
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5585,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.747
+    },
+    {
+      "lng": 111.6645,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.998
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.096
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.872
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.666
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5105,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.479
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5135,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.315
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5405,
+      "demand": 7.7,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.314
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5435,
+      "demand": 6.1,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.478
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5585,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.582
+    },
+    {
+      "lng": 111.6675,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.842
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.919
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.685
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.467
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5105,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.269
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5135,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.094
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5585,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.425
+    },
+    {
+      "lng": 111.6705,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.694
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.751
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.506
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.276
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5105,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.066
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5585,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.277
+    },
+    {
+      "lng": 111.6735,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.555
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.593
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.336
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.093
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5315,
+      "demand": 24.6,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.262
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5585,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.139
+    },
+    {
+      "lng": 111.6765,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.425
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5315,
+      "demand": 31.8,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.019
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5345,
+      "demand": 32.2,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.127
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5585,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.012
+    },
+    {
+      "lng": 111.6795,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.306
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5315,
+      "demand": 39.15,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.778
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5585,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.896
+    },
+    {
+      "lng": 111.6825,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.198
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5585,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.793
+    },
+    {
+      "lng": 111.6855,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.103
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5255,
+      "demand": 41.3,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.219
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5285,
+      "demand": 51.6,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.219
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5585,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.705
+    },
+    {
+      "lng": 111.6885,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.022
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5255,
+      "demand": 49.45,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 0.972
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5285,
+      "demand": 56.5,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 0.972
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5585,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.631
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.954
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.901
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.863
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5225,
+      "demand": 63.55,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 0.542
+    },
+    {
+      "lng": 111.7005,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.842
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5165,
+      "demand": 32.55,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.168
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5225,
+      "demand": 63.15,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 0.502
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5315,
+      "demand": 73.55,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 0.502
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5345,
+      "demand": 66.85,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 0.835
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5405,
+      "demand": 43.15,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.502
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5435,
+      "demand": 33.05,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.835
+    },
+    {
+      "lng": 111.7035,
+      "lat": 41.5615,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.836
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5165,
+      "demand": 29.35,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.203
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5315,
+      "demand": 71.9,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 0.579
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5345,
+      "demand": 65.35,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 0.883
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5405,
+      "demand": 44.35,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.529
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5435,
+      "demand": 33.7,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.858
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5195,
+      "demand": 40.5,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 0.994
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5225,
+      "demand": 52.05,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 0.737
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5315,
+      "demand": 62.3,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 0.737
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5405,
+      "demand": 39.9,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.596
+    },
+    {
+      "lng": 111.7095,
+      "lat": 41.5435,
+      "demand": 34.9,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.913
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5195,
+      "demand": 32.7,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.149
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5225,
+      "demand": 46.9,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 0.936
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5345,
+      "demand": 53.05,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.149
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5375,
+      "demand": 47.2,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.41
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5405,
+      "demand": 37.2,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.697
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5435,
+      "demand": 31.95,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.998
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5465,
+      "demand": 22.25,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.308
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5525,
+      "demand": 7.25,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.944
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5315,
+      "demand": 43.25,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.155
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5345,
+      "demand": 41.5,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.333
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5375,
+      "demand": 39.7,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.564
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5405,
+      "demand": 34.9,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.826
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5435,
+      "demand": 28.85,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.109
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5465,
+      "demand": 19.35,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.405
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5495,
+      "demand": 11.1,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.71
+    },
+    {
+      "lng": 111.7155,
+      "lat": 41.5525,
+      "demand": 6.85,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.02
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5345,
+      "demand": 33.55,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.536
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5375,
+      "demand": 32.6,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.74
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5405,
+      "demand": 28.05,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.979
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5435,
+      "demand": 22.9,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.243
+    },
+    {
+      "lng": 111.7185,
+      "lat": 41.5525,
+      "demand": 7.05,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.115
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5375,
+      "demand": 23.6,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 1.932
+    },
+    {
+      "lng": 111.7215,
+      "lat": 41.5405,
+      "demand": 21.5,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.15
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5375,
+      "demand": 16.3,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.137
+    },
+    {
+      "lng": 111.7245,
+      "lat": 41.5405,
+      "demand": 15.95,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.336
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.493
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.228
+    },
+    {
+      "lng": 111.7275,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.977
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.645
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.391
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.153
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5105,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.934
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5495,
+      "demand": 6.5,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.391
+    },
+    {
+      "lng": 111.7305,
+      "lat": 41.5525,
+      "demand": 5.3,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.644
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.806
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.565
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.339
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5105,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.133
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5135,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.95
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5165,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.795
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5495,
+      "demand": 5.1,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.564
+    },
+    {
+      "lng": 111.7335,
+      "lat": 41.5525,
+      "demand": 4.9,
+      "supply": 1.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.806
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.977
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.747
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.533
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5105,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.338
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5135,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.167
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5165,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.023
+    },
+    {
+      "lng": 111.7365,
+      "lat": 41.5195,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 2.911
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.156
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.936
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.733
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5105,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.55
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5135,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.389
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5165,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.255
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5195,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.151
+    },
+    {
+      "lng": 111.7395,
+      "lat": 41.5225,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.079
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.342
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.132
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.939
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5105,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.766
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5135,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.615
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5165,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.49
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5195,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.392
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5225,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.326
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5255,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.292
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5285,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.292
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5315,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.326
+    },
+    {
+      "lng": 111.7425,
+      "lat": 41.5345,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.392
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.535
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.334
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.15
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5105,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.986
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5135,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.844
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5165,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.726
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5195,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.635
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5225,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.573
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5255,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.542
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5285,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.542
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5315,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.573
+    },
+    {
+      "lng": 111.7455,
+      "lat": 41.5345,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.635
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.732
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.54
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.365
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5105,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.209
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5135,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.075
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5165,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.964
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5195,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.879
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5225,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.821
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5255,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.791
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5285,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.791
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5315,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.82
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5345,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.878
+    },
+    {
+      "lng": 111.7485,
+      "lat": 41.5375,
+      "demand": 0.0,
+      "supply": 0.15,
+      "gap": 0.0,
+      "dist_to_shop_km": 3.963
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5015,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.934
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5045,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.75
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5075,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.583
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5105,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.435
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5135,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.308
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5165,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.203
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5195,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.123
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5225,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.068
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5255,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.041
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5285,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.041
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5315,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.068
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5345,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.122
+    },
+    {
+      "lng": 111.7515,
+      "lat": 41.5375,
+      "demand": 0.0,
+      "supply": 0.0,
+      "gap": 0.0,
+      "dist_to_shop_km": 4.203
+    }
+  ],
+  "shop_gap_avg": 31.71,
+  "shop_demand_avg": 77.04,
+  "top_gaps": [
+    {
+      "lng": 111.7005,
+      "lat": 41.5285,
+      "demand": 81.0,
+      "supply": 0.4,
+      "gap": 48.6,
+      "dist_to_shop_km": 0.267
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5285,
+      "demand": 74.4,
+      "supply": 0.4,
+      "gap": 44.64,
+      "dist_to_shop_km": 0.487
+    },
+    {
+      "lng": 111.7065,
+      "lat": 41.5255,
+      "demand": 73.95,
+      "supply": 0.4,
+      "gap": 44.37,
+      "dist_to_shop_km": 0.336
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5315,
+      "demand": 72.65,
+      "supply": 0.4,
+      "gap": 43.59,
+      "dist_to_shop_km": 0.678
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5315,
+      "demand": 68.1,
+      "supply": 0.4,
+      "gap": 40.86,
+      "dist_to_shop_km": 0.867
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5375,
+      "demand": 45.6,
+      "supply": 0.15,
+      "gap": 38.76,
+      "dist_to_shop_km": 1.51
+    },
+    {
+      "lng": 111.6975,
+      "lat": 41.5345,
+      "demand": 63.05,
+      "supply": 0.4,
+      "gap": 37.83,
+      "dist_to_shop_km": 0.951
+    },
+    {
+      "lng": 111.6945,
+      "lat": 41.5345,
+      "demand": 59.95,
+      "supply": 0.4,
+      "gap": 35.97,
+      "dist_to_shop_km": 1.094
+    },
+    {
+      "lng": 111.6915,
+      "lat": 41.5315,
+      "demand": 59.9,
+      "supply": 0.4,
+      "gap": 35.94,
+      "dist_to_shop_km": 1.08
+    },
+    {
+      "lng": 111.7125,
+      "lat": 41.5285,
+      "demand": 56.1,
+      "supply": 0.4,
+      "gap": 33.66,
+      "dist_to_shop_km": 0.808
+    }
+  ]
+}

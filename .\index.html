@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>四子王旗充电桩投资决策报告 (v2)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css">
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg: #f5f4f0; --bg-card: #ffffff; --bg-card-alt: #fafaf9;
+  --text: #1c1917; --text-secondary: #6b7280; --text-muted: #9ca3af;
+  --border: #e5e5e0; --border-light: #f0efeb;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.03);
+  --shadow-md: 0 4px 24px -8px rgba(0,0,0,0.07);
+  --shadow-lg: 0 20px 40px -15px rgba(0,0,0,0.05);
+  --accent: #059669; --accent-light: #d1fae5; --accent-dark: #047857;
+  --success: #16a34a; --success-bg: #f0fdf4;
+  --warn: #d97706; --warn-bg: #fffbeb;
+  --danger: #dc2626; --danger-bg: #fef2f2;
+  --header-bg: #0f1117; --radius: 20px; --radius-sm: 12px; --radius-xs: 8px;
+  --spring: cubic-bezier(0.16,1,0.3,1);
+}
+body.dark {
+  --bg: #141417; --bg-card: #1c1c20; --bg-card-alt: #222226;
+  --text: #e4e4e7; --text-secondary: #a1a1aa; --text-muted: #71717a;
+  --border: #2a2a2e; --border-light: #232328;
+  --accent: #34d399; --accent-light: #064e3b; --accent-dark: #6ee7b7;
+  --success: #4ade80; --success-bg: #052e16;
+  --warn: #fbbf24; --warn-bg: #1c1600;
+  --danger: #f87171; --danger-bg: #2e1010;
+  --header-bg: #090a0d;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:var(--bg);color:var(--text);
+  font-family:'Outfit','Noto Sans SC','Microsoft YaHei',-apple-system,sans-serif;
+  transition:background .35s ease,color .35s ease;
+  -webkit-font-smoothing:antialiased
+}
+
+/* ===== Header ===== */
+.hd{
+  background:var(--header-bg);color:#fff;
+  padding:32px 48px 24px;position:relative;
+  border-bottom:1px solid rgba(255,255,255,0.03)
+}
+.hd h1{font-size:24px;font-weight:700;letter-spacing:-0.02em;margin-bottom:4px}
+.hd .sub{font-size:12px;color:rgba(255,255,255,0.45);letter-spacing:0.01em}
+.hd .st{
+  display:inline-block;background:var(--accent);padding:3px 12px;
+  border-radius:6px;font-size:11px;font-weight:600;margin-top:8px;
+  letter-spacing:0.02em;color:#fff
+}
+.hd .dm{
+  position:absolute;top:18px;right:24px;
+  background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);
+  color:rgba(255,255,255,0.65);padding:6px 14px;border-radius:8px;
+  cursor:pointer;font-size:12px;font-family:inherit;
+  transition:all .2s var(--spring)
+}
+.hd .dm:hover{background:rgba(255,255,255,0.1);color:#fff}
+.hd .dm:active{transform:scale(0.96)}
+.hd .btn-sm{
+  position:absolute;top:18px;right:110px;
+  background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);
+  color:rgba(255,255,255,0.65);padding:6px 14px;border-radius:8px;
+  cursor:pointer;font-size:12px;text-decoration:none;font-family:inherit;
+  transition:all .2s var(--spring)
+}
+.hd .btn-sm:hover{background:rgba(255,255,255,0.1);color:#fff}
+.hd .btn-sm:active{transform:scale(0.96)}
+@media(max-width:768px){
+  .hd{padding:20px 16px}.hd h1{font-size:19px;letter-spacing:0}
+  .hd .dm{top:12px;right:12px;font-size:11px;padding:5px 10px}
+  .hd .btn-sm{display:none}
+}
+
+/* ===== Key Metrics Bar ===== */
+.kp{
+  display:grid;grid-template-columns:repeat(6,1fr);gap:12px;
+  padding:20px 48px;
+  background:var(--bg-card);border-bottom:1px solid var(--border);
+  transition:background .35s
+}
+.kp .c{
+  text-align:center;padding:10px 6px;
+  background:var(--bg-card-alt);border-radius:var(--radius-sm);
+  border:1px solid var(--border-light);
+  transition:all .2s var(--spring)
+}
+.kp .c:hover{box-shadow:var(--shadow-md);transform:translateY(-1px)}
+.kp .n{font-size:26px;font-weight:700;color:var(--text);font-variant-numeric:tabular-nums}
+.kp .l{font-size:11px;color:var(--text-muted);margin-top:2px;font-weight:500}
+@media(max-width:768px){
+  .kp{padding:12px 16px;grid-template-columns:repeat(3,1fr);gap:8px}
+  .kp .n{font-size:20px}
+}
+@media(max-width:480px){.kp{grid-template-columns:repeat(3,1fr);gap:6px}}
+
+/* ===== Layout ===== */
+.ct{max-width:1360px;margin:0 auto;padding:28px 48px;transition:padding .3s}
+@media(max-width:768px){.ct{padding:12px}}
+.sc,section.sc{
+  background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);
+  padding:28px;margin-bottom:18px;
+  box-shadow:var(--shadow-lg);
+  transition:all .25s var(--spring)
+}
+.sc h2{font-size:17px;font-weight:600;margin-bottom:16px;letter-spacing:-0.01em}
+.sc h3{font-size:14px;font-weight:600;color:var(--text-secondary);margin-bottom:8px}
+.sc h4{font-size:12px;font-weight:600;margin-bottom:4px}
+
+/* ===== Tabs ===== */
+.tabs{display:flex;gap:6px;margin-bottom:18px;flex-wrap:wrap}
+.tab{
+  padding:8px 20px;font-size:12px;font-weight:500;cursor:pointer;
+  border:1px solid var(--border);background:var(--bg-card);
+  transition:all .2s var(--spring);color:var(--text-secondary);
+  border-radius:var(--radius-xs);font-family:inherit
+}
+.tab:hover{background:var(--accent-light);border-color:var(--accent);color:var(--accent)}
+.tab.act{background:var(--accent);color:#fff;border-color:var(--accent)}
+.tc{display:none}
+.tc.act{display:block}
+.tc.act > .sc{animation:slideUp .35s var(--spring) both}
+.tc.act > .sc:nth-child(2){animation-delay:.04s}
+.tc.act > .sc:nth-child(3){animation-delay:.08s}
+.tc.act > .sc:nth-child(4){animation-delay:.12s}
+.tc.act > .sc:nth-child(5){animation-delay:.16s}
+.tc.act > .sc:nth-child(6){animation-delay:.20s}
+@keyframes slideUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+
+/* ===== Section Banner ===== */
+.ban{
+  background:var(--success-bg);border:1px solid var(--success);
+  border-radius:var(--radius-sm);padding:24px 28px;margin-bottom:18px
+}
+.ban h3{font-size:16px;font-weight:600;margin-bottom:6px;color:var(--success)}
+.ban p{font-size:13px;color:var(--text-secondary);line-height:1.7}
+.ban .big{font-size:44px;font-weight:800;display:block;margin:8px 0 2px;color:var(--accent);font-variant-numeric:tabular-nums;letter-spacing:-0.03em}
+
+/* ===== Metrics Grid ===== */
+.met{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:16px}
+.met .m{
+  text-align:center;padding:18px 12px;
+  background:var(--bg-card-alt);border-radius:var(--radius-sm);
+  border:1px solid var(--border-light);
+  transition:all .2s var(--spring)
+}
+.met .m:hover{box-shadow:var(--shadow-md)}
+.met .mv{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:-0.02em}
+.met .ml{font-size:11px;color:var(--text-muted);margin-top:4px;font-weight:500}
+.met .m .mv:first-child{color:var(--accent)}
+
+/* ===== Insight Cards ===== */
+.ins{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ins .i{
+  background:var(--bg-card-alt);border-radius:var(--radius-xs);
+  padding:14px 16px;border-left:3px solid;
+  transition:all .2s var(--spring)
+}
+.ins .i:hover{box-shadow:var(--shadow-sm)}
+.ins .i h4{font-size:13px;margin-bottom:4px;font-weight:600}
+.ins .i p{font-size:12px;color:var(--text-secondary);line-height:1.6}
+@media(max-width:768px){.ins{grid-template-columns:1fr}}
+
+/* ===== Flow Steps ===== */
+.flow{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-bottom:8px}
+.flow .s{
+  text-align:center;padding:20px 14px;
+  border-radius:var(--radius-sm);background:var(--bg-card-alt);
+  border:1px solid var(--border-light);
+  transition:all .2s var(--spring)
+}
+.flow .s:hover{box-shadow:var(--shadow-md);transform:translateY(-1px)}
+.flow .s .num{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:28px;height:28px;border-radius:50%;
+  background:var(--accent);color:#fff;
+  font-size:12px;font-weight:700;margin-bottom:8px
+}
+.flow .s h4{font-size:14px;margin-bottom:4px}
+.flow .s p{font-size:12px;color:var(--text-secondary);line-height:1.5}
+@media(max-width:768px){.flow{grid-template-columns:1fr}}
+
+/* ===== Feature Cards ===== */
+.fd{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fd .fc{
+  padding:16px;border-radius:var(--radius-xs);
+  border-left:3px solid;background:var(--bg-card-alt);
+  transition:all .2s var(--spring)
+}
+.fd .fc:hover{box-shadow:var(--shadow-sm)}
+.fc.g{border-color:var(--success);background:var(--success-bg)}
+.fc.r{border-color:var(--danger);background:var(--danger-bg)}
+.fc.b{border-color:var(--accent);background:var(--accent-light)}
+.fc.a{border-color:var(--warn);background:var(--warn-bg)}
+.fc h3{font-size:13px;margin-bottom:4px}
+.fc p{font-size:12px;color:var(--text-secondary);line-height:1.6}
+@media(max-width:768px){.fd{grid-template-columns:1fr}}
+
+/* ===== Table ===== */
+.tw{overflow-x:auto;border-radius:var(--radius-xs);border:1px solid var(--border)}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{
+  background:var(--bg-card-alt);text-align:left;padding:10px 12px;
+  font-weight:600;border-bottom:2px solid var(--border);
+  white-space:nowrap;color:var(--text-secondary);font-size:11px;
+  font-family:'Outfit',sans-serif;letter-spacing:0.03em;text-transform:uppercase
+}
+td{padding:8px 12px;border-bottom:1px solid var(--border-light);color:var(--text);transition:background .15s}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:var(--accent-light)}
+.tag{display:inline-block;padding:3px 10px;border-radius:4px;font-size:10px;color:#fff;font-weight:600;letter-spacing:0.02em}
+.sb{
+  width:100%;padding:10px 14px;border:1px solid var(--border);
+  border-radius:var(--radius-xs);font-size:13px;margin-bottom:14px;
+  background:var(--bg-card);color:var(--text);outline:none;
+  transition:border .2s var(--spring);font-family:inherit
+}
+.sb:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-light)}
+
+/* ===== Simulator ===== */
+.sim-row{display:grid;grid-template-columns:300px 1fr;gap:24px}
+@media(max-width:768px){.sim-row{grid-template-columns:1fr}}
+.panel{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-sm);padding:24px;box-shadow:var(--shadow-sm)}
+.panel h2{font-size:14px;font-weight:600;margin-bottom:16px;letter-spacing:-0.01em}
+.pg{margin-bottom:16px}
+.pg label{display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px;color:var(--text-secondary)}
+.pg label span{font-weight:600;color:var(--text)}
+.pg input[type=range]{
+  width:100%;height:5px;-webkit-appearance:none;
+  background:var(--border);border-radius:3px;outline:none;
+  transition:background .2s
+}
+.pg input[type=range]::-webkit-slider-thumb{
+  -webkit-appearance:none;width:16px;height:16px;border-radius:50%;
+  background:var(--accent);cursor:pointer;border:2px solid var(--bg-card);
+  transition:transform .2s var(--spring),box-shadow .2s;
+  box-shadow:0 1px 4px rgba(0,0,0,0.15)
+}
+.pg input[type=range]::-webkit-slider-thumb:active{transform:scale(1.25);box-shadow:0 0 0 4px var(--accent-light)}
+.pg input[type=range]::-moz-range-thumb{
+  width:16px;height:16px;border-radius:50%;
+  background:var(--accent);cursor:pointer;border:2px solid var(--bg-card);
+  transition:transform .2s var(--spring)
+}
+.pg .val{font-size:10px;color:var(--text-muted);margin-top:3px;line-height:1.4}
+.hl{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
+.hl .c{
+  text-align:center;padding:14px 8px;
+  background:var(--bg-card-alt);border-radius:var(--radius-xs);
+  border:1px solid var(--border-light);
+  transition:all .2s var(--spring)
+}
+.hl .c:hover{box-shadow:var(--shadow-md)}
+.hl .n{font-size:24px;font-weight:700;font-variant-numeric:tabular-nums}
+.hl .l{font-size:10px;color:var(--text-muted);margin-top:2px}
+.hl .g .n{color:var(--success)}
+.hl .r .n{color:var(--danger)}
+.hl .b .n{color:var(--accent)}
+.preset{display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap;align-items:center}
+.preset .lbl{font-size:11px;color:var(--text-muted);font-weight:500}
+.preset .btn{
+  padding:5px 16px;border-radius:var(--radius-xs);
+  border:1px solid var(--border);background:var(--bg-card);
+  cursor:pointer;font-size:12px;font-family:inherit;font-weight:500;
+  transition:all .2s var(--spring);color:var(--text-secondary)
+}
+.preset .btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-light)}
+.preset .btn.act{border-color:var(--accent);background:var(--accent);color:#fff}
+.preset .btn:active{transform:scale(0.96)}
+.outputs{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-bottom:14px}
+@media(max-width:768px){.outputs{grid-template-columns:1fr}}
+.ocard{
+  background:var(--bg-card);border:1px solid var(--border);
+  border-radius:var(--radius-sm);padding:20px;text-align:center;
+  box-shadow:var(--shadow-sm);transition:all .2s var(--spring)
+}
+.ocard:hover{box-shadow:var(--shadow-md);transform:translateY(-1px)}
+.ocard .on{font-size:28px;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:-0.02em}
+.ocard .ol{font-size:11px;color:var(--text-muted);margin-top:4px;font-weight:500}
+.ocard .od{font-size:11px;color:var(--text-muted);margin-top:1px}
+.ocard.g .on{color:var(--success)}
+.ocard.r .on{color:var(--danger)}
+.ocard.b .on{color:var(--accent)}
+.tbl{width:100%;border-collapse:collapse;font-size:12px;margin-top:12px}
+.tbl th{
+  background:var(--bg-card-alt);text-align:left;padding:8px 10px;
+  font-weight:600;border-bottom:2px solid var(--border);
+  font-size:11px;color:var(--text-secondary);font-family:'Outfit',sans-serif
+}
+.tbl td{padding:6px 10px;border-bottom:1px solid var(--border-light);transition:background .15s}
+.tbl tr:last-child td{border-bottom:none}
+.tbl tr:hover td{background:var(--accent-light)}
+.ok{color:var(--success);font-weight:600}
+.warn{color:var(--warn);font-weight:600}
+.bad{color:var(--danger);font-weight:600}
+.badge{
+  display:inline-block;padding:3px 10px;border-radius:6px;
+  font-size:11px;font-weight:600;letter-spacing:0.02em
+}
+.badge.g{background:var(--accent-light);color:var(--accent-dark)}
+.badge.a{background:var(--warn-bg);color:var(--warn)}
+.badge.r{background:var(--danger-bg);color:var(--danger)}
+canvas{max-height:200px}
+
+/* ===== Analysis Image Grid ===== */
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.cg3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
+@media(max-width:768px){.cg{grid-template-columns:1fr}.cg3{grid-template-columns:1fr}}
+.cg img,.cg3 img{
+  width:100%;border-radius:var(--radius-xs);
+  cursor:pointer;transition:all .2s var(--spring);
+  border:1px solid var(--border-light)
+}
+.cg img:hover,.cg3 img:hover{box-shadow:var(--shadow-md);opacity:0.92}
+
+/* ===== Map ===== */
+#map{height:500px;border-radius:var(--radius-sm);z-index:1;border:1px solid var(--border-light)}
+
+/* ===== Data Feature Grid ===== */
+.df{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;font-size:12px}
+.df .dc{
+  padding:16px;border-radius:var(--radius-sm);
+  background:var(--bg-card-alt);border:1px solid var(--border-light);
+  transition:all .2s var(--spring)
+}
+.df .dc:hover{box-shadow:var(--shadow-md)}
+@media(max-width:768px){.df{grid-template-columns:1fr}}
+
+/* ===== Footer ===== */
+.ft{text-align:center;padding:24px;color:var(--text-muted);font-size:11px;border-top:1px solid var(--border);margin-top:28px}
+</style>
+</head>
+<body>
+
+<div class="hd">
+  <h1>四子王旗充电桩投资决策报告</h1>
+  <div class="sub">商铺位置：脑木更路7号 &nbsp;|&nbsp; 基于POI场景匹配 + 需求缺口网格 + 成本优化模型</div>
+  <div class="st">综合评分 71/100</div>
+  <a class="btn-sm" href="模拟器.html" target="_blank">独立模拟器</a>
+  <button class="dm" onclick="toggleDark()" id="dmBtn">暗色</button>
+</div>
+
+<div class="kp">
+  <div class="c"><div class="n">32</div><div class="l">充电站总数</div></div>
+  <div class="c"><div class="n">1</div><div class="l">500m内对手</div></div>
+  <div class="c"><div class="n">651</div><div class="l">分析网格(300m)</div></div>
+  <div class="c"><div class="n" style="color:var(--success)">55.5%</div><div class="l">1km小区覆盖率</div></div>
+  <div class="c"><div class="n" style="color:var(--accent)">71</div><div class="l">v2综合评分</div></div>
+  <div class="c"><div class="n" style="font-size:22px;color:var(--accent)">住区过夜</div><div class="l">最佳充电场景</div></div>
+</div>
+
+<div class="ct">
+
+<!-- Tabs -->
+<div class="tabs" id="tabs">
+  <div class="tab act" onclick="sw(this,'ov')">总览</div>
+  <div class="tab" onclick="sw(this,'v2')">优化分析</div>
+  <div class="tab" onclick="sw(this,'sim')">模拟器</div>
+  <div class="tab" onclick="sw(this,'da')">深度分析</div>
+  <div class="tab" onclick="sw(this,'map')">地图</div>
+  <div class="tab" onclick="sw(this,'list')">站点清单</div>
+</div>
+
+<!-- ===== 总览 ===== -->
+<div class="tc act" id="tc_ov">
+<section class="sc">
+  <h2>v2 优化分析结论</h2>
+  <div class="met">
+    <div class="m"><div class="mv">71</div><div class="ml">综合评分 (旧版51)</div></div>
+    <div class="m"><div class="mv">25</div><div class="ml">场景匹配度</div></div>
+    <div class="m"><div class="mv">16.3</div><div class="ml">需求缺口</div></div>
+    <div class="m"><div class="mv">14.7</div><div class="ml">成本效益</div></div>
+    <div class="m"><div class="mv">15</div><div class="ml">增长潜力</div></div>
+    <div class="m"><div class="mv" style="color:var(--success)">+20</div><div class="ml">较旧版提升</div></div>
+  </div>
+  <div class="flow">
+    <div class="s"><div class="num">1</div><h4>POI 场景匹配</h4><p>基于周边设施类型，判断商铺最适合"住区过夜充电"(95%)和"商圈日间充电"(70%)</p></div>
+    <div class="s"><div class="num">2</div><h4>需求缺口分析</h4><p>300m网格化计算人口+POI需求 vs 已有站供给，商铺周边平均缺口31.7分</p></div>
+    <div class="s"><div class="num">3</div><h4>成本优化模型</h4><p>Min(安装成本46,469元 + 用户到达成本2,599元)，1km覆盖91个小区(55.5%)</p></div>
+  </div>
+</section>
+
+<section class="ban">
+  <h3>关键发现：评分提升20分，从"谨慎"升级到"中等偏上"</h3>
+  <p>旧版20.4/40（勉强及格）的原因是仅用了4个粗糙维度。优化版引入更细粒度的网格分析(300m)、POI类型匹配、成本优化模型后，商铺优势被更准确地量化出来——<strong>周边小区密集(164个小区中147个在2km内)、竞争相对宽松、最适合住区过夜充电场景。</strong></p>
+  <span class="big">71</span>
+  <p style="font-size:13px">综合评分 /100 &nbsp;|&nbsp; 仍需电话确认关键数据后再做最终决策</p>
+</section>
+
+<section class="sc">
+  <h2>距商铺最近的充电站</h2>
+  <div class="tw">
+    <table><tr><th>#</th><th>品牌</th><th>站名</th><th>距离</th><th>评分</th><th>充电场景</th></tr><tr><td>1</td><td><span class="tag" style="background:#7209b7">蒙来电</span></td><td>蒙来电超级充电站(维也纳3好酒店)</td><td>0.49km</td><td>3.2</td><td>酒店旅游</td></tr>
+<tr><td>2</td><td><span class="tag" style="background:var(--accent)">蒙电e充</span></td><td>蒙电e充汽车充电站(蒙电浩翔贵宾酒店站)</td><td>0.61km</td><td>2.9</td><td>酒店旅游</td></tr>
+<tr><td>3</td><td><span class="tag" style="background:#8d99ae">其他</span></td><td>汽车充电站(四子王旗人民政府院内停车场站)</td><td>0.74km</td><td>-</td><td>办公通勤</td></tr>
+<tr><td>4</td><td><span class="tag" style="background:var(--accent)">蒙电e充</span></td><td>蒙电e充汽车充电站(蒙电乌兰花公园站)</td><td>0.93km</td><td>2.4</td><td>公共服务</td></tr>
+<tr><td>5</td><td><span class="tag" style="background:#8d99ae">其他</span></td><td>乌兰花公园停车场汽车充电站</td><td>0.93km</td><td>-</td><td>公共服务</td></tr>
+<tr><td>6</td><td><span class="tag" style="background:var(--accent)">蒙电e充</span></td><td>蒙电e充汽车充电站(蒙电文化路就业市场站)</td><td>1.13km</td><td>2.9</td><td>办公通勤</td></tr>
+</table>
+  </div>
+</section>
+
+<section class="sc">
+  <h2>执行待办</h2>
+  <div class="fd">
+    <div class="fc r"><h3>电话1：车管所</h3><p>四子王旗电车保有量 — 最关键数据，决定需求是否真实</p></div>
+    <div class="fc r"><h3>电话2：供电公司</h3><p>商铺供电容量 + 峰谷电价 + 是否需要增容</p></div>
+    <div class="fc a"><h3>电话3：发改委/工信局</h3><p>备案 + 补贴资格确认</p></div>
+    <div class="fc b"><h3>电话4：许继电气/鸿嘉利</h3><p>120kW零售报价 + 内蒙有代理商吗</p></div>
+  </div>
+</section>
+</div>
+
+<!-- ===== 优化分析 v2 ===== -->
+<div class="tc" id="tc_v2">
+<section class="sc">
+  <h2>评分雷达：新旧对比</h2>
+  <div style="max-width:480px;margin:0 auto"><img src="depth_score_radar.png" alt="" style="width:100%;border-radius:var(--radius-xs);cursor:pointer" onclick="window.open('depth_score_radar.png')"></div>
+  <p style="margin-top:12px;font-size:12px;color:var(--text-secondary);text-align:center">新版评分在场景匹配和需求缺口维度显著优于旧版，得益于更细粒度的POI分类和网格化分析</p>
+</section>
+<section class="sc">
+  <h2>需求缺口热力图 (300m网格)</h2>
+  <div style="text-align:center"><img src="depth_demand_gap.png" alt="" style="width:100%;max-width:800px;border-radius:var(--radius-xs);cursor:pointer" onclick="window.open('depth_demand_gap.png')"></div>
+  <div class="ins" style="margin-top:16px">
+    <div class="i" style="border-color:var(--danger)"><h4>Top 缺口位置</h4><p>(111.7005, 41.5285) 缺口48.6 — 就在商铺西南侧200m，目前无站覆盖</p></div>
+    <div class="i" style="border-color:var(--success)"><h4>商铺周边</h4><p>500m内8个网格平均缺口31.7，需求77.0供给仅0.59，高需求低供给区域</p></div>
+    <div class="i" style="border-color:var(--accent)"><h4>分析方法</h4><p>借鉴evcs-geospatial-ml网格化思路+evchargestation-optimizer需求缺口算法</p></div>
+  </div>
+</section>
+<section class="sc">
+  <h2>成本优化：候选位置对比</h2>
+  <div style="text-align:center"><img src="depth_candidate_scores.png" alt="" style="width:100%;max-width:680px;border-radius:var(--radius-xs);cursor:pointer" onclick="window.open('depth_candidate_scores.png')"></div>
+  <div class="tw" style="margin-top:16px">
+    <table><tr><th>排名</th><th>位置</th><th>总成本</th><th>1km内小区</th><th>覆盖率</th><th>综合分</th></tr>
+<tr><td><span class="tag" style="background:var(--danger)">商铺</span></td><td>脑木更路7号</td><td>49,069元</td><td>91</td><td>55.5%</td><td>58.8</td></tr>
+<tr><td>1</td><td>商铺东北 1.8km（缺口热区）</td><td>49,758元</td><td>93</td><td>56.7%</td><td>59.3</td></tr>
+<tr><td>2</td><td>脑木更路北 1.8km</td><td>50,066元</td><td>82</td><td>50.0%</td><td>55.2</td></tr>
+<tr><td>3</td><td>脑木更路东北 1.6km</td><td>48,965元</td><td>79</td><td>48.2%</td><td>54.4</td></tr>
+<tr><td>4</td><td>脑木更路北 2.1km</td><td>50,295元</td><td>81</td><td>49.4%</td><td>54.7</td></tr>
+</table>
+  </div>
+</section>
+<section class="sc">
+  <h2>站点场景分布</h2>
+  <div class="cg3">
+    <div style="text-align:center"><canvas id="cscene" style="max-height:240px"></canvas></div>
+    <div style="padding:4px">
+      <table><tr><th>充电场景</th><th>站数</th><th>占比</th></tr>
+<tr><td>办公通勤</td><td>9</td><td>35%</td></tr>
+<tr><td>住区过夜</td><td>8</td><td>31%</td></tr>
+<tr><td>公共服务</td><td>8</td><td>31%</td></tr>
+<tr><td>酒店旅游</td><td>3</td><td>12%</td></tr>
+<tr><td>商圈日间</td><td>3</td><td>12%</td></tr>
+</table>
+    </div>
+    <div style="padding:10px 14px;background:var(--success-bg);border-radius:var(--radius-xs);border:1px solid var(--success)">
+      <h3 style="font-size:13px;color:var(--success);margin-bottom:4px">分析说明</h3>
+      <p style="font-size:11px;color:var(--text-secondary);line-height:1.6">通过站名和地址关键词自动分类。<br><br>商铺最适合<strong>住区过夜充电</strong>（周边小区密集，2km内147个小区）和<strong>商圈日间充电</strong>（迎街商铺，日间车流量大）。</p>
+    </div>
+  </div>
+</section>
+<section class="sc">
+  <h2>综合建议</h2>
+  <div class="fd">
+    <div class="fc g"><h3>优势</h3><p>周边小区密集(500m内10个)、竞争宽松(1km内3个)、最适合住区/商圈场景、Top缺口在商铺旁</p></div>
+    <div class="fc b"><h3>待确认</h3><p>电车保有量（车管所电话）、供电容量（供电公司）、补贴资格（发改委 0474-8321656）</p></div>
+    <div class="fc a"><h3>预测</h3><p>内蒙古电车翻倍增长，2026年预估107万辆。按比例四子王旗约9000辆，2027年充电枪缺口将出现</p></div>
+    <div class="fc r"><h3>风险</h3><p>蒙电e充垄断53%市场、补贴2500KW门槛待确认、单台桩覆盖率有限</p></div>
+  </div>
+</section>
+</div>
+
+<!-- ===== 模拟器 ===== -->
+<div class="tc" id="tc_sim">
+<section class="sc">
+  <h2>投资决策模拟器</h2>
+  <p style="font-size:12px;color:var(--text-secondary);margin-bottom:16px">拖动参数实时计算回本周期。调好参数后复制浏览器地址栏链接即可分享。</p>
+  <div class="preset">
+    <span class="lbl">预设场景：</span>
+    <button class="btn" onclick="setPreset('conservative')">保守</button>
+    <button class="btn act" id="preset_mid" onclick="setPreset('moderate')">中性</button>
+    <button class="btn" onclick="setPreset('optimistic')">乐观</button>
+  </div>
+  <div class="sim-row">
+    <div class="panel">
+      <div class="pg">
+        <label>设备功率 <span id="v_power">120</span> kW</label>
+        <input type="range" id="power" min="60" max="160" value="120" step="20" oninput="calcSim()">
+        <div class="val">60kW(单枪) / 120kW(双枪推荐) / 160kW(双枪)</div>
+      </div>
+      <div class="pg">
+        <label>设备价格 <span id="v_dev">30,000</span> 元</label>
+        <input type="range" id="device" min="16000" max="70000" value="30000" step="1000" oninput="calcSim()">
+        <div class="val">许继120kW~27,500 &nbsp; 科大智能~26,500 &nbsp; 鸿嘉利~31,900 &nbsp; 许继160kW~69,380</div>
+      </div>
+      <div class="pg">
+        <label>安装施工费 <span id="v_inst">15,000</span> 元</label>
+        <input type="range" id="install" min="8000" max="30000" value="15000" step="1000" oninput="calcSim()">
+        <div class="val">含基础、布线、调试。商铺门前施工简单约1~2万</div>
+      </div>
+      <div class="pg">
+        <label>服务费差价 <span id="v_svc">0.35</span> 元/度</label>
+        <input type="range" id="service" min="0.2" max="0.6" value="0.35" step="0.05" oninput="calcSim()">
+        <div class="val">市场调节价约0.3~0.5元/度</div>
+      </div>
+      <div class="pg">
+        <label>日均单枪充电量 <span id="v_chg">60</span> 度</label>
+        <input type="range" id="charge" min="20" max="150" value="60" step="5" oninput="calcSim()">
+        <div class="val">内蒙平均~50度 &nbsp; 好位置~100度 &nbsp; 偏低~30度</div>
+      </div>
+      <div class="pg">
+        <label>建设补贴 <span id="v_sub">24,000</span> 元</label>
+        <input type="range" id="subsidy" min="0" max="40000" value="24000" step="1000" oninput="calcSim()">
+        <div class="val">自治区400元/KW，60kW可申请24,000（资格待确认）</div>
+      </div>
+      <div class="hl">
+        <div class="c b"><div class="n" id="d_total">45,000</div><div class="l">总投入(元)</div></div>
+        <div class="c g"><div class="n" id="d_net">21,000</div><div class="l">补贴后净投</div></div>
+        <div class="c" id="roi_display"><div class="n" id="d_roi">2.9</div><div class="l">回本周期(年)</div></div>
+        <div class="c g"><div class="n" id="d_month">1,260</div><div class="l">月收入(元)</div></div>
+      </div>
+    </div>
+    <div>
+      <div class="outputs">
+        <div class="ocard b"><div class="on" id="o_total">45,000</div><div class="ol">总投入(元)</div><div class="od">设备 + 安装</div></div>
+        <div class="ocard g"><div class="on" id="o_net">21,000</div><div class="ol">补贴后净投入</div><div class="od">总投入 - 补贴</div></div>
+        <div class="ocard" id="oc_roi"><div class="on" id="o_roi">2.9</div><div class="ol">回本周期</div><div class="od" id="o_roi_label">~2年11个月</div></div>
+      </div>
+      <div class="panel" style="margin-bottom:14px">
+        <h2>ROI 三种场景对比</h2>
+        <canvas id="roiChart"></canvas>
+        <table class="tbl">
+          <tr><th>场景</th><th>日均充电</th><th>月收入</th><th>回本周期</th><th>评价</th></tr>
+          <tr><td>悲观</td><td>30度/枪</td><td id="s_pes_inc">630</td><td id="s_pes_roi">5.8</td><td id="s_pes_tag" class="bad">缓慢</td></tr>
+          <tr><td>中等</td><td>60度/枪</td><td id="s_mid_inc">1,260</td><td id="s_mid_roi">2.9</td><td id="s_mid_tag" class="ok">可接受</td></tr>
+          <tr><td>乐观</td><td>100度/枪</td><td id="s_opt_inc">2,100</td><td id="s_opt_roi">1.7</td><td id="s_opt_tag" class="ok">优秀</td></tr>
+        </table>
+      </div>
+      <div class="panel">
+        <h2>方案建议</h2>
+        <div id="recommendation"><p style="font-size:13px;color:var(--text-secondary);line-height:1.7">拖动参数查看实时建议...</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- ===== 深度分析 ===== -->
+<div class="tc" id="tc_da">
+<section class="sc">
+  <h2>深度分析仪表盘</h2>
+  <div class="cg">
+    <div><h3 style="font-size:13px;text-align:center;margin-bottom:8px;color:var(--accent)">K-Means 聚类分析 (3簇)</h3><img src="depth_clusters.png" alt="" style="width:100%;cursor:pointer;border-radius:var(--radius-xs);border:1px solid var(--border-light)" onclick="window.open('depth_clusters.png')"></div>
+    <div><h3 style="font-size:13px;text-align:center;margin-bottom:8px;color:var(--accent)">KDE 密度热力图</h3><img src="depth_kde.png" alt="" style="width:100%;cursor:pointer;border-radius:var(--radius-xs);border:1px solid var(--border-light)" onclick="window.open('depth_kde.png')"></div>
+  </div>
+</section>
+<section class="sc">
+  <h2>盲区分析与小区覆盖</h2>
+  <div class="cg">
+    <div><h3 style="font-size:13px;text-align:center;margin-bottom:8px;color:var(--danger)">乌兰花镇充电盲区 (500m网格)</h3><img src="depth_blind_spots.png" alt="" style="width:100%;cursor:pointer;border-radius:var(--radius-xs);border:1px solid var(--border-light)" onclick="window.open('depth_blind_spots.png')"></div>
+    <div><h3 style="font-size:13px;text-align:center;margin-bottom:8px;color:var(--success)">住宅小区充电覆盖分析</h3><img src="depth_residential_coverage.png" alt="" style="width:100%;cursor:pointer;border-radius:var(--radius-xs);border:1px solid var(--border-light)" onclick="window.open('depth_residential_coverage.png')"></div>
+  </div>
+</section>
+<section class="sc">
+  <h2>评分与竞争分析</h2>
+  <div class="cg">
+    <div><h3 style="font-size:13px;text-align:center;margin-bottom:8px;color:var(--accent)">评分 vs 距离商铺远近</h3><img src="depth_rating_vs_distance.png" alt="" style="width:100%;cursor:pointer;border-radius:var(--radius-xs);border:1px solid var(--border-light)" onclick="window.open('depth_rating_vs_distance.png')"></div>
+    <div><h3 style="font-size:13px;text-align:center;margin-bottom:8px;color:var(--danger)">各品牌平均评分对比</h3><img src="depth_brand_ratings.png" alt="" style="width:100%;cursor:pointer;border-radius:var(--radius-xs);border:1px solid var(--border-light)" onclick="window.open('depth_brand_ratings.png')"></div>
+  </div>
+  <div class="cg" style="margin-top:20px">
+    <div><h3 style="font-size:13px;text-align:center;margin-bottom:8px;color:var(--warn)">竞争密度分析</h3><img src="depth_competition_density.png" alt="" style="width:100%;cursor:pointer;border-radius:var(--radius-xs);border:1px solid var(--border-light)" onclick="window.open('depth_competition_density.png')"></div>
+    <div><h3 style="font-size:13px;text-align:center;margin-bottom:8px;color:#7209b7">各站位置综合评分</h3><img src="depth_location_scores.png" alt="" style="width:100%;cursor:pointer;border-radius:var(--radius-xs);border:1px solid var(--border-light)" onclick="window.open('depth_location_scores.png')"></div>
+  </div>
+</section>
+<section class="sc">
+  <h2>增长趋势与推荐选址</h2>
+  <div class="cg">
+    <div><h3 style="font-size:13px;text-align:center;margin-bottom:8px;color:var(--success)">内蒙古电车增长趋势预测</h3><img src="depth_growth_forecast.png" alt="" style="width:100%;cursor:pointer;border-radius:var(--radius-xs);border:1px solid var(--border-light)" onclick="window.open('depth_growth_forecast.png')"></div>
+    <div><h3 style="font-size:13px;text-align:center;margin-bottom:8px;color:var(--success)">选址综合推荐热力图</h3><img src="depth_recommend_heatmap.png" alt="" style="width:100%;cursor:pointer;border-radius:var(--radius-xs);border:1px solid var(--border-light)" onclick="window.open('depth_recommend_heatmap.png')"></div>
+  </div>
+</section>
+</div>
+
+<!-- ===== 地图 ===== -->
+<div class="tc" id="tc_map">
+<section class="sc">
+  <h2>充电站分布地图</h2>
+  <div id="map"></div>
+</section>
+</div>
+
+<!-- ===== 站点清单 ===== -->
+<div class="tc" id="tc_list">
+<section class="sc">
+  <h2>全部站点清单</h2>
+  <input class="sb" type="text" id="ss" placeholder="搜索站点名称、品牌、地址..." oninput="ft(this.value)">
+  <div class="tw">
+    <table id="st"><tr><th>#</th><th>品牌</th><th>名称</th><th>地址</th><th>距商铺</th><th>评分</th></tr>
+</table>
+  </div>
+</section>
+
+<div class="ft">四子王旗充电桩投资调研报告 &middot; v2 &middot; 2026年5月</div>
+</div>
+
+<script>
+/* ===== 数据 ===== */
+var colorMap = {'蒙电e充':'#059669','星星充电':'#dc2626','蒙来电':'#7209b7','蒙马(高速)':'#d97706','咔咔电姆':'#16a34a','驴充充':'#ca8a04','云快充':'#1c1917','其他':'#8d99ae'};
+var stations = [{"name":"星星充电汽车充电站(四子王旗德正弘加油充电站)","address":"乌兰花镇晟泰新村北京能源德正弘加油充电站","lng":111.70588,"lat":41.5438,"brand":"星星充电","distance":1.88,"rating":"3.8"},{"name":"蒙马超级充电站(格根塔拉服务区快充电站)","address":"查干补力格苏木G209国道(K295+500)公里处","lng":111.84766,"lat":41.794273,"brand":"蒙马(高速)","distance":32.06,"rating":"3.1"},{"name":"蒙来电超级充电站(维也纳3好酒店)","address":"新华街69号(原旧政府大楼)","lng":111.701331,"lat":41.522776,"brand":"蒙来电","distance":0.49,"rating":"3.2"},{"name":"蒙马超级汽车充电站(四子王旗艾勒格庙服务区快充电站)","address":"江岸苏木G331巴江线(K6316 900)公里处","lng":111.290219,"lat":43.143129,"brand":"蒙马(高速)","distance":182.88,"rating":"3.1"},{"name":"蒙电e充汽车充电站(蒙电文化路就业市场站)","address":"乌兰花镇文化路就业市场停车场","lng":111.68945,"lat":41.526318,"brand":"蒙电e充","distance":1.13,"rating":"2.9"},{"name":"蒙电e充汽车充电站(蒙电浩翔贵宾酒店站)","address":"乌兰花镇浩翔贵宾酒店停车场","lng":111.70761,"lat":41.53131,"brand":"蒙电e充","distance":0.61,"rating":"2.9"},{"name":"蒙电e充汽车充电站(蒙电美食街站)","address":"乌兰花镇四子王旗美食街管理咨询有限公司","lng":111.713036,"lat":41.54544,"brand":"蒙电e充","distance":2.21,"rating":"2.9"},{"name":"蒙马超级充电站(四子王旗国道331江岸服务区快充电站)","address":"江岸苏木331国道","lng":110.75669,"lat":42.903873,"brand":"蒙马(高速)","distance":171.79,"rating":"3.1"},{"name":"蒙电e充汽车充电站(蒙电四子王旗供电公司站)","address":"乌兰花镇文化路168号","lng":111.6791,"lat":41.53261,"brand":"蒙电e充","distance":2.08,"rating":"2.4"},{"name":"蒙电e充汽车充电站(蒙电滨河公园站)","address":"乌兰花镇和平路","lng":111.70445,"lat":41.516228,"brand":"蒙电e充","distance":1.2,"rating":"2.4"},{"name":"蒙电e充汽车充电站(蒙电电子商务中心站)","address":"乌兰花镇电子商务中心停车场","lng":111.71597,"lat":41.53391,"brand":"蒙电e充","distance":1.33,"rating":"1.0"},{"name":"蒙电e充汽车充电站(蒙电乌兰花公园站)","address":"乌兰花镇乌兰花公园停车场汽车充电站","lng":111.71134,"lat":41.52147,"brand":"蒙电e充","distance":0.93,"rating":"2.4"},{"name":"蒙电e充汽车充电站(蒙电四子王旗博物馆站)","address":"乌兰花镇四子王旗博物馆","lng":111.7006,"lat":41.49658,"brand":"蒙电e充","distance":3.39,"rating":"2.9"},{"name":"蒙电e充汽车充电站(蒙电人民医院站)","address":"乌兰花镇四子王旗人民医院停车场","lng":111.713974,"lat":41.536545,"brand":"蒙电e充","distance":1.4,"rating":"2.9"},{"name":"蒙电e充汽车充电站(蒙电晟泰新村小区站)","address":"乌兰花镇德广骨科医院晟泰新村","lng":111.70442,"lat":41.541576,"brand":"蒙电e充","distance":1.63,"rating":"0.0"},{"name":"蒙电e充汽车充电站(蒙电泰和花园站)","address":"乌兰花镇泰和花园停车场","lng":111.71571,"lat":41.54278,"brand":"蒙电e充","distance":2.05,"rating":"2.9"},{"name":"蒙电e充汽车充电站(蒙电乌镇味道饭店站)","address":"乌兰花镇乌镇味道饭店门前停车场","lng":111.72251,"lat":41.53836,"brand":"蒙电e充","distance":2.06,"rating":"2.9"},{"name":"蒙电e充汽车充电站(蒙电民生小区站)","address":"乌兰花镇民生住宅小区(南门)","lng":111.73171,"lat":41.54919,"brand":"蒙电e充","distance":3.43,"rating":"0.0"},{"name":"云快充(互联接入汽车充电站新通四子王旗汽车)","address":"乌兰花镇西外环路国通物流园路东停车场内","lng":111.665436,"lat":41.54238,"brand":"云快充","distance":3.56,"rating":"0.0"},{"name":"汽车充电站蒙马","address":"209国道","lng":112.064322,"lat":42.024066,"brand":"蒙马(高速)","distance":62.87,"rating":"3.1"},{"name":"四子王供电分公司自营汽车充电站(四子王旗博物馆停车场充电站)","address":"四子王旗博物馆停车场","lng":111.700542,"lat":41.496753,"brand":"蒙电e充","distance":3.37,"rating":"-"},{"name":"四子王供电分公司自营充电桩(民生小区停车场)","address":"民生小区停车场","lng":111.731879,"lat":41.550807,"brand":"蒙电e充","distance":3.58,"rating":"-"},{"name":"汽车充电站(四子王供电分公司门口停车场站)","address":"四子王供电分公司门口西停车场","lng":111.679659,"lat":41.532267,"brand":"蒙电e充","distance":2.03,"rating":"-"},{"name":"汽车充电站(四子王旗人民政府院内停车场站)","address":"四子王旗人民政府院内停车场","lng":111.705866,"lat":41.53329,"brand":"其他","distance":0.74,"rating":"-"},{"name":"驴充充汽车充电站(王府假日酒店)","address":"德广医院东北侧约150米碧生源宴会城","lng":111.710335,"lat":41.54288,"brand":"驴充充","distance":1.87,"rating":"2.4"},{"name":"乌兰花公园停车场汽车充电站","address":"乌兰花公园停车场充电站","lng":111.711294,"lat":41.521437,"brand":"其他","distance":0.93,"rating":"-"},{"name":"汽车充电站(咔咔电姆充电站库伦图镇人民政府)","address":"库伦图镇人民政府院内","lng":111.993631,"lat":41.613497,"brand":"咔咔电姆","distance":26.02,"rating":"-"},{"name":"咔咔电姆充电站","address":"和平路29-31号","lng":111.715449,"lat":41.551094,"brand":"咔咔电姆","distance":2.87,"rating":"-"},{"name":"咔咔电姆汽车充电站(碧生源小区)","address":"和平路29-31号","lng":111.712148,"lat":41.540312,"brand":"咔咔电姆","distance":1.66,"rating":"-"},{"name":"汽车充电站(蒙马充电乌兰察布市209国道格根塔拉服务区站)","address":"209国道","lng":111.845825,"lat":41.791586,"brand":"蒙马(高速)","distance":31.72,"rating":"-"},{"name":"咔咔电姆汽车充电站(政务中心站)","address":"四子王旗税务局办税服务厅南侧","lng":111.717571,"lat":41.539731,"brand":"咔咔电姆","distance":1.86,"rating":"-"},{"name":"蒙电e充充电站(蒙电民生小区站)","address":"四子王输变电管理处东北侧250米","lng":111.731931,"lat":41.550875,"brand":"蒙电e充","distance":3.58,"rating":"-"}];
+
+/* ===== Table ===== */
+(function(){
+  var tb = document.getElementById('st');
+  stations.forEach(function(s,i){
+    var r = document.createElement('tr');
+    r.className = 'sr';
+    r.setAttribute('data-search', s.name+' '+s.brand+' '+s.address);
+    r.innerHTML = '<td>'+(i+1)+'</td><td><span class="tag" style="background:'+(colorMap[s.brand]||'#8d99ae')+'">'+s.brand+'</span></td><td>'+s.name+'</td><td style="color:var(--text-muted);font-size:11px">'+s.address+'</td><td>'+s.distance.toFixed(2)+'km</td><td>'+(s.rating==='0.0'||s.rating==='[]'?'-':s.rating)+'</td>';
+    tb.appendChild(r);
+  });
+})();
+
+/* ===== Tab ===== */
+function sw(el, id) {
+  document.querySelectorAll('.tab').forEach(function(t){t.classList.remove('act')});
+  document.querySelectorAll('.tc').forEach(function(t){t.classList.remove('act')});
+  el.classList.add('act');
+  document.getElementById('tc_'+id).classList.add('act');
+  if(id==='map') setTimeout(function(){if(map) map.invalidateSize()},200);
+}
+
+/* ===== Filter ===== */
+function ft(v){
+  document.querySelectorAll('.sr').forEach(function(r){
+    r.style.display = r.getAttribute('data-search').toLowerCase().indexOf(v.toLowerCase()) >= 0 ? '' : 'none';
+  });
+}
+
+/* ===== Dark Mode ===== */
+function toggleDark(){
+  document.body.classList.toggle('dark');
+  var b = document.getElementById('dmBtn');
+  b.textContent = document.body.classList.contains('dark') ? '亮色' : '暗色';
+  localStorage.setItem('darkMode', document.body.classList.contains('dark') ? '1' : '0');
+}
+if(localStorage.getItem('darkMode')==='1'){
+  document.body.classList.add('dark');
+  document.getElementById('dmBtn').textContent = '亮色';
+}
+
+/* ===== Map ===== */
+var map = L.map('map').setView([41.53,111.70],13);
+L.tileLayer('https://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}',{attribution:'&copy; 高德地图',maxZoom:18}).addTo(map);
+L.marker([41.512269,111.694882],{icon:L.divIcon({html:'<div style="background:#dc2626;width:28px;height:28px;border-radius:50%;border:2px solid #fff;text-align:center;line-height:28px;font-size:14px;color:#fff;font-weight:700">S</div>',className:'',iconSize:[28,28],iconAnchor:[14,14]})}).addTo(map).bindTooltip('<b>脑木更路7号（商铺）</b>');
+[{r:500,c:'#dc2626'},{r:1000,c:'#d97706'},{r:3000,c:'#059669'}].forEach(function(d){L.circle([41.512269,111.694882],{radius:d.r,color:d.c,fill:false,weight:1.5,dashArray:'4,7',opacity:0.5}).addTo(map)});
+stations.forEach(function(s){var c=colorMap[s.brand]||'#8d99ae',sz=s.distance<1?24:s.distance<3?20:16;L.marker([s.lat,s.lng],{icon:L.divIcon({html:'<div style="background:'+c+';width:'+sz+'px;height:'+sz+'px;border-radius:50%;border:2px solid #fff;text-align:center;line-height:'+sz+'px;font-size:'+(sz*0.4)+'px;color:#fff">+</div>',className:'',iconSize:[sz,sz],iconAnchor:[sz/2,sz/2]})}).addTo(map).bindTooltip('<b>'+s.name+'</b><br><span style="color:'+c+'">'+s.brand+'</span> | '+s.distance.toFixed(2)+'km')});
+
+/* ===== Scene Chart ===== */
+new Chart(document.getElementById('cscene'),{
+  type:'doughnut',
+  data:{labels:['办公通勤','住区过夜','公共服务','酒店旅游','商圈日间','高速物流'],datasets:[{data:[9,8,8,3,3,1],backgroundColor:['#059669','#16a34a','#6ee7b7','#d97706','#dc2626','#ca8a04'],borderWidth:0}]},
+  options:{responsive:true,plugins:{legend:{position:'right',labels:{font:{family:'Outfit, sans-serif',size:11}}},title:{display:true,text:'充电场景分布',font:{family:'Outfit, sans-serif',size:13}}}}
+});
+
+/* ===== Simulator ===== */
+var roiChart = null;
+function fmt(n){return n.toLocaleString('zh-CN')}
+function fmtYear(y){
+  var yr=Math.floor(y),mo=Math.round((y-yr)*12);
+  return yr===0?mo+'个月':mo===0?yr+'年':yr+'年'+mo+'个月';
+}
+
+function readURLParams(){
+  try{
+    var h = location.hash.replace('#','');
+    if(!h) return;
+    var p = JSON.parse(decodeURIComponent(h));
+    if(p.power) document.getElementById('power').value=p.power;
+    if(p.device) document.getElementById('device').value=p.device;
+    if(p.install) document.getElementById('install').value=p.install;
+    if(p.service) document.getElementById('service').value=p.service;
+    if(p.charge) document.getElementById('charge').value=p.charge;
+    if(p.subsidy) document.getElementById('subsidy').value=p.subsidy;
+  }catch(e){}
+}
+
+function writeURLParams(){
+  var p = {
+    power: parseFloat(document.getElementById('power').value),
+    device: parseFloat(document.getElementById('device').value),
+    install: parseFloat(document.getElementById('install').value),
+    service: parseFloat(document.getElementById('service').value),
+    charge: parseFloat(document.getElementById('charge').value),
+    subsidy: parseFloat(document.getElementById('subsidy').value),
+  };
+  location.hash = encodeURIComponent(JSON.stringify(p));
+}
+
+var presetVals = {
+  conservative: {power:60, device:25000, install:12000, service:0.30, charge:30, subsidy:0},
+  moderate: {power:120, device:30000, install:15000, service:0.35, charge:60, subsidy:24000},
+  optimistic: {power:120, device:27500, install:10000, service:0.45, charge:100, subsidy:24000}
+};
+var currentPreset = 'moderate';
+function setPreset(name){
+  currentPreset = name;
+  var v = presetVals[name];
+  document.querySelectorAll('.preset .btn').forEach(function(b){b.classList.remove('act')});
+  document.getElementById('preset_'+name).classList.add('act');
+  document.getElementById('power').value=v.power;
+  document.getElementById('device').value=v.device;
+  document.getElementById('install').value=v.install;
+  document.getElementById('service').value=v.service;
+  document.getElementById('charge').value=v.charge;
+  document.getElementById('subsidy').value=v.subsidy;
+  calcSim();
+}
+
+function calcSim(){
+  var power=+document.getElementById('power').value;
+  var device=+document.getElementById('device').value;
+  var install=+document.getElementById('install').value;
+  var svc=+document.getElementById('service').value;
+  var daily=+document.getElementById('charge').value;
+  var subsidy=+document.getElementById('subsidy').value;
+
+  document.getElementById('v_power').textContent=power;
+  document.getElementById('v_dev').textContent=fmt(device);
+  document.getElementById('v_inst').textContent=fmt(install);
+  document.getElementById('v_svc').textContent=svc.toFixed(2);
+  document.getElementById('v_chg').textContent=daily;
+  document.getElementById('v_sub').textContent=fmt(subsidy);
+
+  var total=device+install, net=Math.max(0,total-subsidy);
+  var monthly=daily*2*30*svc, roi=monthly>0?net/(monthly*12):999;
+
+  ['d_','o_'].forEach(function(pfx){
+    document.getElementById(pfx+'total').textContent=fmt(total);
+    document.getElementById(pfx+'net').textContent=fmt(net);
+    document.getElementById(pfx+'roi').textContent=roi<10?roi.toFixed(1):'--';
+  });
+  document.getElementById('d_month').textContent=fmt(Math.round(monthly));
+
+  var rl=document.getElementById('o_roi_label'), oc=document.getElementById('oc_roi');
+  if(roi<=2){rl.textContent='~'+fmtYear(roi)+' 推荐';oc.className='ocard g';}
+  else if(roi<=4){rl.textContent='~'+fmtYear(roi)+' 可接受';oc.className='ocard';}
+  else{rl.textContent='~'+fmtYear(roi)+' 偏长';oc.className='ocard r';}
+
+  [[30,'s_pes'],[60,'s_mid'],[100,'s_opt']].forEach(function(lv){
+    var inc=lv[0]*2*30*svc, r=inc>0?net/(inc*12):999;
+    document.getElementById(lv[1]+'_inc').textContent=fmt(Math.round(inc));
+    document.getElementById(lv[1]+'_roi').textContent=r<10?r.toFixed(1):'--';
+    var tg=document.getElementById(lv[1]+'_tag');
+    if(r<=2){tg.textContent='优秀';tg.className='ok';}
+    else if(r<=4){tg.textContent='可接受';tg.className='warn';}
+    else{tg.textContent='偏长';tg.className='bad';}
+  });
+
+  if(roiChart)roiChart.destroy();
+  var pRoi=[30,60,100].map(function(d){var i=d*2*30*svc;return i>0?Math.min(net/(i*12),10):10;});
+  roiChart=new Chart(document.getElementById('roiChart'),{
+    type:'bar',
+    data:{labels:['悲观 (30度)','中等 (60度)','乐观 (100度)'],datasets:[{label:'回本周期(年)',data:pRoi,backgroundColor:['#dc2626','#d97706','#16a34a'],borderRadius:4}]},
+    options:{responsive:true,maintainAspectRatio:true,scales:{y:{beginAtZero:true,title:{display:true,text:'年'}}},plugins:{legend:{display:false}}}
+  });
+
+  var rec=document.getElementById('recommendation');
+  var badge=roi<=2?'<span class="badge g">推荐</span>':roi<=4?'<span class="badge a">谨慎</span>':'<span class="badge r">不推荐</span>';
+  var advice=power<=60?'60kW单枪适合试水，但只能充一辆车。如果日均充电>80度，建议上120kW双枪。':
+    power<=120?'120kW双枪是性价比最优方案，同时充两辆车。招标价看齐科大智能/鸿嘉利档(~3万)。':
+    '160kW价格是120kW的2.5倍但功率只提升33%，性价比低。除非日均充电>120度/枪才有意义。';
+  rec.innerHTML='<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:10px">'+badge+' <span style="font-size:13px;color:var(--text-secondary)">净投入'+fmt(net)+'元，约'+fmtYear(roi)+'回本</span></div>'+
+    '<p style="font-size:13px;color:var(--text-secondary);line-height:1.7">'+advice+'</p>'+
+    '<p style="font-size:12px;color:var(--text-muted);margin-top:8px">'+
+    '待确认：车管所电车保有量 | 供电容量 | 补贴资格 0474-8321656 | 厂家零售报价</p>';
+
+  writeURLParams();
+}
+
+readURLParams();
+calcSim();
+</script>
+</body>
+</html>
